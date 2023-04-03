@@ -1,0 +1,1 @@
+#base "../_jofrenew/resource/gamemenu.res"

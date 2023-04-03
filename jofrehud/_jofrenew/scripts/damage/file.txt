@@ -1,0 +1,16 @@
+event DamagedPlayer
+{
+	StopEvent 	DamageAccountStuff	0.0
+	RunEvent 	DamageAccountStuff      0.1 //lol
+	StopEvent 	HitMarker 	0.0
+	RunEvent 	HitMarker	0.01
+
+}
+event DamageAccountStuff
+{
+//	Animate DamageAccountLabel fgcolor "255 170 35 255" linear 0.0 0.0
+//	Animate DamageAccountLabel fgcolor "Red" linear 0.01 0.0
+	
+
+
+}

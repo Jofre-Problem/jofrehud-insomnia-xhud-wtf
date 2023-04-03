@@ -127,7 +127,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold18"
+		"font"			"Regular18"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"2"			
 		"ypos"			"0"
@@ -166,7 +166,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NotoBold32"
+		"font"			"Regular32"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"70"			// align me to the left edge of the first selection
 		"ypos"			"-8"
@@ -187,7 +187,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"134"
 		"ypos"			"6"

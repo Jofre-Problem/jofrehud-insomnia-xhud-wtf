@@ -244,7 +244,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerChangeLabel"
-			"font"			"NotoBold20"
+			"font"			"Regular20"
 			"textAlignment"	"center"
 			"labelText"		"%servermessage%"
 			"xpos"			"c-150"

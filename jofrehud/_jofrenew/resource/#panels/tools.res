@@ -42,7 +42,51 @@
 			"paintbackground"		"1"
 			"mouseInputenabled"	"0"
 			"border"		"CS1"			
-			"bgcolor_override"				"24 24 24 255"
+			"bgcolor_override"				"24 24 24 0"
+
+
+
+		"SubImage"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/ui_effects/menu_glow"
+			"drawcolor"								"Primary"
+		}
+
+		"SubImage2"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage2"
+			"xpos"									"0"
+			"ypos"									"0"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"									"replay/thumbnails/ui_effects/menu_glow_alt"
+			"drawcolor"								"Primary"
+		}
+
+		"SubImage3"
+		{
+			"ControlName"							"ImagePanel"
+			"fieldName"								"SubImage3"
+			"xpos"									"0"
+			"zpos"									"-10"
+			"wide"									"f0"
+			"tall"									"f0"
+			"proportionaltoparent"					"1"
+			"scaleImage"							"1"
+			"image"	"../console/background_upward_widescreen"
+		
+		}			
 	"MMBackgroundPanel"
 	{
 		"ControlName"	"EditablePanel"

@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold20"
+		"font"			"Regular20"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -785,7 +785,7 @@
 			"fgcolor_override"	"W_ColorIcons1"
 			"bgcolor_override"	"32 32 32 0"
 			"paintbackgroundtype" "0"
-			"font"		"Noto14"
+			"font"		"Regular14"
 		}
 		
 		"BottomBarWhite"

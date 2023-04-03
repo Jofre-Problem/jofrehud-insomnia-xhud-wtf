@@ -41,7 +41,7 @@
 		"textAlignment"	"north-west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"fgcolor"		"255 255 255 255"
 	}	
 
@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Noto10"
+		"font"			"Regular10"
 		"xpos"			"10"
 		"ypos"			"60"
 		"zpos"			"1"

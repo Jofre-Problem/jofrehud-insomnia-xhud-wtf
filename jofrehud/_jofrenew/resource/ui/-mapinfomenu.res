@@ -107,7 +107,7 @@
 		"tall"			"16"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 		"allcaps"	"1"
 		"fgcolor"		"NotoWhite"
 		"bgcolor_override"	"0 0 0 0"	
@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 		"xpos"			"cs-0.5"
 		"ypos"			"50" 
 		"zpos"			"3"
@@ -161,7 +161,7 @@
 		"font"			"Size 12"
 
 		"default"		"1"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		
 		"fgcolor"		"NotoMenuText"
 		"defaultFgColor_override" "NotoMenuText"

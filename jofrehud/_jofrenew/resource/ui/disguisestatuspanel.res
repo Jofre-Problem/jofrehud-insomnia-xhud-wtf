@@ -60,7 +60,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"xpos"			"34"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -81,7 +81,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Noto10"
+		"font"			"Regular10"
 		"xpos"			"34"
 		"ypos"			"10"
 		"zpos"			"1"
@@ -125,7 +125,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"NotoBold16"
+		"TFFont"		"Regular16"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"255 255 255 255"
 	}

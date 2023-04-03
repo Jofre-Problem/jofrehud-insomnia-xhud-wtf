@@ -46,7 +46,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"NotoBold30"
+		"font"			"Regular30"
 		"fgcolor"		"NotoWhite"
 		
 		"if_hybrid"
@@ -83,7 +83,7 @@
 		//"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"NotoBold30"
+		"font"			"Regular30"
 		"fgcolor"		"NotoWhite"		
 		
 		"if_hybrid"
@@ -225,7 +225,7 @@
 		//"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 		"fgcolor"		"NotoWhite"
 		"bgcolor_override"	"NotoDark"
 		

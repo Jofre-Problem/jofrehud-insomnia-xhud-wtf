@@ -63,7 +63,7 @@
 		"tabPosition"	"0"
 		"labelText"		"Choose Your Team"
 		"textAlignment"	"west"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"fgcolor_override"		"NotoWhite"
 		"bgcolor_override"		"0 0 0 0"
 		"textinsetx"	"0"
@@ -130,7 +130,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NotoBold60"
+		"font"			"Regular60"
 		"fgcolor_override"		"NotoWhite"
 	}
 	
@@ -154,7 +154,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"jointeam auto"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -185,7 +185,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"jointeam spectate"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -216,7 +216,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"jointeam red"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -247,7 +247,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"jointeam blue"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -280,7 +280,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
-		"font"			"NotoBold48"
+		"font"			"Regular48"
 		"fgcolor"					"NotoBlueSolid"
 		"fgcolor_override"			"NotoBlueSolid"
 		
@@ -328,7 +328,7 @@
 		"brighttext"	"0"
 		"command"		"jointeam red"
 		"team"				"4"		// team red
-		"font"			"NotoBold48"
+		"font"			"Regular48"
 		"fgcolor"					"NotoRedSolid"
 		"fgcolor_override"			"NotoRedSolid"
 		
@@ -376,7 +376,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam auto"
-		"font"			"NotoBold32"
+		"font"			"Regular32"
 		
 		"fgcolor"		"NotoGray"
 		"fgcolor_override"		"NotoGray"
@@ -417,7 +417,7 @@
 		"brighttext"	"0"
 		"paintborder"	"0"
 		"command"		"jointeam spectate"
-		"font"			"NotoBold32"
+		"font"			"Regular32"
 		
 		"fgcolor"		"NotoGray"
 		"fgcolor_override"		"NotoGray"
@@ -456,7 +456,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"cancelmenu"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -487,7 +487,7 @@
 		"brighttext"	"0"
 		"paintbackground""1"
 		"command"		"cancelmenu"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
 		"armedFgColor_override" "NotoWhite"
 		"depressedFgColor_override" "NotoWhite"
@@ -516,7 +516,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NotoBold30"
+		"font"			"Regular30"
 		"fgcolor"		"White"
 	}
 	
@@ -561,7 +561,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"white"
 	}
 
@@ -622,7 +622,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"fgcolor"		"NotoBlueSolid"
 	}
 	"BlueCountPlayers"
@@ -665,7 +665,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"NotoBold24"
+		"font"			"Regular24"
 		"fgcolor_override"		"NotoRedSolid"
 	}	
 	"RedCountPlayers"
@@ -685,7 +685,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Noto14"
+		"font"			"Regular14"
 		"fgcolor"		"255 255 255 175"
 	}	
 	

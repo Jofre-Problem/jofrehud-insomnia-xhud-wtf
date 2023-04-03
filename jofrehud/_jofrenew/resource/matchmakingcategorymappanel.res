@@ -24,7 +24,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Noto14"
+		"font"										"Regular14"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"sound_menu/button.wav"

@@ -13,7 +13,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"3"
-		"border"		"noborder"
+		"border"		"Cs1"
 		"bgcolor_override"		"Blank"
 	}
 		"Windows_Notification"
@@ -27,8 +27,8 @@
 			"tall"		"118+p0.02"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"border"		"Rice1"			
-			"bgcolor_override"				"W_ColorTheme2"
+			"border"		"Cs1"		 	
+			"bgcolor_override"				"34 34 34 255"
 		}	
 	"TitleLabel"
 	{
@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -49,7 +49,7 @@
 		"wide"			"p0.4"//"p0.3"
 		"tall"			"80"
 		"centerwrap"		"1"
-		"fgcolor_override"	"PolyIconsFg1"
+		"fgcolor_override"	"Primary"
 	}
 	//This is the most stupid
 	// weird

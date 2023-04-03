@@ -44,7 +44,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"Noto8"
+		"font"			"Default"
 		"fgcolor"		"TanLight"
 		"xpos"			"c-100"
 		"ypos"			"4"

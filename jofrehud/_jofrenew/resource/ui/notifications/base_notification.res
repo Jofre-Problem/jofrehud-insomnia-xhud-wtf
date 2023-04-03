@@ -48,6 +48,6 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Noto10"
+		"font"			"Regular10"
 	}
 }

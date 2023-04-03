@@ -51,7 +51,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoBold10"
+		"font"					"Regular10"
 		"fgcolor_override"		"NotoWhite"
 	}
 
@@ -91,7 +91,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"NotoBold18"
+		"font"					"Regular18"
 		"fgcolor_override"		"NotoWhite"
 		
 	}

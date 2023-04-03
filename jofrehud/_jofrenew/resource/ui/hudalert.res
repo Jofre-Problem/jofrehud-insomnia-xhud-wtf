@@ -22,7 +22,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
-		"font"			"NotoBold20"
+		"font"			"Regular20"
 		"fgcolor_override"	"NotoWhite"
 		"xpos"			"c-125"
 		"ypos"			"70"

@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"0"
 		"ypos"			"-1"

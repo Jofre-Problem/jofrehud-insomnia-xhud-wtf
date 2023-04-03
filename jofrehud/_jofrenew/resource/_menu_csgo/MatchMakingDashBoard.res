@@ -351,15 +351,15 @@
 				{
 					"0"
 					{
-						font				"Noto16" // TF2 Build 11
+						font				"Regular16" // TF2 Build 11
 					}
 					"1"
 					{
-						font				"Noto11" // TF2 Build 10
+						font				"Regular11" // TF2 Build 10
 					}
 					"2"
 					{
-						font				"Noto10" // TF2 Build 9
+						font				"Regular10" // TF2 Build 9
 					}
 				}
 			}
@@ -503,7 +503,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
-				"font"						"Noto10"
+				"font"						"Regular10"
 				"textAlignment"				"center"
 				"AllCaps"					"1"
 				"dulltext"					"0"

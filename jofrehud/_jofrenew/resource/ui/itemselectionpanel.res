@@ -70,7 +70,7 @@
 		}
 		"duplicatelabels_kv"
 		{
-			"font"			"Noto12"
+			"font"			"Regular12"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"94"
@@ -133,7 +133,7 @@
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 0"
 		"paintbackgroundtype" "0"
-		"font"		"Noto20"
+		"font"		"Regular20"
 	}
 	
 	"TextLine"
@@ -205,7 +205,7 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"20"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textinsetx"	"0"
 		"textAlignment"	"east"
 		
@@ -229,7 +229,7 @@
 		"ypos"			"0"
 		"wide"			"100"
 		"tall"			"20"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textinsetx"	"0"
 		"textAlignment"	"west"
 		
@@ -263,7 +263,7 @@
 	
 	"CurPageLabel"
 	{
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -283,7 +283,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PageLabel"
-		"font"			"Noto14"
+		"font"			"Regular14"
 		"labelText"		"Page:"
 		"textAlignment"	"east"
 		"xpos"			"5"

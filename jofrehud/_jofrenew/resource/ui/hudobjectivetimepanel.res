@@ -77,7 +77,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}			
 	"WaitingForPlayersBG"
 	{
@@ -112,7 +112,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto24"
+		"font"			"Regular24"
 	}			
 	"OvertimeBG"
 	{
@@ -147,7 +147,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}			
 	"SuddenDeathBG"
 	{
@@ -183,7 +183,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Noto16"
+		"font"			"Regular16"
 	}	
 	"SetupBG"
 	{

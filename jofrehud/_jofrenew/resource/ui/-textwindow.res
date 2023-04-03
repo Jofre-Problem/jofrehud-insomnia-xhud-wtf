@@ -66,7 +66,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 		"fgcolor"		"255 255 255 255"
 	}	
 

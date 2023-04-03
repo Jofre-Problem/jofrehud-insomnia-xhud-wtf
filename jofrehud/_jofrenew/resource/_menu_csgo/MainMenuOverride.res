@@ -821,7 +821,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Noto18"
+			font					"Regular18"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
@@ -894,7 +894,7 @@
 			tall					16
 			proportionalToParent		1
 
-			font					"Noto12"
+			font					"Regular12"
 			labelText				"%notititle%"
 			textAlignment			west
 			wrap					0
@@ -954,7 +954,7 @@
 		alpha					125
 		mouseInputEnabled			0
 		
-		font					"Noto40"
+		font					"regular36"
 		fgcolor_override			"White"
 		labelText				"Lost connection to the steam server"
 		textAlignment			west

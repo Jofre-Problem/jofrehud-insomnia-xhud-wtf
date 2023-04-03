@@ -77,7 +77,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""New"
-"font""Noto10"
+"font""Regular10"
 "textAlignment""east"
 
 

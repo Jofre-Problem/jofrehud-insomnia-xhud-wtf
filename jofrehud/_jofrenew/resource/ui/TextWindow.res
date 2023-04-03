@@ -88,7 +88,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Noto14"
+		"font"			"Regular14"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -164,7 +164,7 @@
 		"border_default"		""
 		"border_armed"		""
 		"paintbackground"	"0"
-		"font"			"Noto14"
+		"font"			"Regular14"
 		"fgcolor"		"255 255 255 255"
 		"armedFgColor_override" "W_Borderarmed"
 		"defaultFgColor_override" "255 255 255 255"

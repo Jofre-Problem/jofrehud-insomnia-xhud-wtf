@@ -267,7 +267,7 @@
 	}							
 	"BlueTeamScore"
 	{
-		"font"			"NotoBold26"
+		"font"			"Regular26"
 		"fgcolor_override"	"20 20 20 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
@@ -287,7 +287,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -311,7 +311,7 @@
 	}							
 	"RedTeamScore"
 	{
-		"font"			"NotoBold26"
+		"font"			"Regular26"
 		"fgcolor_override"	"0 0 0 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
@@ -332,7 +332,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0"

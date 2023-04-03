@@ -56,7 +56,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"0"
 		"ypos"			"22"
@@ -77,7 +77,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"0"
 		"ypos"			"22"

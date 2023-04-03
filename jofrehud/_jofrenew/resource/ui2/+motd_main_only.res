@@ -429,7 +429,7 @@
 		"MOTD_Label"
 		{			"ControlName"	"cexLabel"
 			"fieldname"		"MOTD_Label"
-			"font"			"NotoBold18"
+			"font"			"Regular18"
 			"xpos"			"cs-0.5"
 			"ypos"			"5"
 			"wide"			"0"	//cant find a good use

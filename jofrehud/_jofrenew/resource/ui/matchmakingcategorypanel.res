@@ -137,7 +137,7 @@
 			"labelText"								"%title_token%"
 			"textinsetx"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Noto22"
+			"font"									"Regular24"
 			"textAlignment"							"east"
 			"dulltext"								"0"
 			"brighttext"							"0"

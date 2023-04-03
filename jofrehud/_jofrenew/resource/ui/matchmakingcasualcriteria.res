@@ -131,7 +131,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"%selected_maps_count%"
 			"textAlignment"							"west"
-			"font"									"Noto14"
+			"font"									"Regular14"
 			"fgcolor_override"						"White"
 			"AllCaps"								"1"
 		
@@ -150,7 +150,7 @@
 			"proportionaltoparent"					"1"
 			"labeltext"								"#TF_Casual_QueueEstimation"
 			"textAlignment"							"east"
-			"font"									"Noto14"
+			"font"									"Regular14"
 			"fgcolor_override"						"White"
 			"AllCaps"								"1"
 			"visible"								"0"

@@ -42,7 +42,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		"xpos"			"25"			// align me to the left edge of the first selection
 		"ypos"			"40"
 		"zpos"			"3"
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		"fgcolor"		"TransparentBlack"
 		"xpos"			"27"			// align me to the left edge of the first selection
 		"ypos"			"42"
@@ -83,7 +83,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"c-158"
 		"ypos"			"c190"
@@ -105,7 +105,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabelShadow"
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"xpos"			"-8"
 		"ypos"			"124"
 		"zpos"			"2"
@@ -432,7 +432,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"c-122"
 		"ypos"			"c173"
@@ -469,7 +469,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"c-17"
 		"ypos"			"c173"
@@ -506,7 +506,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"NotoBold16"
+		"font"			"Regular16"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"c88"
 		"ypos"			"c173"

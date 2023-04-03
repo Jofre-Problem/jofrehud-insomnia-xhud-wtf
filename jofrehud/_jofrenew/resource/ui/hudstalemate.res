@@ -14,7 +14,7 @@
 {
 "ControlName""Label"
 "fieldName""StalemateLabel"
-"font""NotoBold20"
+"font""Regular20"
 "xpos""-25"
 "ypos""0"
 "zpos""1"
@@ -33,7 +33,7 @@
 {
 "ControlName""Label"
 "fieldName""ReasonLabel"
-"font""Noto10"
+"font""Regular10"
 "xpos""30"
 "ypos""25"
 "zpos""1"

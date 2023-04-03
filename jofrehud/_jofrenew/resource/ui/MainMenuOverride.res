@@ -6,6 +6,15 @@
 	
 	"MainMenuOverride"
 	{	}
+	"MenuColorizer"
+	{
+		"visible"										"0"
+	}
+
+	"MenuColorizer2"
+	{
+		"visible"										"0"
+	}
 
 	"Background"
 	{

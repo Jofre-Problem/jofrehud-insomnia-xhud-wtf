@@ -133,7 +133,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Noto12"
+				"font"			"Regular12"
 				"xpos"			"44"
 				"ypos"			"-1"
 				"zpos"			"5"
@@ -243,7 +243,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"NotoBold12"
+				"font"			"Regular12"
 				"xpos"			"132"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -298,7 +298,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"NotoBold12"
+				"font"			"Regular12"
 				"xpos"			"133"
 				"ypos"			"0"
 				"zpos"			"6"
@@ -402,7 +402,7 @@
 		"wide"			"600"	
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"NotoBold20"
+		"font"			"Regular20"
 		"fgcolor_override"		"NotoWhite"
 	}
 	"BuyBackLabel"

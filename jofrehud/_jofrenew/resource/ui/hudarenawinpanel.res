@@ -39,7 +39,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"NotoBold42"
+			"font"			"Regular42"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
@@ -92,7 +92,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"NotoBold42"
+			"font"			"Regular42"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"c5"
@@ -137,7 +137,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"NotoBold20"
+			"font"			"Regular20"
 			"fgcolor"		"NotoWhite"
 			"xpos"			"c-100"
 			"ypos"			"c-30"
@@ -163,7 +163,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"NotoBold50"
+		"font"			"Regular50"
 		"xpos"			"c-250"
 		"ypos"			"c32"
 		"zpos"			"1"
@@ -204,7 +204,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"NotoBold50"
+		"font"			"Regular50"
 		"xpos"			"c-250"
 		"ypos"			"c32"
 		"zpos"			"1"
@@ -244,7 +244,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"xpos"			"c-150"
 		"ypos"			"c69"
 		"zpos"			"1"
@@ -301,7 +301,7 @@
 		"textAlignment"		"west"
 		"dulltext"		"0"
 		"brighttext"		"0"
-		"font"			"NotoBold14"
+		"font"			"Regular14"
 	}
 	"DamageThisRoundLabel"
 	{	
@@ -438,7 +438,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Class"
 		{	
@@ -456,7 +456,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Damage"
 		{	
@@ -474,7 +474,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Healing"
 		{	
@@ -492,7 +492,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Lifetime"
 		{	
@@ -510,7 +510,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Kills"
 		{	
@@ -528,7 +528,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Avatar"	
 		{
@@ -560,7 +560,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Class"
 		{	
@@ -578,7 +578,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Damage"
 		{	
@@ -596,7 +596,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Healing"
 		{	
@@ -614,7 +614,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Lifetime"
 		{	
@@ -632,7 +632,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Kills"
 		{	
@@ -650,7 +650,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Avatar"
 		{
@@ -682,7 +682,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Class"
 		{	
@@ -700,7 +700,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Damage"
 		{	
@@ -718,7 +718,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Healing"
 		{	
@@ -736,7 +736,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Lifetime"
 		{	
@@ -754,7 +754,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Kills"
 		{	
@@ -772,7 +772,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 	}
 	"ArenaWinPanelLosersPanel"
@@ -816,7 +816,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Class"
 		{	
@@ -834,7 +834,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Damage"
 		{	
@@ -852,7 +852,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Healing"
 		{	
@@ -870,7 +870,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Lifetime"
 		{	
@@ -888,7 +888,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player1Kills"
 		{	
@@ -906,7 +906,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Avatar"	
 		{
@@ -938,7 +938,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Class"
 		{	
@@ -956,7 +956,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Damage"
 		{	
@@ -974,7 +974,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Healing"
 		{	
@@ -992,7 +992,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Lifetime"
 		{	
@@ -1010,7 +1010,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player2Kills"
 		{	
@@ -1028,7 +1028,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Avatar"
 		{
@@ -1060,7 +1060,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Class"
 		{	
@@ -1078,7 +1078,7 @@
 			"textAlignment"		"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Damage"
 		{	
@@ -1096,7 +1096,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Healing"
 		{	
@@ -1114,7 +1114,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Lifetime"
 		{	
@@ -1132,7 +1132,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 		"Player3Kills"
 		{	
@@ -1150,7 +1150,7 @@
 			"textAlignment"		"east"
 			"dulltext"		"0"
 			"brighttext"		"0"
-			"font"			"NotoBold12"
+			"font"			"Regular12"
 		}
 	}
 }

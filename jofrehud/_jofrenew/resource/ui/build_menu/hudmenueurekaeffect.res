@@ -88,7 +88,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"NotoBold18"
+		"font"			"Regular18"
 		"fgcolor"		"NotoWhite"
 		"xpos"			"74"			
 		"ypos"			"0"

@@ -1,4 +1,4 @@
-#base "../ui2/mm_topbar.res"
+//#base "../ui2/mm_topbar.res"
 #base "../ui2/polybar_1.res"
 #base "../ui2/polyconfig1.res"
 "Resource/UI/MatchMakingDashboard.res"
@@ -55,10 +55,14 @@
 				"sound_depressed"	"sound_menu/button.wav"
 				"sound_released"	"sound_menu/button2.wav"
 
-		"defaultBgColor_override""Blank"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
 
-			defaultFgColor_override		"polyiconsbg1"
-			armedFgColor_override		"A_ColorTheme1"
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		"paintbackground""0"
 	}
 
@@ -88,10 +92,14 @@
 				"sound_depressed"	"sound_menu/button.wav"
 				"sound_released"	"sound_menu/button2.wav"
 
-		"defaultBgColor_override""Blank"
+			"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
 
-			defaultFgColor_override		"polyiconsbg1"
-			armedFgColor_override		"A_ColorTheme1"
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		"paintbackground""0"
 	}
 
@@ -187,11 +195,16 @@
 			"paintbackground"	"0"
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
-			"fgcolor"			"polyiconsbg1"
-			"fgcolor_override"	"polyiconsbg1"
-			"defaultFgColor_override"	"polyiconsbg1"
-			"armedFgColor_override"		"A_ColorTheme1"
-			"depressedFgColor_override"	"W_ColorTheme4"
+			"fgcolor"			"white"
+			"fgcolor_override"	"white"
+			"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 			
 			"border_armed"		"noborder"	
 			"SubImage"
@@ -614,10 +627,14 @@
 			"defaultBgColor_override"	"Blank"
 			"fgcolor"			"A_ColorTheme1"
 			"fgcolor_override"			"A_ColorTheme1"
-			
-			"defaultFgColor_override" "A_ColorTheme1"
-			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "W_ColorTexto1"
+			"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 			"SubImage"
 			{
 				"tall"			"0"
@@ -661,9 +678,14 @@
 			"fgcolor"			"A_ColorTheme1"
 			"fgcolor_override"			"A_ColorTheme1"
 			
-			"defaultFgColor_override" "A_ColorTheme1"
-			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "W_ColorTexto1"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 
 
 
@@ -711,11 +733,17 @@
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
 
-			"armedBgColor_override"		"Blank"
-			"defaultBgColor_override"	"Blank"
-			"defaultFgColor_override" "polyiconsbg1"
-			"fgcolor"			"polyiconsbg1"
-			
+
+			"defaultFgColor_override" "white"
+			"fgcolor"			"white"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"		
 			"SubImage"
 			{
 				"tall"			"0"

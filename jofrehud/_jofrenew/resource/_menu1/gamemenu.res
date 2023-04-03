@@ -16,19 +16,19 @@
 	}
     "CallVoteButton2"
 {
-"label""Call Vote"
+"label""c"
 "command""callvote"
 "OnlyInGame""1"
 }
 "MutePlayersButton2"
 {
-"label""Mute"
+"label""M"
 "command""OpenMutePlayerDialog"
 "OnlyInGame""1"
 }
 "ReportPlayerButton2"
 {
-"label""Report"
+"label""!"
 "command""OpenReportPlayerDialog"
 "OnlyInGame""1"
 }

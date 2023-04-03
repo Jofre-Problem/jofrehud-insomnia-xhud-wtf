@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"xpos"			"2"
 		"ypos"			"9"
 		"zpos"			"1"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"xpos"			"2"
 		"ypos"			"18"
 		"zpos"			"2"

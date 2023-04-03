@@ -21,7 +21,7 @@
 #base "../uni_base/btn/1.res"
 #base "../uni_base/btn/2.res"
 #base "../uni_base/btn/3.res"
-	#base "../ui2/polybar_1.res"
+//	#base "../ui2/polybar_1.res"
 "Resource/UI/MainMenuOverride.res"
 {
 	"Items"
@@ -227,10 +227,14 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine incrementvar cl_mainmenu_safemode -1 0 1"
-		defaultFgColor_override		"polyiconsbg1"
-		armedFgColor_override		"A_ColorTheme1"
-		"depressedFgColor_override" "W_CerrarArmed"
-		"selectedFgColor_override"	"W_CerrarArmed"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		paintBackground			0
@@ -247,10 +251,14 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"engine showstatsdlg"
-		defaultFgColor_override		"polyiconsbg1"
-		armedFgColor_override		"A_ColorTheme1"
-		"selectedFgColor_override"	"W_CerrarArmed"
-		"depressedFgColor_override" "W_ColorIcons1"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -268,10 +276,14 @@
 			"font"			"NewIcons12"
 			"textAlignment"	"center"
 		command				"OpenLoadSingleplayerCommentaryDialog"
-		defaultFgColor_override		"polyiconsbg1"
-		armedFgColor_override		"A_ColorTheme1"
-		
-		"depressedFgColor_override" "W_ColorIcons1"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
@@ -282,93 +294,6 @@
 	}		
 	"MainMenuOverride"
 	{	}
-	"polybar0bg"	
-	{
-		"zpos"	"1000"
-		"wide"	"18-p0.002"
-		"xpos"			"0"	
-	}	
-	"polybar0slash"	
-	{		"wide"	"30"
-		"textinsetx"	"-2"
-		"labelText"		"É"
-		"zpos"	"1000"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"polybar0bg"		
-	}
-	"bgg1"	
-	{"wide"	"30"
-	"zpos"	"999"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		"pin_to_sibling"	"polybar0bg"		
-	}
-	"slash1"
-	{		"wide"	"30"
-		"textinsetx"	"-2"
-		"labelText"		"É""zpos"	"999"
-		"pin_to_sibling"	"bgg1"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-	}	
-
-	"bgg2"		
-	{"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg1"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
-	}	
-
-
-	"slash2"
-	{		"wide"	"30""zpos"	"999"
-		"textinsetx"	"-2"
-		"labelText"		"É"
-		"pin_to_sibling"	"bgg2"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-	}	
-
-
-
-
-	"bgg3"	
-	{"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg2"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
-	}	
-
-
-		"slash3"
-		{		"wide"	"30"
-		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
-"pin_to_sibling"	"bgg3"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-		}	
-
-
-			"bgg4"						{
-		"wide"	"30""zpos"	"999"
-		"pin_to_sibling"	"bgg3"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
-	}	
-
-
-		"slash4"
-		{
-		"font"	"NewIcons20"
-		"wide"	"30"
-		"textinsetx"	"-2""zpos"	"999"
-		"labelText"		"É"
-			"pin_to_sibling"	"bgg4"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"			
-		}				
 
 	"NoSkill"
 	{	
@@ -516,50 +441,49 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"CallVoteButton2"
-		xPos					"CS-0.5"//210 - 33
+		xPos					"rs1-40"//210 - 33
 		yPos					rs1
 		zPos					1050
-		wide					125
-		tall					25
+		wide					20
+		tall					20
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
 
-		
+				"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"font"			"iconsSmall"
+				"textAlignment"	"center"
+				"labelText"		"c"
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+				"default"		"1"
+				"actionsignallevel" "2"
+				"paintbackground"	"0"
+				"textinsety"		"0"
 
-		"SubButton"
-		{
-			ControlName				CExImageButton
-			fieldName				"SubButton"
-			xpos					0
-			ypos					0
-			wide					125
-			tall					25
-			proportionaltoparent		1
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
 
-			font					"CustomSegundo"
-			textAlignment			center
-			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"245 245 245 255"
-		image_drawcolor			"255 255 255 50" 
-		image_armedcolor			"255 255 255 100"
-			paintbackground			0
-		"SubImage"
-		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-		}		
-		}
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_BOTTOM_3_Primary_0"
+				"border_armed"				"LINE_BOTTOM_0_Primary_0"
+			}
 	}
 	"CallVoteButton"
 	{
@@ -573,50 +497,53 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"MutePlayersButton2"		
-		xPos					"115"//210 - 33
-		yPos					rs1
+		xPos					"0"//210 - 33
+		yPos					0
 		zPos					1050
-		wide					125
-		tall					25
+		wide					20
+		tall					20
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
-
+	"pin_to_sibling"	"CallVoteButton2"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 		
 
-		"SubButton"
-		{
-			ControlName				CExImageButton
-			fieldName				"SubButton"
-			xpos					0
-			ypos					0
-			wide					125
-			tall					25
-			proportionaltoparent		1
+			"SubButton"
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"font"			"iconsSmall"
+				"textAlignment"	"center"
+				"labelText"		"M"
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+				"default"		"1"
+				"actionsignallevel" "2"
+				"paintbackground"	"0"
+				"textinsety"		"0"
 
-			font					"CustomSegundo"
-			textAlignment			center
-			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"245 245 245 255"
-		image_drawcolor			"255 255 255 50" 
-		image_armedcolor			"255 255 255 100"
-			paintbackground			0
-		"SubImage"
-		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-		}		
-		}
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_BOTTOM_3_Primary_0"
+				"border_armed"				"LINE_BOTTOM_0_Primary_0"
+			}
 	}
 	"RequestCoachButton"
 	{
@@ -626,50 +553,55 @@
 	{
 		ControlName				EditablePanel
 		FieldName				"ReportPlayerButton2"		
-		xPos					"rs1-115"//210 - 33
-		yPos					rs1
+		xPos					"0"//210 - 33
+		yPos					0
 		zPos					1050
-		wide					125
-		tall					25
+		wide					20
+		tall					20
 		"bgcolor_override"		"Blank"
 		"paintBackground"	"0"
+			"pin_to_sibling"	"MutePlayersButton2"
+			"pin_corner_to_sibling"	"PIN_TOPLEFT"
+			"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 
 		
 
 		"SubButton"
-		{
-			ControlName				CExImageButton
-			fieldName				"SubButton"
-			xpos					0
-			ypos					0
-			wide					125
-			tall					25
-			proportionaltoparent		1
+			{
+				"ControlName"	"CExImageButton"
+				"fieldName"		"SubButton"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
+				"autoResize"	"0"
+				"pinCorner"		"3"
+				"visible"		"1"
+				"enabled"		"1"
+				"tabPosition"	"0"
+				"font"			"iconsSmall"
+				"textAlignment"	"center"
+				"labelText"		"!"
+				"use_proportional_insets" "1"
+				"proportionaltoparent"	"1"
+				"default"		"1"
+				"actionsignallevel" "2"
+				"actionsignallevel" "2"
+				"paintbackground"	"0"
+				"textinsety"		"0"
 
-			font					"CustomSegundo"
-			textAlignment			center
-			
-			sound_depressed			"UI/buttonclick.wav"
-			sound_released			"UI/buttonclickrelease.wav"
-							
-		defaultFgColor_override		"W_ColorIcons1"
-		armedFgColor_override		"245 245 245 255"
-		image_drawcolor			"255 255 255 50" 
-		image_armedcolor			"255 255 255 100"
-			paintbackground			0
-		"SubImage"
-		{
-			ControlName				ImagePanel
-			fieldName				"SubImage"
-			xpos					0
-			ypos					0
-			wide					0
-			tall					f0
-			proportionaltoparent		1
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-		}		
-		}
+				"sound_depressed"	"UI/buttonclick.wav"
+				"sound_released"	"UI/buttonclickrelease.wav"
+
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_BOTTOM_3_Primary_0"
+				"border_armed"				"LINE_BOTTOM_0_Primary_0"
+			}
 	}	
 	"ReportPlayerButton"
 	{
@@ -750,7 +682,7 @@
 				proportionaltoparent		1
 				image					"replay/thumbnails/mainmenu/notification_bell"
 				scaleImage				1
-				"drawcolor_override"				"W_ColorIcons1"
+				"drawcolor_override"				"Primary"
 			}				
 		}
 
@@ -784,7 +716,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"NotoBold14"
+			font					"Regular14"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2
@@ -1010,8 +942,14 @@
 		sound_depressed			"sound_menu/button.wav"
 		sound_released			"sound_menu/button2.wav"
 		
-		defaultFgColor_override		"245 245 245 255"
-		armedFgColor_override		"157 83 33 255"
+				"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		paintBackground			0
 
 		"navUp"			""
@@ -1050,8 +988,14 @@
 			"brighttext"	"0"
 			"default"		"1"
 			
-		defaultFgColor_override		"polyiconsbg1"
-		armedFgColor_override		"A_ColorTheme1"
+					"defaultFgColor_override" 	"White"
+				"armedFgColor_override" 	"White"
+
+				"defaultBgColor_override" 	"Blank"
+				"armedBgColor_override" 	"Blank"
+
+				"border_default"			"LINE_TOP_3_Primary_0"
+				"border_armed"				"LINE_TOP_0_Primary_0"
 		
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"

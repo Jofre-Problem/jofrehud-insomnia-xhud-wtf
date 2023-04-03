@@ -56,7 +56,7 @@
 {
 "ControlName""CExLabel"
 "fieldName""TitleLabel"
-"font""Noto20"
+"font""Regular20"
 "labelText""#TF_AdvancedOptions"
 "textAlignment""center"
 

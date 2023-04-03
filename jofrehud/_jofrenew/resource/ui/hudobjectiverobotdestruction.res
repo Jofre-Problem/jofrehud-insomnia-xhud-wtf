@@ -59,7 +59,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"fgcolor"		"NotoWhite"
 		"bgcolor_override"	"NotoBlack"
 		
@@ -613,7 +613,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
+				"font"			"Regular32"
 				"fgcolor"		"NotoWhite"
 				"proportionalToParent"	"1"
 			}	
@@ -666,7 +666,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
+				"font"			"Regular32"
 				"fgcolor"		"NotoWhite"
 				"proportionalToParent"	"1"
 			}	

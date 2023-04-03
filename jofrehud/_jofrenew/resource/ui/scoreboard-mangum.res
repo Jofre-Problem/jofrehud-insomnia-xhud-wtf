@@ -241,7 +241,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"c-105"
@@ -329,7 +329,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"NotoBold28"
+		"font"			"Regular28"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"c5"
@@ -1297,7 +1297,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KILLSASSISTSDEATHS"
-			"font"			"NotoBold42"
+			"font"			"Regular42"
 			"labelText"		"#scoreboard_K_A_D_list"//"%kills%"
 			"textAlignment"		"center"
 			"xpos" 			"c-200"					//"c-60"//			"180"
@@ -1315,7 +1315,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KILLSASSISTSDEATHSLOWER"
-			"font"			"Noto12"
+			"font"			"Regular12"
 			"labelText"		"K : A : D"//"%kills%"
 			"textAlignment"		"center"
 			"xpos" 			"c-200"					//"c-60"//			"180"
@@ -1333,7 +1333,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"NotoBold28"
+			"font"			"Regular28"
 			"labelText"		"#scoreboard_K_A_D_list"//"%kills%"
 			"textAlignment"		"center"
 			"xpos" 			"c-200"					//"c-60"//			"180"
@@ -1350,7 +1350,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"NotoBold28"
+			"font"			"Regular28"
 			"labelText"		"%deaths%"
 			"textAlignment"		"center"
 			"xpos" "c20"//			"180"
@@ -1367,7 +1367,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"NotoBold28"
+			"font"			"Regular28"
 			"labelText"		"%assists%"
 			"textAlignment"		"center"
 			"xpos" "c-20"//			"180"

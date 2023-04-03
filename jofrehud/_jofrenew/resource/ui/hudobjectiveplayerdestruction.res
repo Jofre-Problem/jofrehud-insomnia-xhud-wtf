@@ -59,7 +59,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"NotoBold12"
+		"font"			"Regular12"
 		"fgcolor"		"NotoWhite"
 		"bgcolor_override"	"NotoBlack"
 		
@@ -185,7 +185,7 @@
 			//"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"NotoBold16"
+			"font"			"Regular16"
 			"fgcolor"		"NotoWhite"
 			"proportionalToParent"	"1"	
 		}	
@@ -385,7 +385,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
-				"font"			"NotoBold14"
+				"font"			"Regular14"
 				"fgcolor"		"NotoWhite"	
 				"fgcolor_override"		"NotoWhite"	
 				"bgcolor_override"		"0 0 0 0"
@@ -440,7 +440,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
-				"font"			"NotoBold14"
+				"font"			"Regular14"
 				"fgcolor"		"NotoWhite"	
 				"fgcolor_override"		"NotoWhite"	
 				"bgcolor_override"		"0 0 0 0"
@@ -782,7 +782,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
+				"font"			"Regular32"
 				"fgcolor"		"NotoWhite"
 				"proportionalToParent"	"1"
 			}	
@@ -835,7 +835,7 @@
 				//"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
-				"font"			"NotoBold32"
+				"font"			"Regular32"
 				"fgcolor"		"NotoWhite"
 				"proportionalToParent"	"1"
 			}	
@@ -1122,7 +1122,7 @@
 			//"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%countdowntime%"
-			"font"			"NotoBold30"
+			"font"			"Regular30"
 			"fgcolor"		"TanLight"		
 			"proportionalToParent"	"1"
 		}

@@ -165,7 +165,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"NotoBold40"
+		"font"			"regular36"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -188,7 +188,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"NotoBold40"
+		"font"			"regular36"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -555,7 +555,7 @@
 
 	"PlayerNameLabel"
 	{
-		"font"			"Noto12"
+		"font"			"Regular12"
 		"textAlignment"		"west"
 		"xpos"			"5"
 		"ypos"			"5"
@@ -570,7 +570,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"	"west"
  		"xpos"			"10"
 		"ypos"			"0"
@@ -585,7 +585,7 @@
 	}
 	"ServerTimeLeft"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -599,7 +599,7 @@
 	}			
 	"BlueTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -613,7 +613,7 @@
 	}	
 	"RedTeamPlayerCount"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -628,7 +628,7 @@
 
 	"ServerLabelNew"
 	{
-		"font"			"NotoBold10"
+		"font"			"Regular10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"

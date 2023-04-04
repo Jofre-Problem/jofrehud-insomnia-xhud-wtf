@@ -1,5 +1,6 @@
 #base "../leadhud/clientscheme.res"
-	
+#base "../xhud/clientscheme.res"
+		
 #base "../../resource/scheme/colors.res"
 
 

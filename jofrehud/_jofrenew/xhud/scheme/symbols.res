@@ -110,9 +110,9 @@ Scheme
 			"name" "TF2 Class Icons V2"
 		}
 
-		"132"
+		"142"
 		{
-			"font" "_jofrenew/xhud/scheme/fonts/ReadyUp XHud.otf"
+			"font" "_jofrenew/xhud/scheme/fonts/Readyup XHud.otf"
 			"name" "ReadyUp XHud"
 		}
 	}

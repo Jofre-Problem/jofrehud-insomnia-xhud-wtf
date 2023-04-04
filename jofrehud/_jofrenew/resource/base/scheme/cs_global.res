@@ -10,7 +10,8 @@ Scheme
 		Button.ArmedBgColor				"Primary"
 		Button.ArmedTextColor			"W_ColorTheme1"
 		
-		
+		Console.TextColor			"Primary" //prev 35 240 55 255
+		Console.DevTextColor		"35 240 55 255"		//offwhite
 //		Button.DepressedTextColor		"W_ColorTheme3"
 //		Button.DepressedBgColor			"W_BorderArmedText"
 //		Button.FocusBorderColor			"W_BorderArmed"
@@ -130,7 +131,7 @@ Scheme
 		ProgressBar.FgColor				"W_ColorIcons1"	
 
 		//R
-		RichText.TextColor				"Primary"
+		RichText.TextColor				"W_ColorIcons1"
 		RichText.SelectedTextColor		"W_ColorIcons1"
 		RichText.SelectedBgColor		"W_ColorTheme2"
 		RichText.BgColor				"0 36 86 0"

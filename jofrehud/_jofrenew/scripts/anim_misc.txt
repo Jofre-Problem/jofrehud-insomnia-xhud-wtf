@@ -1,3 +1,13 @@
+event HudTournamentSetupPanelOpen
+{
+	Animate	HudTournamentSetup	ypos	61	Spline 0.0 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.2
+}
+
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 

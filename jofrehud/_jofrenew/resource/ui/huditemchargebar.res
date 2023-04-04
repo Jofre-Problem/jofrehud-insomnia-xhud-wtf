@@ -23,13 +23,13 @@
 		"ypos"					"2"
 		"zpos"					"5"
 		"wide"					"f0"
-		"tall"					"0"
+		"tall"					"10"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"proportionaltoparent"		"1"
-		"font"		"FontStorePriceSmall"
+		"font"		"Regular7"
 		"pin_to_sibling"	"ItemEffectMeter"
 	}
 

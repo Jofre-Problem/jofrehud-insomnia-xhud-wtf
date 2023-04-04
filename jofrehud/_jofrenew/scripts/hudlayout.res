@@ -16,7 +16,19 @@
 		"enabled" 			"1"
 
 		"PaintBackgroundType"	"2"
-	}	
+	}
+	NotificationPanel
+	{
+		"fieldName"				"NotificationPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"cs-0.5"
+		"ypos"					"80"
+		"wide"					"280"
+		"tall"					"20"
+		"border"				"FLAT_Black_4"
+	}
+
 	ramka
 	{
 		"ControlName"			"ImagePanel"

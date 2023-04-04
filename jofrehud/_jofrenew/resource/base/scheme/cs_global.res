@@ -52,10 +52,10 @@ Scheme
 	//	FrameSystemButton.Icon			""
 	//	FrameSystemButton.DisabledIcon	""
 		FrameTitleBar.DisabledBgColor	"Blank"
-		Frame.BgColor					"W_ColorTheme2" //lolololololl
-		Frame.OutOfFocusBgColor			"W_ColorTheme2"
-		FrameGrip.Color1				"W_ColorIcons1"
-		FrameGrip.Color2				"W_ColorIcons1"
+		Frame.BgColor					"0 0 0 100"
+		Frame.OutOfFocusBgColor			"0 0 0 100"
+		FrameGrip.Color1				"Primary"
+		FrameGrip.Color2				"Primary"
 
 
 
@@ -130,7 +130,7 @@ Scheme
 		ProgressBar.FgColor				"W_ColorIcons1"	
 
 		//R
-		RichText.TextColor				"W_ColorIcons1"
+		RichText.TextColor				"Primary"
 		RichText.SelectedTextColor		"W_ColorIcons1"
 		RichText.SelectedBgColor		"W_ColorTheme2"
 		RichText.BgColor				"0 36 86 0"

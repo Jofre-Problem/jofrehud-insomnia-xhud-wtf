@@ -7,7 +7,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"10"
+				"tall"			"6"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -17,7 +17,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"11"
+				"tall"			"7"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -27,7 +27,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"12"
+				"tall"			"8"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -37,7 +37,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"13"
+				"tall"			"9"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -47,7 +47,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"14"
+				"tall"			"10"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -57,7 +57,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"15"
+				"tall"			"11"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -67,7 +67,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"16"
+				"tall"			"12"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -77,7 +77,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"17"
+				"tall"			"13"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -87,7 +87,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"18"
+				"tall"			"14"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -97,7 +97,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"19"
+				"tall"			"15"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -107,7 +107,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"20"
+				"tall"			"16"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -117,7 +117,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"21"
+				"tall"			"17"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -127,7 +127,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"22"
+				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -137,7 +137,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"23"
+				"tall"			"19"
 				"weight"		"0"
 				"antialias"		"1"
 			}
@@ -147,7 +147,7 @@
 			"1"
 			{
 				"name"			"TF2Crosshairs"
-				"tall"			"24"
+				"tall"			"20"
 				"weight"		"0"
 				"antialias"		"1"
 			}

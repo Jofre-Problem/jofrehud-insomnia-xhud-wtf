@@ -26,6 +26,9 @@ Scheme
 {
 	"BaseSettings"
 	{
+		ScrollBarSlider.FgColor								"Primary"
+		ScrollBarSlider.BgColor								"blank"	
+		Slider.NobColor				"Primary"
 		"ReplayBrowser.BgColor"								"DarkBrown"
 		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"LightRed"
 		"ReplayBrowser.Button.ArmedBgColor"					"PanelO3"
@@ -250,6 +253,7 @@ Scheme
 	}	
 	BaseSettings
 	{
+
 		Econ.Dialog.BgColor									"0 0 0 0"
 		Econ.Button.BgColor									"blank"
 		Econ.Button.FgColor									"TanLight"
@@ -356,7 +360,7 @@ Scheme
 	//	Slider.NobColor										"W_ColorIcons1"
 		Slider.TextColor									"127 140 127 255"
 
-		Slider.DisabledTextColor1							"117 117 117 255"
+		Slider.DisabledTextColor1							"117 117 117 0"
 	//	Slider.DisabledTextColor2							"Blank"
 
 
@@ -977,42 +981,42 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI"
+				"name"		"Renogare Soft XHud"
 				"tall"		"12"
 				"antialias"	"1"
 
 			}
 			"2"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"		"13"		"antialias"	"1"
 			}
 			"3"
 			{
-				"name"		"Segoe UI"
+				"name"		"Renogare Soft XHud"
 				"tall"		"14"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name""Segoe UI"
+				"name""Renogare Soft XHud"
 				"tall"		"20"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"		"24"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name""Segoe UI"
+				"name""Renogare Soft XHud"
 				"tall"		"12"		"antialias"	"1"
 			}
 			"7"
 			{
-				"name"	"Segoe UI"
+				"name"	"Renogare Soft XHud"
 				"tall"		"12"		"antialias"	"1"
 			}
 
@@ -1038,16 +1042,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}  
-		"Regular12"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"10"
-				"wide"		"300"
-				"antialias" 	"1"
-			}
-		}  		
 		"Regular14"
 		{
 			"1"
@@ -1382,6 +1376,15 @@ Scheme
 	}
 	Borders
 	{	
+	    	FrameBorder {
+			"bordertype"				"scalable_image"
+			"background_type"			"0"
+			"color"						"Primary"
+			"image"						"replay/thumbnails/hp/modulate_white_test"
+			"src_corner_width"			"32"
+			"src_corner_height"			"32"
+			"draw_corner_width"			"0"
+			"draw_corner_height"		"0"	 }			
 		"GrayDialogBorder"
 		{
 			"bordertype"									"scalable_image"
@@ -1430,17 +1433,7 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}			 			
-        FrameBorder 
-        {
-		
-						"bordertype"			"scalable_image"
-			"backgroundtype"		"2"		
-			"image"					"replay/thumbnails/null" // "replay/thumbnails/hp/REFRACTnormal"
-			"src_corner_height"		"32"				// pixels inside the image
-			"src_corner_width"		"32"
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
-        }			
+
 		cleanup //scrollbar
 		{
 			"bordertype"			"scalable_image"
@@ -1548,46 +1541,7 @@ Scheme
 					"offset" "0 0"
 				}
 			}
-		}	
-		Cs1
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "W_ColorIcons1"
-					"offset" "0 0"
-				}
-			}
-		}				
+		}			
 		Rice2
 		{
 			"inset" "0 0 1 1"
@@ -2063,16 +2017,16 @@ Scheme
 			"font" "_jofrenew/font/Blocks-Blocks.ttf"
 			"name" "blocks"
 		}				
-		"106"
-		{
-			"font" "_jofrenew/font/Renogare Uber.ttf"
-			"name" "Renogare Uber"
-		}	
-		"107"
-		{
-			"font" "_jofrenew/font/Renogare XHud.ttf"
-			"name" "Renogare Soft XHud"
-		}	
+	//	"106"
+	//	{
+	//		"font" "_jofrenew/font/Renogare Uber.ttf"
+	//		"name" "Renogare Uber"
+	//	}	
+	//	"107"
+	//	{
+	//		"font" "_jofrenew/font/Renogare XHud.ttf"
+	//		"name" "Renogare Soft XHud"
+	//	}	
 
 	//	"108"
 	//	{

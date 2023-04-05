@@ -1058,7 +1058,7 @@ Scheme
 			"1"
 			{
 				"name"				"JofreIconsRe"
-				"tall"				"32"				
+				"tall"				"38"				
 				"antialias"			"1"
 			}
 		}			

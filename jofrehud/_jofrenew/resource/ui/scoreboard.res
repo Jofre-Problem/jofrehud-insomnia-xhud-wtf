@@ -75,10 +75,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"c0"
+		"xpos"			"0"
 		"ypos"			"79"
-		"zpos"			"1003"
-		"wide"			"p0.5"
+		"zpos"			"99"
+		"wide"			"f0"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -100,10 +100,8 @@
 		"xpos"			"0"
 		"ypos"			"79"
 		"zpos"			"100"
-		"wide"			"p0.5"
+		"wide"			"p0.488"
 		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"0"
@@ -193,7 +191,22 @@
 		"scaleImage"		"1"
 		"pin_to_sibling"	"BlueScoreBG3"
 	}	
-												
+		"slashbtw"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"slashbtw"
+			"font"			"NewIcons57"
+			"labelText"		"/"//"%kills%"
+			"textAlignment"		"center"
+			"xpos" 			"cs-0.5"					//"c-60"//			"180"
+			"ypos"			"79"
+			"zpos"			"4999"
+			"wide"			"25"
+			"tall"			"22"
+		//	"pin_to_sibling"	"BlueScoreBG"
+			"fgcolor"		"52 152 219 255"	
+				
+		}												
 	"ProgressBar2"
 	{
 		"xpos"			"rs1"
@@ -267,12 +280,12 @@
 	}							
 	"BlueTeamScore"
 	{
-		"font"			"Regular26"
+		"font"			"Size 28"
 		"fgcolor_override"	"20 20 20 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
 		"ypos"			"0" 
-		"zpos"			"1005"
+		"zpos"			"5000"
 		"wide"			"p0.5"
 		"tall"			"20"
 		"pin_to_sibling"	"BlueScoreBG"
@@ -311,15 +324,14 @@
 	}							
 	"RedTeamScore"
 	{
-		"font"			"Regular26"
+		"font"			"Size 28"
 		"fgcolor_override"	"0 0 0 255"
-		"textAlignment"		"east"
-		"xpos"			"5"
-		"ypos"			"0" 
-		"zpos"			"1065"
-		"wide"			"p0.475"
+		"textAlignment"		"west"
+		"xpos"			"c0"
+		"ypos"			"79" 
+		"zpos"			"5000"
+		"wide"			"p0.5"
 		"tall"			"20"
-		"pin_to_sibling"	"RedScoreBG"
 		if_mvm
 		{
 			"visible"		"0"

@@ -592,14 +592,10 @@
 	
 	DisguiseStatus
 	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"60"
-		"ypos"		"r80"
+		"xpos"		"0"
+		"ypos"		"rs1"
 		"wide"		"f0"
-		"tall"		"f0"
-		"TextFont"	"Default"	
+		"tall"		"80"	
 	}
 	CMainTargetID
 	{
@@ -655,55 +651,40 @@
 	//	"pin_to_sibling"	"HudTournament"	 //HELL		
 	}
 	
-	
-	"HudMenuSpyDisguise"
-	{
-		"fieldName" 	"HudMenuSpyDisguise"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		//"ypos_hidef"	"0"
-		//"ypos_lodef"	"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		"PaintBackgroundType"	"0"
-	//	"pin_to_sibling"	"DisguiseStatus"	 //HELL			
-	}	
+
 	
 	"HudMenuEngyBuild"
 	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"		"5"
+		"ypos"		"240"
+		"wide"		"f5"
+		"tall"		"240"
 	//	"pin_to_sibling"	"HudMenuSpyDisguise"	 //HELL			
 	}
 	
 	"HudMenuEngyDestroy"
 	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
+		"xpos"		"5"
+		"ypos"		"240"
+		"wide"		"f5"
+		"tall"		"240"
 	//	"pin_to_sibling"	"HudMenuEngyBuild"	 //HELL				
 	}
 
 	"HudEurekaEffectTeleportMenu"
 	{
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"f0"
-		"tall"			"f0"
-	//	"pin_to_sibling"	"HudMenuEngyBuild"	 //HELL			
+		"xpos"		"5"
+		"ypos"		"240"
+		"wide"		"f5"
+		"tall"		"240"		
 	}
-	
+	"HudMenuSpyDisguise"
+	{
+		"xpos"		"5"
+		"ypos"		"240"
+		"wide"		"f5"
+		"tall"		"240"
+	}	
 	"BuildingStatusAnchor"
 	{
 		"ControlName"		"EditablePanel"

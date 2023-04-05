@@ -1,26 +1,9 @@
-#base "scout_red.res"
+#base "engineer_blue.res"
 
-"Resource/UI/Disguise_Menu/Engineer_Red.res"
+"Resource/UI/disguise_menu/engineer_red.res"
 {
-	"TitleBG"
+	"ClassIconLabel"
 	{
-		"visible"									"0"
-	}
-	"ItemNameLabel"
-	{
-		"xpos"										"0"
-		"ypos"										"0"
-		"labelText"									"#TF_Class_Name_Engineer"
-	}
-	"NumberLabel"
-	{
-		"ypos"										"0"
-		"labelText"									"6"
-	}
-	"NewNumberLabel"
-	{
-		"xpos"										"50"
-		"ypos"										"0"
-		"labelText"									"3"
+		"fgcolor"		"Red"
 	}
 }

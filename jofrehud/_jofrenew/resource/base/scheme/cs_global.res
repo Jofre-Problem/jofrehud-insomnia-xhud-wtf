@@ -83,7 +83,7 @@ Scheme
 		MainMenu.TextColor			"40 34 30 255"
 		MainMenu.ArmedTextColor		"W_ColorIcons1"
 		MainMenu.Inset				"32"
-		Menu.TextColor			"245 245 245 255"
+		Menu.TextColor			"0 0 0 255"
 		Menu.BgColor			"Primary"
 		Menu.ArmedTextColor		"W_ColorTheme1"
 		Menu.ArmedBgColor		"W_ColorIcons1"

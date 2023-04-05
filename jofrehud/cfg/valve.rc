@@ -26,6 +26,7 @@ alias cl_hud_minmode "echo NOT IMPLEMENTED. THIS IS NOT AN ERROR."
 // Configs
 echo insomniaHUD: Applying aliases...
 exec ih_aliases
+exec jp_aliases
 exec ih_version
 
 // Resize dashboard dimmer

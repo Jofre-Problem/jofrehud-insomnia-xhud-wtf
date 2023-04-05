@@ -78,7 +78,7 @@
 					{
 					"ControlName""ImagePanel"
 					"fieldName""LogoImage"
-					"xpos""rs1-17"
+					"xpos""rs1-14"
 					"ypos""rs1-36"
 					"wide""256"
 					"tall""o1"

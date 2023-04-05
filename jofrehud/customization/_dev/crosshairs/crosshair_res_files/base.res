@@ -11,7 +11,7 @@
 		"proportionaltoparent"		"1"
 		"textAlignment"				"center"
 		"labelText"					""
-		"font"						"Crosshairs18"
+		"font"						"Crosshairs10"
 		"fgcolor"					"Crosshair"
 	}
 }

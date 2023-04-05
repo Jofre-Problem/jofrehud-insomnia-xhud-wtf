@@ -26,7 +26,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountLabel"
 		"font"			"Size 24"
-		"fgcolor"		"Red"
+		"fgcolor"		"Primary"
 		"xpos"			"cs-0.5+105"
 		"ypos"			"cs-0.5+85"
 		"zpos"			"0"

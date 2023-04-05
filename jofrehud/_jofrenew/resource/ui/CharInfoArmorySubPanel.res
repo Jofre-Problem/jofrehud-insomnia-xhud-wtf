@@ -1,5 +1,5 @@
 //#base "../#jofre/blur_bg.res"
-#base "../#jofre/blur_bg_image.res"
+#base "../ui2/lead_bg.res"
 "Resource/UI/CharInfoArmorySubPanel.res"
 {
 	"armory_panel"
@@ -8,7 +8,7 @@
 		fieldName				"armory_panel"
 		ypos					60
 		wide					f0
-		tall					411
+		tall					f0
 		zpos					5
 		settitlebarvisible		0
 		paintBackground			0

@@ -668,8 +668,8 @@
 			
 			paintbackground			0
 			
-			image_drawcolor				"W_ColorIcons1"			// scheme colors don't work
-			image_armedcolor			"W_CerrarArmed"
+			image_drawcolor				"Primary"			// scheme colors don't work
+			image_armedcolor			"Primary"
 			
 			"SubImage"
 			{
@@ -699,7 +699,7 @@
 			proportionaltoparent		1
 
 			image					"replay/thumbnails/mainmenu/notification_bell_message"
-			drawcolor				"W_BorderArmed"
+			drawcolor				"Primary"
 			scaleImage				1
 		}
 

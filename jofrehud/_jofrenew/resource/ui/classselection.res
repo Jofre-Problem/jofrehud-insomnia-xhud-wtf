@@ -88,7 +88,7 @@
 		"paintBackground"	"0"
 		"labelText"	"M"
 		"defaultFgColor_override"	"W_ColorTheme1"
-		"armedFgColor_override"	"tf23"
+		"armedFgColor_override"	"Primary"
 		"Command"		"vguicancel"
 	}
 	"CancelContinue" 
@@ -138,7 +138,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -256,7 +256,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -337,7 +337,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -531,7 +531,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -611,7 +611,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -729,7 +729,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -846,7 +846,7 @@
 		sound_released			"sound_menu/button2.wav"
 		sound_armed				"UI/buttonrollover.wav"
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -926,7 +926,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 
@@ -1121,7 +1121,7 @@
 		sound_armed				"UI/buttonrollover.wav"
 
 		defaultFgColor_override		"tf22"
-		selectedFgColor_override	"tf23"
+		selectedFgColor_override	"Primary"
 		FgColor_override		"tf22"
 		FgColor		"tf22"
 

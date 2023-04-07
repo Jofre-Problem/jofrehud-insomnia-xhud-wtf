@@ -166,7 +166,7 @@
 		"paintbackground"	"0"
 		"font"			"Regular14"
 		"fgcolor"		"255 255 255 255"
-		"armedFgColor_override" "W_Borderarmed"
+		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"
 		"depressedFgColor_override" "255 255 255 255"
 	}

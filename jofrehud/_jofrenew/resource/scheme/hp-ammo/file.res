@@ -3,41 +3,7 @@ Scheme
 
 
 	Fonts
-	{
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-				"name"		"Open Sans"
-				"tall"		"18"
-				"weight"	"500"
-				"Antialias" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				"name"		"Open Sans Bold"
-				"tall"		"20"
-				//"tall_hidef"	"20"
-				"Antialias" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-				"name"		"Open Sans Italic"
-				"tall"		"50"
-				"weight"	"500"
-				"Antialias" "1"
-				"italic"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}				
+	{	
 		"DamagetextShadow"
 		{
 			"1"
@@ -73,6 +39,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"HealthAndAmmo2"
+		{
+			"1"
+			{
+				"name" "Open Sans AlphaInvertedNEW"
+				"tall" "20"
+				"antialias"	"1"
+			}
+		}		
 		"HealthAndAmmoThin"
 		{
 			"1"

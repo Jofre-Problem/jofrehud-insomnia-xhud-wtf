@@ -322,7 +322,7 @@ Scheme
 		Label.SelectedTextColor								"W_ColorIcons1" // White
 		Label.BgColor										"Blank" // Blank
 		Label.DisabledFgColor1								"Blank"		// text shadow
-		Label.DisabledFgColor2								"TanDark"	// text
+		Label.DisabledFgColor2								"Primary"	// text
 
 		ListPanel.TextColor					"W_ColorIcons1"
 		ListPanel.BgColor					"TransparentBlack"
@@ -1338,40 +1338,7 @@ Scheme
 				"wide"		"300"
 			}
 		}
-		"CloseCaption_Normal"
-		{
-			"1"
-			{
-			
-				"tall"		"18"
-				"weight"	"500"
-				"Antialias" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		"CloseCaption_Bold"
-		{
-			"1"
-			{
-				
-				"tall"		"20"
-				//"tall_hidef"	"20"
-				"Antialias" "1"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}
-		"CloseCaption_Italic"
-		{
-			"1"
-			{
-			
-				"tall"		"50"
-				"weight"	"500"
-				"Antialias" "1"
-				"italic"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-			}
-		}	
+	
 	
 
 	}
@@ -1967,11 +1934,11 @@ Scheme
 			"font" "_jofrenew/font/optimized/OpenSans-Bold.ttf"
 			"name" "Open Sans Bold"
 		}
-		"109"
-		{
-			"font" "_jofrenew/font/optimized/OpenSans-Italic.ttf"
-			"name" "Open Sans Italic"
-		}			
+	//	"109"
+	//	{
+	//		"font" "_jofrenew/font/optimized/OpenSans-Italic.ttf"
+	//		"name" "Open Sans Italic"
+	//	}			
 		"94"
 		{
 			"font" "_jofrenew/font/fantasquesansmono-regular.otf"

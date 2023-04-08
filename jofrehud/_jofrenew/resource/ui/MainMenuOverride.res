@@ -15,7 +15,14 @@
 	{
 		"visible"										"0"
 	}
-
+	"EventPromo"
+	{
+		"visible"										"0"
+	}
+	"RankPanel"
+	{
+		"visible"										"0"
+	}	
 	"Background"
 	{
 		"ControlName"	"ScalableImagePanel"

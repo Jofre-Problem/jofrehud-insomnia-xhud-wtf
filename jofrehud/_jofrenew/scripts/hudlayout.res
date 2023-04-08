@@ -459,7 +459,7 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "0"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "5"
 		"RightJustify"	  "1"
 				
 		"TextFont"		"Size 10"

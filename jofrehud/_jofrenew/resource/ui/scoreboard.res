@@ -128,7 +128,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"tf21"
+		"fillcolor"		"GrayDarkest"
 		"pin_to_sibling"	"RedScoreBG"
 		"pin_corner_to_sibling"	"3"
 		"pin_to_sibling_corner"	"3"
@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"		"1"
-		"fillcolor"		"tf21"
+		"fillcolor"		"GrayDarkest"
 		"pin_to_sibling"	"BlueScoreBG"
 		if_mvm
 		{
@@ -232,7 +232,7 @@
 		"font"			"Size 28"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
-		"xpos"			"30"
+		"xpos"			"22"
 		"ypos"			"79" 
 		"zpos"			"5001"
 		"wide"			"p0.5"
@@ -260,17 +260,17 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"HealthAndAmmo2"
+		"font"			"Regular14"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
 		"zpos"		"2001"
 		"wide"			"p0.5"
-		"tall"			"18"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"White"
 		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
@@ -280,7 +280,15 @@
 								
 	"RedTeamLabel"
 	{
-		"wide"			"0"
+		"visible"	"1"
+		"font"			"Size 28"
+		"fgcolor_override"	"245 245 245 255"
+		"textAlignment"		"east"
+		"xpos"			"rs1-22"
+		"ypos"			"79" 
+		"zpos"			"5001"
+		"wide"			"p0.5"
+		"tall"			"20"
 	}							
 	"RedTeamScore"
 	{
@@ -304,17 +312,18 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"Regular10"
+		"font"			"Regular14"
 		"textAlignment"		"center"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"rs1-20"
+		"ypos"			"79"
+		"zpos"		"2001"
 		"wide"			"p0.5"
-		"tall"			"13"
+		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"zpos"		"1070"
-		"fgcolor_override"	"tf21"
-		"pin_to_sibling"	"RedPlayerList"
+		"zpos"		"101"
+		"fgcolor_override"	"White"
+
 		if_mvm
 		{
 			"visible"		"0"

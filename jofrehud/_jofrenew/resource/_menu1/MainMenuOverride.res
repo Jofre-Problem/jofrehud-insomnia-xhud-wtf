@@ -297,19 +297,19 @@
 
 	"NoSkill"
 	{	
-		"wide"		"0"
+		"visible"		"0"
 	}			
 	"TFCharacterImage"
 	{
-	//	"tall"			"0"
+		"visible"			"0"
 	}	
 	"CharacterSetupButton"
 	{
-		"tall"			"0"
+		"visible"			"0"
 	}			
 	"TFLogoImage"
 	{
-		"wide"				"0"
+		"visible"				"0"
 	}
 
 //	"NotificationNoYet"
@@ -377,7 +377,7 @@
 
 	"CycleRankTypeButton"
 	{
-		wide					0
+		visible					0
 	}
 	"RankTooltipPanel"
 	{
@@ -487,11 +487,11 @@
 	}
 	"CallVoteButton"
 	{
-		wide					0					
+		visible					0					
 	}	
 	"MutePlayersButton"
 	{
-		wide					0					
+		visible					0					
 	}
 	"MutePlayersButton2"
 	{
@@ -1011,7 +1011,6 @@
 		
 		}
 	}
-
 
 	"NewUserForumsButton"
 	{

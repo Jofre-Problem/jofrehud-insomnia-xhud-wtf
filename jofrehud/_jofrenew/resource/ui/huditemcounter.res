@@ -26,7 +26,7 @@
 		"wide"			"65"
 		"tall"			"11"
 		"textAlignment"		"west"
-
+		"enabled"	"1"
 		"font"			"SpectatorKeyHints"
 	}
 	"ItemEffectMeterBG"

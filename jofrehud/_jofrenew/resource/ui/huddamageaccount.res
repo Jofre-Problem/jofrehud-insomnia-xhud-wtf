@@ -10,7 +10,7 @@
 		"PositiveColor"			"46 255 83 150"
 		"NegativeColor"			"255 215 0 150"
 		"delta_item_font"		"HealthAndAmmo2"//CustomPrimero"
-		"delta_item_font_big"	"HealthAndAmmo"//CustomCuarto"		
+		"delta_item_font_big"	"HealthAndAmmo2"//CustomCuarto"		
 		"alpha"	"255"
 		"EventColor"			"35 195 255 255" //med drops n whatnots
 //		"RedRobotScoreColor"	"255 255 255 255"

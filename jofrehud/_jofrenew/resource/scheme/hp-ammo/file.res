@@ -43,7 +43,7 @@ Scheme
 		{
 			"1"
 			{
-				"name" "Open Sans AlphaInvertedNEW"
+				"name" "Open Sans AlphaInverted3"
 				"tall" "20"
 				"antialias"	"1"
 			}
@@ -530,11 +530,7 @@ Scheme
 			"font" "_jofrenew/font/OpenSans-Semibold-Noletters.ttf"
 			"name" "Open Sans Semibold Noletters"
 		}
-		"46"
-		{
-			"font" "_jofrenew/font/OpenSans-AlphaInvertedNEW.ttf"
-			"name" "Open Sans AlphaInvertedNEW"
-		}
+
 		"47"
 		{
 			"font" "_jofrenew/font/OpenSans-LowerHealth2.ttf"
@@ -571,6 +567,11 @@ Scheme
 			"font" "_jofrenew/font/OpenSans-AlphaInvertedNEW.ttf"
 			"name" "Open Sans AlphaInvertedNEW"
 		}
+		"222"
+		{
+			"font" "_jofrenew/font/OpenSans-AlphaInverted3.ttf"
+			"name" "Open Sans AlphaInverted3"
+		}				
 		"95"
 		{
 			"font" "_jofrenew/font/OpenSans-Nodash.ttf"

@@ -26,7 +26,7 @@
 		"wide"					"f0"
 		"tall"					"10"
 		"visible"				"1"
-		"enabled"				"0"
+		"enabled"				"1"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"center"
 		"proportionaltoparent"		"1"

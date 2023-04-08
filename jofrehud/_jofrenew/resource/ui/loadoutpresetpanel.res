@@ -26,11 +26,11 @@
 			"centerwrap"	"1"
 			"paintborder"	"1"
 			"paintbackground"	"0"
-			"border"			"ButtonDefaultLight"
-			"border_override"	"ButtonDefaultLight"
-			"border_default"	"ButtonDefaultLight"
-			"border_armed"		"ButtonDefault"
-			"border_depressed"	"ButtonDefault"		
+			"border"			"noborder"
+			"border_override"	"noborder"
+			"border_default"	"noborder"
+			"border_armed"		"noborder"
+			"border_depressed"	"noborder"		
 		}			
 	}
 }

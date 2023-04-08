@@ -100,7 +100,7 @@
 		"xpos"			"0"
 		"ypos"			"79"
 		"zpos"			"100"
-		"wide"			"p0.488"
+		"wide"			"p0.5"
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
@@ -177,54 +177,6 @@
 			"visible"		"0"
 		}
 	}	
-	"ProgressBar1"
-	{
-		"xpos"			"-22"
-		"ypos"			"0"
-		"zpos"			"1000"
-		"wide"			"p0.5-22" 
-		"tall"			"20"
-		//max value for players is 31
-		"variable"		"blueteamscore"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-		"pin_to_sibling"	"BlueScoreBG3"
-	}	
-		"slashbtw"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"slashbtw"
-			"font"			"NewIcons57"
-			"labelText"		"/"//"%kills%"
-			"textAlignment"		"center"
-			"xpos" 			"cs-0.5"					//"c-60"//			"180"
-			"ypos"			"79"
-			"zpos"			"4999"
-			"wide"			"25"
-			"tall"			"22"
-		//	"pin_to_sibling"	"BlueScoreBG"
-			"fgcolor"		"52 152 219 255"	
-				
-		}												
-	"ProgressBar2"
-	{
-		"xpos"			"rs1"
-		"ypos"			"80"
-		"zpos"			"1050"
-		"wide"			"p0.5-22" //due to max players being 32, value is different
-		"tall"			"18"
-		//max value for players is 31
-		"variable"		"redteamscore"
-		"fgcolor_override"		"255 255 255 255"
-		"bgcolor_override"		"0 0 0 0"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"xpos"		"r0"
-		}
-	}	
 	"BlueTeamImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -276,12 +228,20 @@
 	}							
 	"BlueTeamLabel"
 	{
-		"wide"			"0"
+		"visible"	"1"
+		"font"			"Size 28"
+		"fgcolor_override"	"245 245 245 255"
+		"textAlignment"		"west"
+		"xpos"			"35"
+		"ypos"			"79" 
+		"zpos"			"5001"
+		"wide"			"p0.5"
+		"tall"			"20"
 	}							
 	"BlueTeamScore"
 	{
 		"font"			"Size 28"
-		"fgcolor_override"	"20 20 20 255"
+		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"east"
 		"xpos"			"5"
 		"ypos"			"0" 
@@ -300,17 +260,17 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"Regular10"
+		"font"			"HealthAndAmmo2"
 		"textAlignment"		"center"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"8"
 		"zpos"		"2001"
 		"wide"			"p0.5"
-		"tall"			"13"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"		"101"
-		"fgcolor_override"	"tf21"
+		"fgcolor_override"	"0 0 0 255"
 		"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
@@ -325,7 +285,7 @@
 	"RedTeamScore"
 	{
 		"font"			"Size 28"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
 		"xpos"			"c0"
 		"ypos"			"79" 
@@ -416,7 +376,7 @@
 		"ypos"				"87"
 		"zpos"				"4"
 		"wide"				"p0.505"
-		"tall"				"220"
+		"tall"				"204"
 		"pinCorner"			"0"
 		"visible"			"1"
 		"enabled"			"1"

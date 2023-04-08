@@ -232,7 +232,7 @@
 		"font"			"Size 28"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
-		"xpos"			"35"
+		"xpos"			"30"
 		"ypos"			"79" 
 		"zpos"			"5001"
 		"wide"			"p0.5"

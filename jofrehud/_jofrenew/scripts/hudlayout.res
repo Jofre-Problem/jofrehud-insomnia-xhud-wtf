@@ -1,4 +1,5 @@
 #base "../uni_base/panel/1.res"
+#base "../../../../cfg/jp_id_hudlayout.txt"
 
 //#base "../resource/ui/hudteamgoal.res"
 //#base "../spacer.res"
@@ -597,33 +598,7 @@
 		"wide"		"f0"
 		"tall"		"80"	
 	}
-	CMainTargetID
-	{
-		"fieldName" 	"CMainTargetID"
-		"visible" 	"0"
-		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"275"
-		"wide"	 	"252"
-		"tall"	 	"50"
-		"priority"	"40"
-	}
 
-	CSpectatorTargetID
-	{
-		"ypos"		"c70"
-		"tall"	 	"31"
-	}
-
-	CSecondaryTargetID
-	{
-		"xpos"		"cs-0.5"
-		"ypos"		"c102"
-		"wide"	 	"f0"
-		"tall"	 	"50"
-
-	}
-	
 	HudTournament
 	{
 		"fieldName"				"HudTournament"

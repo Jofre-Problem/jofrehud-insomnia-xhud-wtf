@@ -389,6 +389,8 @@
 				"bgcolor_override"		"27 28 30 200"
 				"border"		"SteamWorkshopBorder"
 			}
+			
+	
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -399,7 +401,7 @@
 				"zpos"			"6"
 				"wide"			"25"
 				"tall"			"15"
-				"visible"		"0"		//TODO
+				"visible"		"1"		//TODO
 				"labelText"		"%chargeamount%"
 				"textAlignment"	"north"
 				"fgcolor"		"Green"

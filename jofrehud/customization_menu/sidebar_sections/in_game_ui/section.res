@@ -62,7 +62,7 @@
 							"proportionaltoparent"		"1"
 							"command"					"engine ih_custom_submenu_ig_scoreboard; ih_reloadmenus"
 							"actionsignallevel"			"6"
-							"labelText"					"Scoreboard"
+							"labelText"					"TargetID"
 							"font"						"regular12"
 							"textalignment"				"west"
 							"textinsetx"				"20"

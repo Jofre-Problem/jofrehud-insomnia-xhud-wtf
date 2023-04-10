@@ -1,6 +1,9 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
+	"file"		"../../cfg/jp_id_anim_bonus.txt"
+	"file"		"../../cfg/jp_id_anim_death.txt"
+	"file"		"../../cfg/jp_id_anim_neutral.txt"
 "file"		"_jofrenew/scripts/hudanimations_null.txt"
 	"file"		"_jofrenew/scripts/hudanimations.txt"
 

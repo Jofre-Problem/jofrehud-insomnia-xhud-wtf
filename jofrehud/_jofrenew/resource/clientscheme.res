@@ -188,7 +188,7 @@ Scheme
 		"TextEntry.CursorColor"								"Text1"
 		"TextEntry.DisabledTextColor"						"Text2"
 		"TextEntry.DisabledBgColor"							"Blank"
-		"TextEntry.SelectedTextColor"						"AccentMain"
+		"TextEntry.SelectedTextColor"						"White" //huh?
 		"TextEntry.SelectedBgColor"							"Blank"
 		"TextEntry.OutOfFocusSelectedBgColor"				"Blank"
 		"TextEntry.FocusEdgeColor"							"Blank"

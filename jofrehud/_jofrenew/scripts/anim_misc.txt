@@ -7,7 +7,11 @@ event HudTournamentSetupPanelClose
 {
 	Animate	HudTournamentSetup	ypos	-70	Spline 0.0 0.2
 }
-
+event ScoreboardAnimate
+{
+	Animate scores Position "0 480" linear 0.0 0.0
+	Animate scores Position "0 0" deaccel 0.0 0.1
+}	
 event MenuOpen
 {
 	StopEvent	MenuClose 0.0 
@@ -23,13 +27,14 @@ event MenuOpen
 	Animate HudMenu MenuColor		"MenuColor"	Linear  0.05 0.1
 	Animate HudMenu ItemColor		"ItemColor"	Linear 0.05 0.1
 	Animate HudMenu TextScan		"1"		Linear 0.05 0.1
-	SetVisible hudplayerhealth 1 0.0	
+	//SetVisible hudplayerhealth 1 0.0	
 	// Undo any blur
 	Animate HudMenu		Blur		"1"			Linear	0	0
 	PlaySound 0 "ui/deck_ui_slider_up.wav"
 	RunEvent ScoreboardAnimate 0.0
 	RunEvent ScoreboardAlpha 0.0
-	RunEvent LevelInitAny 0.0
+	RunEvent ScopeRemoval 0.0
+//	RunEvent LevelInitAny 0.0
 	
 	//Animate hill_panel0 fgcolor "255 0 0 255" linear 0.0 0.0
 //	Animate hill_panel0 fillcolor "0 255 0 255" linear 0.0 0.0
@@ -81,7 +86,7 @@ event HasMOTDBlinkStop
 event LevelInit
 {
 	RunEvent LevelInitAny 0.0
-	RunEvent HudHealthBonusPulseLoop1a	0.0 //want this to run on start but not reset
+//	RunEvent HudHealthBonusPulseLoop1a	0.0 //want this to run on start but not reset
 }
 event LevelInitAny
 {

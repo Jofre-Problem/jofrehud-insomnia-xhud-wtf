@@ -295,7 +295,7 @@
 		"font"			"Size 28"
 		"fgcolor_override"	"245 245 245 255"
 		"textAlignment"		"west"
-		"xpos"			"c0"
+		"xpos"			"c3"
 		"ypos"			"79" 
 		"zpos"			"5000"
 		"wide"			"p0.5"

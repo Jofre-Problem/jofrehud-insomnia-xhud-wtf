@@ -3,7 +3,7 @@
 //#base "../#jofre/training maps.txt"
 //#base "../#jofre/workshop.res"
 //#base "matchmakingpingpanel.res"
-
+#base "../ui2/lead_bg.res"
 //#base "../#jofre/nobar.res"		//always activated
 //#base "../../ui_overrides/speed-meter/sc_exist.res"
 //#base "../../ui_overrides/global-timer/sc_exist.res"
@@ -12,73 +12,69 @@
 
 {
 
+	"customize"
+	{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"customize"
+			"zpos"			"80"
+			"font"			"Regular12"
+			"textAlignment"	"west"
+			"actionsignallevel"	"2"
+	
+		"pin_to_sibling"	"Windows_Notification"
+			xPos					-200
+			yPos					-48
+			wide					100
+			tall					16
+			"labelText"		"Customize HUD!"
 
-	"GamebananaURL"
-	{
-		"ControlName"		"URLLabel"
-		"fieldName"		"GamebananaURL"
-		"xpos"		"-40"
-		"ypos"		"0"
-		"zpos"		"90"
-		"wide"		"20"
-		"tall"		"o1"
-		"labelText"		""
-		"URLText"		"https://gamebanana.com/wips/68537"
-			"pin_to_sibling"	"github"
+			"sound_depressed"	"UI/button.wav"
+			"sound_released"	"UI/button2.wav"
+
+			"paintbackground"	"0"
+			
+			"fgcolor_override"			"white"
+			
+			"command"								"engine ih_custom_on; ih_reloadmenus"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"UI/buttonclickrelease.wav"
+
+			"paintbackground"						"0"
+			"border_default"						"LINE_BOTTOM_3_Primary_0"
+			"border_armed"							"LINE_BOTTOM_0_Primary_0"
+
+			"SubImage"
+			{
+				"visible"			"0"
+			}			
 	}
-	"bb"
-	{
-		"xpos"		"rs1"
-		"ypos"		"rs1"
-		"zpos"		"-2"		
-		"ControlName"		"ImagePanel"
-		"fieldName"			"bb"
-		"fillcolor"				"0 0 0 100"
-		"scaleImage"		"1"
-		"mouseInputenabled"	"0"
-		"wide"		"f0"
-		"tall"		"f0"		
-	}	
-	"GB"
-	{
-		"xpos"		"0"
-		"ypos"		"0"
-		"zpos"		"89"		
-		"ControlName"		"ImagePanel"
-		"fieldName"			"GB"
-		"image"				"replay/thumbnails/gamebanana"
-		"scaleImage"		"1"
-		"wide"		"20"
-		"tall"		"o1"		
-		"pin_to_sibling"	"GamebananaURL"
-	}		
-	"github"		
+	"discord"		
 	{
 		ControlName				Label
-		FieldName				"github"
-		xPos					-220
-		yPos					-50
-		wide					20
-		tall					o1	
-		"zpos"	"100"
-		font					"NewIcons22"
+		FieldName				"discord"
+		xPos					-200
+		yPos					-35
+		wide					f0
+		tall					16	
+		"zpos"	"80"
+		font					"Regular12"
 		fgcolor_override			"255 255 255 255"
-		labelText				"{"
+		labelText				"Join the Discord Server for more info! Click here."
 		textAlignment			west
 		"pin_to_sibling"	"Windows_Notification"
 	}	
-	"GithubRL"
+	"discordurl"
 	{
 		"ControlName"		"URLLabel"
-		"fieldName"		"GithubRL"
+		"fieldName"		"discordurl"
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"90"
-		"wide"		"20"
-		"tall"		"o1"
+		"wide"		"f0"
+		"tall"		"16"
 		"labelText"		""
-		"URLText"		"https://github.com/Jofre-Problem/JofreHUD-Dev"
-		"pin_to_sibling"	"github"
+		"URLText"		"https://discord.gg/gdVqu3eHzN"
+		"pin_to_sibling"	"discord"
 	}
 		"lol"
 
@@ -286,20 +282,7 @@
 				textAlignment			center
 				"centerwrap"	"1"
 			}	
-			"4plug"		
-			{
-				ControlName				Label
-				FieldName				"4plug"
-				xPos					185
-				yPos					33
-				wide					50
-				tall					20	
-				font					"Regular12"
-				fgcolor_override		"3 216 6  255"
-				labelText				"Links:"
-				textAlignment			west
-				"centerwrap"	"1"
-			}						
+					
 	}
 
 	"Container"

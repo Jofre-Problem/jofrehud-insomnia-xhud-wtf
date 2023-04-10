@@ -123,11 +123,9 @@
 		"fieldName"		"IngameBG"
 		"xpos"			"0"
 		"ypos" "0" //			"0"
-		"zpos"			"298"
+		"zpos"			"-298"
 		"wide"			"f0"
-		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"3"
+		"tall"			"23"
 		"visible"		"1"
 		"enabled"		"1"
 		

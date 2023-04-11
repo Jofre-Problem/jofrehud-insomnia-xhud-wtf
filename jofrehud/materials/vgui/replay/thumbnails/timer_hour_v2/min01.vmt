@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-"$baseTexture" "vgui\replay/thumbnails/timer_hour\digits"
+"$baseTexture" "vgui\replay/thumbnails/timer_hour_v2\digits"
 $translucent 1
 $alpha 1
 $vertexalpha 1

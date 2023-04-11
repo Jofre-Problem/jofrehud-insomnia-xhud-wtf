@@ -3,6 +3,7 @@
 //#base "../#jofre/training maps.txt"
 //#base "../#jofre/workshop.res"
 //#base "matchmakingpingpanel.res"
+#base "../../ui_overrides/full-timer/file2.res"
 #base "../ui2/lead_bg.res"
 //#base "../#jofre/nobar.res"		//always activated
 //#base "../../ui_overrides/speed-meter/sc_exist.res"
@@ -17,17 +18,16 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"customize"
 			"zpos"			"80"
-			"font"			"Regular12"
-			"textAlignment"	"west"
+			"font"			"Regular16"
+			"textAlignment"	"center"
 			"actionsignallevel"	"2"
 	
-		"pin_to_sibling"	"Windows_Notification"
-			xPos					-200
-			yPos					-48
-			wide					100
-			tall					16
+	
+			xPos					0
+			yPos					rs1			wide					f0
+			tall					60
 			"labelText"		"Customize HUD!"
-
+			"textinsety"	"20"
 			"sound_depressed"	"UI/button.wav"
 			"sound_released"	"UI/button2.wav"
 
@@ -52,16 +52,16 @@
 	{
 		ControlName				Label
 		FieldName				"discord"
-		xPos					-200
-		yPos					-35
+		xPos					0
+		yPos					rs1-60
 		wide					f0
-		tall					16	
+		tall					40	
 		"zpos"	"80"
-		font					"Regular12"
+		font					"Regular18"
 		fgcolor_override			"255 255 255 255"
 		labelText				"Join the Discord Server for more info! Click here."
-		textAlignment			west
-		"pin_to_sibling"	"Windows_Notification"
+		textAlignment			center
+		"bgcolor_override"	"0 0 0 150"
 	}	
 	"discordurl"
 	{
@@ -71,36 +71,25 @@
 		"ypos"		"0"
 		"zpos"		"90"
 		"wide"		"f0"
-		"tall"		"16"
+		"tall"		"40"
 		"labelText"		""
 		"URLText"		"https://discord.gg/gdVqu3eHzN"
 		"pin_to_sibling"	"discord"
 	}
-		"lol"
 
-		{
-			ControlName				ImagePanel
-			fieldName				"lol"
-			xpos					cs-0.5
-			ypos					rs1
-			wide					200
-			tall					20
-			image					"replay/thumbnails/hud/bgPanel_up"
-			scaleImage				1
-			drawcolor		"20 20 20 240"
-		}	
 			"title3"		
 			{
 				ControlName				Label
 				FieldName				"title3"
 				xPos					0
-				yPos					rs1
+				yPos					0
 				zpos		10
 				wide					f0
 				tall					20	
 				font					"Regular12"
 				fgcolor_override		"PolyIconsFg1"
 				labelText				"Click anywhere to close this window."
+				"border"						"LINE_TOP_3_Primary_0"
 				textAlignment			center
 			}	
 	"SteamWorkshopDialog"
@@ -314,27 +303,13 @@
 			"sound_released"	"UI/button2.wav"
 			"border"		"noborder"
 			"paintbackground"	"0"
-			
-			"fgcolor_override"			"red"
-			
-			"defaultFgColor_override" "W_ColorIcons1"
-			"armedFgColor_override" "W_CerrarArmed"
-			"depressedFgColor_override" "W_ColorTexto1"
-			"image_drawcolor"	"Blank"
-			"image_armedcolor"	"Blank"
+		
+	
+	
 			"SubImage"
 			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"1"
-				"wide"			"10"
-				"tall"			"10"
-				"visible"		"1"
-				//"enabled"		"1"
-				"image"			"replay/thumbnails/null"
-				"scaleImage"	"1"
+
+				"visible"		"0"
 			}			
 	}
 }

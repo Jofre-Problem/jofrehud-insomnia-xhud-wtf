@@ -16,1854 +16,2304 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"bgcolor_override"	"34 34 34 0"
-	
-			"XMenu_FullClose"
-		{
-			"ControlName"	"Button"
-			"fieldName"		"XMenu_FullClose"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"f0"
-			"visible"		"1"
-			"labeltext"		""
-			"actionsignallevel"	"2"
-			"Command"		"engine toggle cl_mainmenu_safemode"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-		}
-
-		"XMenuPanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuPanel"
-			"xpos"		"rs1"
-			"ypos"		"24"
-			"wide"		"302"
-			"tall"		"436"
-			"visible"		"1"
-			"bgcolor_override"		"GrayDark"
-			"proportionaltoparent"		"1"
-		}
-
-		"XMenu_Close"
-		{
-			"ControlName"	"Button"
-			"fieldName"		"XMenu_Close"
-			"xpos"		"-2"
-			"ypos"		"-2"
-			"zpos"		"1"
-			"wide"		"14"
-			"tall"		"14"
-			"visible"		"1"
-			"labeltext"		"%"
-			"font"		"Symbols 18"
-			"textAlignment"	"center"
-			"actionsignallevel"	"2"
-			"Command"		"engine toggle cl_mainmenu_safemode"
-			"proportionaltoparent"		"1"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"Red"
-
-			"pin_to_sibling"		"XMenuPanel"
-			"pin_corner_to_sibling"		"1"
-			"pin_to_sibling_corner"		"1"
-		}
-
-		"XMenu_Title"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"XMenu_Title"
-			"font"		"Size 28"
-			"labelText"		"Xhud Customizations"
-			"textAlignment"	"center"
-			"wide"		"302"
-			"tall"		"24"
-			"visible"		"1"
-			"fgcolor"		"White"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenuPanel"
-		}
-
-		"XMenuInnerPanel1"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuInnerPanel1"
-			"zpos"		"0"
-			"wide"		"292"
-			"tall"		"130"
-			"visible"		"1"
-			"bgcolor_override"		"BlackLight"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenu_Title"
-			"pin_corner_to_sibling"		"4"
-			"pin_to_sibling_corner"		"6"
-		}
-
-		"RecSettingsLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"RecSettingsLabel"
-			"font"		"Size 16"
-			"labelText"		"Xhud ConVars:"
-			"textAlignment"	"west"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "XMenuInnerPanel1"
-		}
-
-		"RecSettingsOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"RecSettingsOn"
-			"font"		"Size 16"
-			"labelText"		"Use"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine recsettings"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "RecSettingsLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"RecSettingsOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"RecSettingsOff"
-			"font"		"Size 16"
-			"labelText"		"Don't Use"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine usersettings"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "RecSettingsOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"ScoreboardLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ScoreboardLabel"
-			"font"		"Size 16"
-			"labelText"		"Scoreboard:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "RecSettingsLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"Scoreboard16v16"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"Scoreboard16v16"
-			"font"		"Size 16"
-			"labelText"		"16v16"
-			"textAlignment"	"center"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine 16v16sb"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ScoreboardLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"Scoreboard12v12"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"Scoreboard12v12"
-			"font"		"Size 16"
-			"labelText"		"12v12"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine 12v12sb"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "Scoreboard16v16"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"Scoreboard9v9"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"Scoreboard9v9"
-			"font"		"Size 16"
-			"labelText"		"9v9"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine 9v9sb"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "Scoreboard12v12"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"Scoreboard6v6"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"Scoreboard6v6"
-			"font"		"Size 16"
-			"labelText"		"6v6"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine 6v6sb"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "Scoreboard9v9"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"BuildingPositionLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"BuildingPositionLabel"
-			"font"		"Size 16"
-			"labelText"		"Building Info:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "ScoreboardLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"UpperBuildingPosition"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"UpperBuildingPosition"
-			"font"		"Size 16"
-			"labelText"		"Upper Left"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine upperbuilding"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "BuildingPositionLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"LowerBuildingPosition"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"LowerBuildingPosition"
-			"font"		"Size 16"
-			"labelText"		"Lower Left"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine lowerbuilding"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "UpperBuildingPosition"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"ChatPositionLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ChatPositionLabel"
-			"font"		"Size 16"
-			"labelText"		"Chat Position:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "BuildingPositionLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"ChatUpper"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ChatUpper"
-			"font"		"Size 16"
-			"labelText"		"Upper Left"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine upperchat"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ChatPositionLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"ChatLower"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ChatLower"
-			"font"		"Size 16"
-			"labelText"		"Lower Left"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine lowerchat"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ChatUpper"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"ChatSizeLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"ChatSizeLabel"
-			"font"		"Size 16"
-			"labelText"		"Chat Height:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "ChatPositionLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"ChatShort"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ChatShort"
-			"font"		"Size 16"
-			"labelText"		"Short"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine shortchat"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ChatSizeLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"ChatTall"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ChatTall"
-			"font"		"Size 16"
-			"labelText"		"Long"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tallchat"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ChatShort"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HealthWarningLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"HealthWarningLabel"
-			"font"		"Size 16"
-			"labelText"		"HP Warning:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "ChatSizeLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"LowHealth75"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"LowHealth75"
-			"font"		"Size 16"
-			"labelText"		"75%"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine lowhealth75"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "HealthWarningLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"LowHealth50"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"LowHealth50"
-			"font"		"Size 16"
-			"labelText"		"50%"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine lowhealth50"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "LowHealth75"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"UberTimerLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"UberTimerLabel"
-			"font"		"Size 16"
-			"labelText"		"Uber Timer:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "HealthWarningLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"UberTimerOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"UberTimerOn"
-			"font"		"Size 16"
-			"labelText"		"On"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine ubertimeron"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "UberTimerLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"UberTimerOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"UberTimerOff"
-			"font"		"Size 16"
-			"labelText"		"Off"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine ubertimeroff"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "UberTimerOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"XMenuInnerPanel2"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuInnerPanel2"
-			"zpos"		"0"
-			"ypos"		"5"
-			"wide"		"292"
-			"tall"		"40"
-			"visible"		"1"
-			"bgcolor_override"		"BlackLight"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenuInnerPanel1"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-		}
-
-		"SpeedometerLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"SpeedometerLabel"
-			"font"		"Size 16"
-			"labelText"		"Speedometer:"
-			"textAlignment"	"west"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "XMenuInnerPanel2"
-		}
-
-		"SpeedometerOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"SpeedometerOn"
-			"font"		"Size 16"
-			"labelText"		"On"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine speedometeron"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "SpeedometerLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"SpeedometerOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"SpeedometerOff"
-			"font"		"Size 16"
-			"labelText"		"Off"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine speedometeroff"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "SpeedometerOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"MiniAmmoLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MiniAmmoLabel"
-			"font"		"Size 16"
-			"labelText"		"Mini Ammo:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "SpeedometerLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"MiniAmmoOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MiniAmmoOn"
-			"font"		"Size 16"
-			"labelText"		"On"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine miniammoon"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "MiniAmmoLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"MiniAmmoOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"MiniAmmoOff"
-			"font"		"Size 16"
-			"labelText"		"Off"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine miniammooff"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "MiniAmmoOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"XMenuInnerPanel3"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuInnerPanel3"
-			"zpos"		"0"
-			"ypos"		"5"
-			"wide"		"292"
-			"tall"		"82"
-			"visible"		"1"
-			"bgcolor_override"		"BlackLight"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenuInnerPanel2"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-		}
-
-		"DmgDealtLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DmgDealtLabel"
-			"font"		"Size 16"
-			"labelText"		"Damage Dealt:"
-			"textAlignment"	"west"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "XMenuInnerPanel3"
-		}
-
-		"DmgDealtCenter"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtCenter"
-			"font"		"Size 16"
-			"labelText"		"By Center"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine dmgcenter"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "DmgDealtLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtAmmo"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtAmmo"
-			"font"		"Size 16"
-			"labelText"		"By Ammo"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine dmgammo"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "DmgDealtCenter"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtColorLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"DmgDealtColorLabel"
-			"font"		"Size 16"
-			"labelText"		"Color Preset:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"zpos"		"20"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling"	"DmgDealtLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"DmgDealtRed"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtRed"
-			"labelText"		""
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgred"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Red"
-			"armedBgColor_override"		"Red"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtColorLabel"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
-		}
-
-		"DmgDealtYellow"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtYellow"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgyellow"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Yellow"
-			"armedBgColor_override"		"Yellow"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtRed"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtGreen"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtGreen"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmggreen"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Green"
-			"armedBgColor_override"		"Green"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtYellow"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtBlue"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtBlue"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgblue"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blue"
-			"armedBgColor_override"		"Blue"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtGreen"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtPink"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtPink"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgpink"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Unusual"
-			"armedBgColor_override"		"Unusual"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtBlue"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtWhite"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtWhite"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgwhite"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"255 255 255 255"
-			"armedBgColor_override"		"255 255 255 255"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtPink"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtBlack"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtBlack"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgblack"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"0 0 0 255"
-			"armedBgColor_override"		"0 0 0 255"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtWhite"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"DmgDealtCustom"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"DmgDealtCustom"
-			"font"		"Size 10"
-			"labelText"		"DIY"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine dmgcustom"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"border_default"		"WhiteHighlightBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "DmgDealtBlack"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"HitmarkerLabel"
-			"font"		"Size 16"
-			"labelText"		"Hitmarkers:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "DmgDealtColorLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"HitmarkerOn"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerOn"
-			"font"		"Size 16"
-			"labelText"		"On"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine hitmarkeron"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "HitmarkerLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerOff"
-			"font"		"Size 16"
-			"labelText"		"Off"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine hitmarkeroff"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "HitmarkerOn"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerColorLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"HitmarkerColorLabel"
-			"font"		"Size 16"
-			"labelText"		"Color Preset:"
-			"textAlignment"	"west"
-			"xpos"		"0"
-			"ypos"		"4"
-			"zpos"		"20"
-			"wide"		"100"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling"	"HitmarkerLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"HitmarkerRed"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerRed"
-			"labelText"		""
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkerred"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Red"
-			"armedBgColor_override"		"Red"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerColorLabel"
-			"pin_corner_to_sibling" "7"
-			"pin_to_sibling_corner" "5"
-		}
-
-		"HitmarkerYellow"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerYellow"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkeryellow"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Yellow"
-			"armedBgColor_override"		"Yellow"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerRed"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerGreen"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerGreen"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkergreen"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Green"
-			"armedBgColor_override"		"Green"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerYellow"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerBlue"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerBlue"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkerblue"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Blue"
-			"armedBgColor_override"		"Blue"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerGreen"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerPink"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerPink"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkerpink"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"Unusual"
-			"armedBgColor_override"		"Unusual"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerBlue"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerWhite"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerWhite"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkerwhite"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"255 255 255 255"
-			"armedBgColor_override"		"255 255 255 255"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerPink"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerBlack"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerBlack"
-			"labelText"		""
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"20"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkerblack"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"defaultBgColor_override"		"0 0 0 255"
-			"armedBgColor_override"		"0 0 0 255"
-			"border_default"		"NoBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerWhite"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"HitmarkerCustom"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"HitmarkerCustom"
-			"font"		"Size 10"
-			"labelText"		"DIY"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"zpos"		"20"
-			"wide"		"19"
-			"tall"		"14"
-			"visible"		"1"
-			"enabled"		"1"
-			"actionsignallevel"		"2"
-			"Command"		"engine hitmarkercustom"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"border_default"		"WhiteHighlightBorder"
-			"border_Armed"		"WhiteHighlightBorderThick"
-
-			"pin_to_sibling" "HitmarkerBlack"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"MoreOptionsLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"MoreOptionsLabel"
-			"font"		"Size 8"
-			"labelText"		"*For finer adjustments and custom crosshairs, see customizations folder."
-			"textAlignment"	"west"
-			"wide"		"280"
-			"tall"		"10"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "HitmarkerColorLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-
-		}
-
-		"XMenuInnerPanel4"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuInnerPanel4"
-			"zpos"		"0"
-			"ypos"		"5"
-			"wide"		"292"
-			"tall"		"58"
-			"visible"		"1"
-			"bgcolor_override"		"BlackLight"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenuInnerPanel3"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"2"
-		}
-
-		"TVMLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TVMLabel"
-			"font"		"Size 16"
-			"labelText"		"Transparent Viewmodels:"
-			"textAlignment"	"west"
-			"wrap"		"1"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"100"
-			"tall"		"32"
-			"visible"		"1"
-			"fgcolor"		"White"
-
-			"pin_to_sibling" "XMenuInnerPanel4"
-		}
-
-		"TVMOff"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMOff"
-			"font"		"Size 16"
-			"labelText"		"Off"
-			"textAlignment"	"center"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvmoff"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling"		"TVMLabel"
-			"pin_corner_to_sibling"		"0"
-			"pin_to_sibling_corner"		"1"
-		}
-
-		"TVM75"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVM75"
-			"font"		"Size 16"
-			"labelText"		"75%"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvm75"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVMOff"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"TVM60"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVM60"
-			"font"		"Size 16"
-			"labelText"		"60%"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvm60"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVM75"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"TVM45"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVM45"
-			"font"		"Size 16"
-			"labelText"		"45%"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"43"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvm45"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVM60"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"TVMLeft"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMLeft"
-			"font"		"Size 14"
-			"labelText"		"Low Blur Left"
-			"textAlignment"	"center"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvmleft"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVMLabel"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "3"
-		}
-
-		"TVMRight"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMRight"
-			"font"		"Size 14"
-			"labelText"		"Low Blur Right"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"90"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine tvmright"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVMLeft"
-			"pin_corner_to_sibling" "2"
-			"pin_to_sibling_corner" "3"
-		}
-
-		"TVMTroubleShoot"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"TVMTroubleShoot"
-			"font"		"Size 16"
-			"labelText"		"Transparent Weapons Not Working?"
-			"textAlignment"	"center"
-			"xpos"		"0"
-			"ypos"		"4"
-			"zpos"		"20"
-			"wide"		"284"
-			"tall"		"14"
-			"visible"		"1"
-			"fgcolor"		"White"
-			"Command"		"engine showconsole;echo ~~~~~~~~~~~~~~~~~~~~~~~~~;echo ;echo ENSURE_THE_VALUE_OF_THESE;echo ;mat_motion_blur_enabled;echo ;mat_motion_blur_strength;echo ;mat_disable_bloom;echo ;mat_hdr_level;echo ;mat_colorcorrection;echo ;mat_colcorrection_disableentities;echo ;glow_outline_effect_enable;echo ;echo MATCH_THE_VALUE_OF_THESE;echo ;echo mat_motion_blur_enabled 1;echo mat_motion_blur_strength 0;echo mat_disable_bloom 1;echo mat_hdr_level 0;echo mat_colcorrection_disableentities 1;echo mat_colorcorrection 0;echo glow_outline_effect_enable 0"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "TVMLabel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
-		"XMenuSavePanel"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"XMenuSavePanel"
-			"ypos"		"5"
-			"zpos"		"0"
-			"wide"		"292"
-			"tall"		"50"
-			"visible"		"1"
-			"bgcolor_override"		"BlackLight"
-			"proportionaltoparent"		"1"
-
-			"pin_to_sibling"		"XMenuResolutionPanel"
-			"pin_corner_to_sibling"		"2"
-			"pin_to_sibling_corner"		"0"
-		}
-
-		"ResetSettings"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"ResetSettings"
-			"font"		"Size 16"
-			"labelText"		"Reset Customizations"
-			"textAlignment"	"center"
-			"xpos"		"-4"
-			"ypos"		"-4"
-			"wide"		"140"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine alias writeover xhudreset"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "XMenuSavePanel"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "0"
-		}
-
-		"LoadSettings"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"LoadSettings"
-			"font"		"Size 16"
-			"labelText"		"Load Customizations"
-			"textAlignment"	"center"
-			"xpos"		"4"
-			"ypos"		"0"
-			"wide"		"140"
-			"tall"		"14"
-			"visible"		"1"
-			"Command"		"engine exec xhud"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"White"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"WhiteHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ResetSettings"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "1"
-		}
-
-		"SaveSettings"
-		{
-			"ControlName"	"CExButton"
-			"fieldName"		"SaveSettings"
-			"font"		"Size 28"
-			"labelText"		"Save Customizations"
-			"textAlignment"	"center"
-			"xpos"		"0"
-			"ypos"		"4"
-			"wide"		"284"
-			"tall"		"24"
-			"visible"		"1"
-			"Command"		"engine exec xhud_save;exec xhud_generate;writeover;alias writeover;hud_reloadscheme"
-			"actionsignallevel"		"2"
-
-			"sound_depressed"		"UI/buttonclick.wav"
-			"sound_released"		"UI/buttonclickrelease.wav"
-
-			"paintbackground"		"0"
-			"defaultFgColor_override"		"Red"
-			"armedFgColor_override"		"MainTheme"
-			"border_default"		"RedHighlightBorder"
-			"border_armed"		"FriendHighlightBorder"
-
-			"pin_to_sibling" "ResetSettings"
-			"pin_corner_to_sibling" "0"
-			"pin_to_sibling_corner" "2"
-		}
-
+		"ToolsPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolsPanel"
+		"xpos"		"rs1"
+		"ypos"		"0"
+		"zpos"		"-1"
+		"wide"		"302"
+		"tall"		"436"
+		"visible"		"1"
+		"bgcolor_override"		"GrayDark"
+		"PaintBackgroundType"	"0"
+		"paintbackground"	"1"
+	}
+
+	"CloseButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"CloseButton"
+		"xpos"		"-2"
+		"ypos"		"-2"
+		"zpos"		"10"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"labeltext"		"%"
+		"font"		"Symbols 18"
+		"textAlignment"	"center"
+		"actionsignallevel"	"2"
+		"Command"		"cancel"
+		"proportionaltoparent"		"1"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"		"0"
+		"defaultFgColor_override"		"White"
+		"armedFgColor_override"		"Red"
+		"depressedFgColor_override"		"Red"
+
+		"pin_to_sibling"		"ToolsPanel"
+		"pin_corner_to_sibling"		"1"
+		"pin_to_sibling_corner"		"1"
+	}
+
+	"Tools_Title"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Tools_Title"
+		"font"		"Size 28"
+		"labelText"		"Quick Settings"
+		"textAlignment"	"center"
+		"xpos"		"0"
+		"ypos"		"1"
+		"wide"		"302"
+		"tall"		"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling" "ToolsPanel"
+	}
+
+	"Panel1"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Panel1"
+		"wide"		"292"
+		"tall"		"94"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"BlackLight"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"Tools_Title"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"6"
+	}
+
+	"VoiceLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"VoiceLabel"
+		"font"		"Size 16"
+		"labelText"		"Voice Chat:"
+		"textAlignment"	"west"
+		"xpos"		"-4"
+		"ypos"		"-4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle voice_modenable"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "Panel1"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"VoiceCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"VoiceCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "voice_modenable"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "VoiceLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"VoiceVolume"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"VoiceVolume"
+		"font"		"Size 16"
+		"labelText"		"Volume:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "VoiceCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"VoiceSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"VoiceSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"1"
+		"cvar_name"		"voice_scale"
+
+		"pin_to_sibling" "VoiceVolume"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"TextChatLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"TextChatLabel"
+		"font"		"Size 16"
+		"labelText"		"Text Chat:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle cl_enable_text_chat"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "VoiceLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"TextChatCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"TextChatCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "cl_enable_text_chat"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "TextChatLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"TextChatTime"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TextChatTime"
+		"font"		"Size 16"
+		"labelText"		"Duration:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "TextChatCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"TextChatSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"TextChatSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"20"
+		"cvar_name"		"hud_saytext_time"
+
+		"pin_to_sibling" "TextChatTime"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"NotificationsLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"NotificationsLabel"
+		"font"		"Size 16"
+		"labelText"		"Notifications:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle cl_notifications_show_ingame"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "TextChatLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"NotificationsCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"NotificationsCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "cl_notifications_show_ingame"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "NotificationsLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"NotificationsTime"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NotificationsTime"
+		"font"		"Size 16"
+		"labelText"		"Duration:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "NotificationsCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"NotificationsSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"NotificationsSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"20"
+		"cvar_name"		"tf_hud_notification_duration"
+
+		"pin_to_sibling" "NotificationsTime"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CCLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CCLabel"
+		"font"		"Size 16"
+		"labelText"		"CC Callouts:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle closecaption"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "NotificationsLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"CCCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"CCCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "closecaption"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "CCLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CCTime"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CCTime"
+		"font"		"Size 16"
+		"labelText"		"Duration:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "CCCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CCSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CCSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"10"
+		"cvar_name"		"cc_linger_time"
+
+		"pin_to_sibling" "CCTime"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"MatchHudLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MatchHudLabel"
+		"font"		"Size 16"
+		"labelText"		"Team Status:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle tf_use_match_hud"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "CCLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"MatchHudCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"MatchHudCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "tf_use_match_hud"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "MatchHudLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"LeftHandedLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"LeftHandedLabel"
+		"font"		"Size 16"
+		"labelText"		"Left Handed Weapons:"
+		"textAlignment"	"west"
+		"xpos"		"12"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"167"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle cl_flipviewmodels;record flip;stop"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "MatchHudLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"LeftHandedCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"LeftHandedCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "cl_flipviewmodels"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "LeftHandedLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"Panel2"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Panel2"
+		"ypos"		"5"
+		"wide"		"292"
+		"tall"		"130"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"BlackLight"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"Panel1"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+	}
+
+	"CrosshairEnableLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CrosshairEnableLabel"
+		"font"		"Size 16"
+		"labelText"		"Show Xhair:"
+		"textAlignment"	"west"
+		"xpos"		"-4"
+		"ypos"		"-4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle crosshair"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "Panel2"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"CrosshairEnableCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"CrosshairEnableCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "crosshair"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "CrosshairEnableLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairScale"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CrosshairScale"
+		"font"		"Size 16"
+		"labelText"		"Size:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "CrosshairEnableCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairScaleSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CrosshairScaleSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"50"
+		"cvar_name"		"cl_crosshair_scale"
+
+		"pin_to_sibling" "CrosshairScale"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairRedLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CrosshairRedLabel"
+		"font"		"Size 16"
+		"labelText"		"Red:"
+		"textAlignment"	"west"
+		"xpos"		"-2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"32"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "CrosshairEnableLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"CrosshairRedSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CrosshairRedSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"cl_crosshair_red"
+
+		"pin_to_sibling" "CrosshairRedLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairGreenLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CrosshairGreenLabel"
+		"font"		"Size 16"
+		"labelText"		"Green:"
+		"textAlignment"	"west"
+		"xpos"		"4"
+		"ypos"		"-3"
+		"zpos"		"20"
+		"wide"		"44"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "CrosshairRedSlider"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairGreenSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CrosshairGreenSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"cl_crosshair_green"
+
+		"pin_to_sibling" "CrosshairGreenLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairBlueLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CrosshairBlueLabel"
+		"font"		"Size 16"
+		"labelText"		"Blue:"
+		"textAlignment"	"west"
+		"xpos"		"4"
+		"ypos"		"-3"
+		"zpos"		"20"
+		"wide"		"34"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "CrosshairGreenSlider"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"CrosshairBlueSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CrosshairBlueSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"cl_crosshair_blue"
+
+		"pin_to_sibling" "CrosshairBlueLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"ColorPresetLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ColorPresetLabel"
+		"font"		"Size 16"
+		"labelText"		"Preset:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"50"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling"	"CrosshairRedLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"ColorPresetRed"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetRed"
+		"labelText"		""
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 50;cl_crosshair_blue 65"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Red"
+		"armedBgColor_override"		"Red"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"ColorPresetYellow"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetYellow"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 200;cl_crosshair_green 180;cl_crosshair_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Yellow"
+		"armedBgColor_override"		"Yellow"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetRed"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetGreen"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetGreen"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 40;cl_crosshair_green 200;cl_crosshair_blue 110"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Green"
+		"armedBgColor_override"		"Green"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetYellow"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetBlue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetBlue"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 92;cl_crosshair_green 173;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Blue"
+		"armedBgColor_override"		"Blue"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetGreen"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetPink"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetPink"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 215;cl_crosshair_green 145;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Unusual"
+		"armedBgColor_override"		"Unusual"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetBlue"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetWhite"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetWhite"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 255;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 255 255 255"
+		"armedBgColor_override"		"255 255 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetPink"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetBlack"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetBlack"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 0;cl_crosshair_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 0 0 255"
+		"armedBgColor_override"		"0 0 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetWhite"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetRedFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetRedFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 0;cl_crosshair_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 0 0 255"
+		"armedBgColor_override"		"255 0 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetBlack"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetYellowFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetYellowFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 255;cl_crosshair_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 255 0 255"
+		"armedBgColor_override"		"255 255 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetRedFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetGreenFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetGreenFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 255;cl_crosshair_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 255 0 255"
+		"armedBgColor_override"		"0 255 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetYellowFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetCyanFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetCyanFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 255;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 255 255 255"
+		"armedBgColor_override"		"0 255 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetGreenFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetBlueFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetBlueFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 0;cl_crosshair_green 0;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 0 255 255"
+		"armedBgColor_override"		"0 0 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetCyanFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"ColorPresetPinkFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"ColorPresetPinkFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine cl_crosshair_red 255;cl_crosshair_green 0;cl_crosshair_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 0 255 255"
+		"armedBgColor_override"		"255 0 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "ColorPresetBlueFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumEnableLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumEnableLabel"
+		"font"		"Size 16"
+		"labelText"		"Show DMG:"
+		"textAlignment"	"west"
+		"xpos"		"2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle hud_combattext;hud_combattext_batching 1"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "ColorPresetLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"DmgNumEnableCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"DmgNumEnableCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "hud_combattext"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DmgNumEnableLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBatchingLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumBatchingLabel"
+		"font"		"Size 16"
+		"labelText"		"Adding:"
+		"textAlignment"	"west"
+		"xpos"		"12"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"75"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle hud_combattext_batching"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "DmgNumEnableCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBatchingCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"DmgNumBatchingCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "hud_combattext_batching"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "DmgNumBatchingLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBatchingWindow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DmgNumBatchingWindow"
+		"font"		"Size 16"
+		"labelText"		"Time:"
+		"textAlignment"	"west"
+		"xpos"		"3"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"38"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "DmgNumBatchingCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBatchingWindowSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"DmgNumBatchingWindowSlider"
+		"xpos"		"-4"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0.1"
+		"maxvalue"		"2"
+		"cvar_name"		"hud_combattext_batching_window"
+
+		"pin_to_sibling" "DmgNumBatchingWindow"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumRedLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DmgNumRedLabel"
+		"font"		"Size 16"
+		"labelText"		"Red:"
+		"textAlignment"	"west"
+		"xpos"		"-2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"32"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "DmgNumEnableLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"DmgNumRedSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"DmgNumRedSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"hud_combattext_red"
+
+		"pin_to_sibling" "DmgNumRedLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumGreenLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DmgNumGreenLabel"
+		"font"		"Size 16"
+		"labelText"		"Green:"
+		"textAlignment"	"west"
+		"xpos"		"4"
+		"ypos"		"-3"
+		"zpos"		"20"
+		"wide"		"44"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "DmgNumRedSlider"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumGreenSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"DmgNumGreenSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"hud_combattext_green"
+
+		"pin_to_sibling" "DmgNumGreenLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBlueLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DmgNumBlueLabel"
+		"font"		"Size 16"
+		"labelText"		"Blue:"
+		"textAlignment"	"west"
+		"xpos"		"4"
+		"ypos"		"-3"
+		"zpos"		"20"
+		"wide"		"34"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "DmgNumGreenSlider"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumBlueSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"DmgNumBlueSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"55"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"hud_combattext_blue"
+
+		"pin_to_sibling" "DmgNumBlueLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumColorPresetLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DmgNumColorPresetLabel"
+		"font"		"Size 16"
+		"labelText"		"Preset:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"50"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling"	"DmgNumRedLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"DmgNumColorPresetRed"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetRed"
+		"labelText"		""
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 50;hud_combattext_blue 65"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Red"
+		"armedBgColor_override"		"Red"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"DmgNumColorPresetYellow"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetYellow"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 200;hud_combattext_green 180;hud_combattext_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Yellow"
+		"armedBgColor_override"		"Yellow"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetRed"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetGreen"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetGreen"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 40;hud_combattext_green 200;hud_combattext_blue 110"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Green"
+		"armedBgColor_override"		"Green"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetYellow"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetBlue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetBlue"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 92;hud_combattext_green 173;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Blue"
+		"armedBgColor_override"		"Blue"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetGreen"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetPink"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetPink"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 215;hud_combattext_green 145;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"Unusual"
+		"armedBgColor_override"		"Unusual"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetBlue"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetWhite"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetWhite"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 255 255 255"
+		"armedBgColor_override"		"255 255 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetPink"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetBlack"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetBlack"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 0;hud_combattext_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 0 0 255"
+		"armedBgColor_override"		"0 0 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetWhite"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetRedFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetRedFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 0 0 255"
+		"armedBgColor_override"		"255 0 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetBlack"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetYellowFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetYellowFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 255;hud_combattext_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 255 0 255"
+		"armedBgColor_override"		"255 255 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetRedFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetGreenFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetGreenFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 0"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 255 0 255"
+		"armedBgColor_override"		"0 255 0 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetYellowFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetCyanFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetCyanFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 255;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 255 255 255"
+		"armedBgColor_override"		"0 255 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetGreenFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetBlueFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetBlueFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 0;hud_combattext_green 0;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"0 0 255 255"
+		"armedBgColor_override"		"0 0 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetCyanFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"DmgNumColorPresetPinkFull"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"DmgNumColorPresetPinkFull"
+		"labelText"		""
+		"xpos"		"4"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"14"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"actionsignallevel"		"2"
+		"Command"		"engine hud_combattext_red 255;hud_combattext_green 0;hud_combattext_blue 255"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"defaultBgColor_override"		"255 0 255 255"
+		"armedBgColor_override"		"255 0 255 255"
+		"border_default"		"NoBorder"
+		"border_Armed"		"WhiteHighlightBorderThick"
+
+		"pin_to_sibling" "DmgNumColorPresetBlueFull"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "1"
+	}
+
+	"TartgetIDBGLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"TartgetIDBGLabel"
+		"font"		"Size 16"
+		"labelText"		"TargetID BG Opacity:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "DmgNumColorPresetLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"TartgetIDBGSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"TartgetIDBGSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_hud_target_id_alpha"
+
+		"pin_to_sibling" "TartgetIDBGLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"Panel3"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Panel3"
+		"ypos"		"5"
+		"wide"		"292"
+		"tall"		"57"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"BlackLight"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"Panel2"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+	}
+
+	"KillFeedLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillFeedLabel"
+		"font"		"Size 16"
+		"labelText"		"Killfeed Duration:"
+		"textAlignment"	"west"
+		"xpos"		"-4"
+		"ypos"		"-4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "Panel3"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"KillFeedSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillFeedSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"10"
+		"cvar_name"		"hud_deathnotice_time"
+
+		"pin_to_sibling" "KillFeedLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillStreakAlphaLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillStreakAlphaLabel"
+		"font"		"Size 16"
+		"labelText"		"Streak Alert Opacity:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "KillFeedLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"KillStreakAlphaSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillStreakAlphaSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"cl_hud_killstreak_display_alpha"
+
+		"pin_to_sibling" "KillStreakAlphaLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillStreakDurationLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillStreakDurationLabel"
+		"font"		"Size 16"
+		"labelText"		"Streak Alert Duration:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "KillStreakAlphaLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"KillStreakDurationSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillStreakDurationSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"10"
+		"cvar_name"		"cl_hud_killstreak_display_time"
+
+		"pin_to_sibling" "KillStreakDurationLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"Panel4"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Panel4"
+		"ypos"		"5"
+		"wide"		"292"
+		"tall"		"112"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"		"BlackLight"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"Panel3"
+		"pin_corner_to_sibling"		"0"
+		"pin_to_sibling_corner"		"2"
+	}
+
+	"HitSoundEnableLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"HitSoundEnableLabel"
+		"font"		"Size 16"
+		"labelText"		"Hit Sounds:"
+		"textAlignment"	"west"
+		"xpos"		"-4"
+		"ypos"		"-4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle tf_dingalingaling"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "Panel4"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "0"
+	}
+
+	"HitSoundEnableCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"HitSoundEnableCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "tf_dingalingaling"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "HitSoundEnableLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"HitSoundVolume"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HitSoundVolume"
+		"font"		"Size 16"
+		"labelText"		"Volume:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "HitSoundEnableCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"HitSoundVolumeSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"HitSoundVolumeSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_volume"
+
+		"pin_to_sibling" "HitSoundVolume"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"HitSoundMinLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HitSoundMinLabel"
+		"font"		"Size 16"
+		"labelText"		"Low DMG Hit Pitch:"
+		"textAlignment"	"west"
+		"xpos"		"-2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "HitSoundEnableLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"HitSoundMinSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"HitSoundMinSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_pitchmindmg"
+
+		"pin_to_sibling" "HitSoundMinLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"HitSoundMaxLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"HitSoundMaxLabel"
+		"font"		"Size 16"
+		"labelText"		"High DMG Hit Pitch:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "HitSoundMinLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"HitSoundMaxSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"HitSoundMaxSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_pitchmaxdmg"
+
+		"pin_to_sibling" "HitSoundMaxLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillSoundEnableLabel"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"KillSoundEnableLabel"
+		"font"		"Size 16"
+		"labelText"		"Kill Sounds:"
+		"textAlignment"	"west"
+		"xpos"		"2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"105"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+		"Command"		"engine toggle tf_dingalingaling_lasthit"
+		"actionsignallevel"		"2"
+
+		"sound_depressed"		"UI/buttonclick.wav"
+		"sound_released"		"UI/buttonclickrelease.wav"
+
+		"paintbackground"	"0"
+
+		"pin_to_sibling" "HitSoundMaxLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"KillSoundEnableCheck"
+	{
+		"ControlName"		"CvarToggleCheckButton"
+		"fieldName"		"KillSoundEnableCheck"
+		"xpos"		"-18"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"18"
+		"tall"		"20"
+		"labeltext"		""
+		"textAlignment"	"west"
+		"smallcheckimage"	"1"
+		"button_activation_type"	"1"
+		"cvar_name" "tf_dingalingaling_lasthit"
+		"mouseinputenabled"	"0"
+
+		"pin_to_sibling" "KillSoundEnableLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillSoundVolume"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillSoundVolume"
+		"font"		"Size 16"
+		"labelText"		"Volume:"
+		"textAlignment"	"west"
+		"xpos"		"14"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"65"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "KillSoundEnableCheck"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillSoundVolumeSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillSoundVolumeSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"100"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_lasthit_volume"
+
+		"pin_to_sibling" "KillSoundVolume"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillSoundMinLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillSoundMinLabel"
+		"font"		"Size 16"
+		"labelText"		"Low DMG Kill Pitch:"
+		"textAlignment"	"west"
+		"xpos"		"-2"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "KillSoundEnableLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"KillSoundMinSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillSoundMinSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_lasthit_pitchmindmg"
+
+		"pin_to_sibling" "KillSoundMinLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
+
+	"KillSoundMaxLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"KillSoundMaxLabel"
+		"font"		"Size 16"
+		"labelText"		"High DMG Kill Pitch:"
+		"textAlignment"	"west"
+		"xpos"		"0"
+		"ypos"		"4"
+		"zpos"		"20"
+		"wide"		"135"
+		"tall"		"14"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"White"
+
+		"pin_to_sibling" "KillSoundMinLabel"
+		"pin_corner_to_sibling" "0"
+		"pin_to_sibling_corner" "2"
+	}
+
+	"KillSoundMaxSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"KillSoundMaxSlider"
+		"xpos"		"0"
+		"ypos"		"3"
+		"zpos"		"1"
+		"wide"		"148"
+		"tall"		"16"
+		"minvalue"		"0"
+		"maxvalue"		"255"
+		"cvar_name"		"tf_dingaling_lasthit_pitchmaxdmg"
+
+		"pin_to_sibling" "KillSoundMaxLabel"
+		"pin_corner_to_sibling" "7"
+		"pin_to_sibling_corner" "5"
+	}
 	
 	
 

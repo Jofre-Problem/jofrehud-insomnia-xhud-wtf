@@ -45,15 +45,72 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"3"
-		"wide"			"0"
-		"tall"			"0"
+		"xpos"			"cs-0.5-30"
+		"ypos"			"420"
+		"zpos"			"1"
+		"wide"			"6969"
+		"tall"			"10"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/blank"
+		"scaleImage"	"1"
+		"proportionaltoparent"		"1"
+	}
+	"HealthTargetIDBG"
+  {
+    "ControlName"		"CExLabel"
+    "fieldName"		"HealthTargetIDBG"
+    "pin_to_sibling"	"PlayerStatusHealthValueID2"
+    "wide"		"25"
+    "tall"		"15"
+	"ypos"	"-1"
+	"xpos"	"-315"
+    "visible"		"1"
+    "enabled"		"1"
+		"labelText"		""
+    "bgcolor_override"		"White"
+		"alpha"		"150"
+		"proportionaltoparent"		"1"
+  }
+	"HealthSpectatorBarHurt"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthSpectatorBarHurt"
+		"xpos"			"0"
+		"ypos"			"-14"
+		"zpos"			"5"
+		"wide"			"25"
+		"tall"			"20"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
-		"scaleImage"	"1"	
+		"image"		"replay/thumbnails/panels/black"
+		"scaleImage"		"1"
+		"alpha"		"180"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"6"
+		"pin_to_sibling_corner"		"6"
+	}
+
+	"HealthSpectatorBarBuff"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HealthSpectatorBarBuff"
+		"xpos"			"0"
+		"ypos"			"-15"
+		"zpos"			"3"
+		"wide"			"25"
+		"tall"			"15"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/panels/blue"
+		"scaleImage"	"1"
+		"proportionaltoparent"		"1"
+
+		"pin_to_sibling"		"PlayerStatusHealthBonusImage"
+		"pin_corner_to_sibling"		"4"
+		"pin_to_sibling_corner"		"4"
 	}
 	"PlayerStatusHealthValueID"
 	{
@@ -85,7 +142,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"Killfeed"
-		"fgcolor"		"236 240 241 255"
+		"fgcolor"		"Black"
 	}
 	"PlayerStatusHealthValueS"
 	{
@@ -166,5 +223,20 @@
 		"textAlignment"	"center"	
 		"font"			"ScoreboardVerySmall"
 		"fgcolor"		"TFOrange"
+	}			
+		"HPBar"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"		"HPBar"
+		"xpos"			"97"
+		"ypos"			"480"
+		"zpos"			"100"
+		"wide"			"126" //due to max players being 32, value is different
+		"tall"			"7"
+		//max value for players is 31
+		"variable"		"health"
+		"fgcolor_override"		"yellow"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
 	}							
 }

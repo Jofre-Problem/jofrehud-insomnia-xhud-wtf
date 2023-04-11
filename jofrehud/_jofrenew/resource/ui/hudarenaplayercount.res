@@ -20,7 +20,7 @@
 			"zpos"			"0"
 			"wide"			"35"
 			"tall"			"2"
-			"image"			"replay/thumbnails/noto_blue"
+			"image"			"replay/thumbnails/hp/bluteam2"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -41,7 +41,7 @@
 // on arena doesnt pass 32, max 24, so value here max is
 // 12
 		"variable"		"blue_alive"
-		"fgcolor_override"		"0 0 255 255"
+		"fgcolor_override"		"white"
 		"bgcolor_override"		"0 0 0 0"
 	
 	}		
@@ -100,7 +100,7 @@
 		"tall"			"2"
 		//max value for players is 31
 		"variable"		"red_alive"
-		"fgcolor_override"		"255 220 0 255"
+		"fgcolor_override"		"white"
 		"bgcolor_override"		"0 0 0 0"
 		"scaleImage"		"1"
 	}	
@@ -117,7 +117,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/noto_red"
+			"image"			"replay/thumbnails/hp/redteam2"
 				
 			"src_corner_height"		"23"			// pixels inside the image
 			"src_corner_width"		"23"
@@ -147,12 +147,13 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"countfalse"
-			"xpos"			"30"
+			"xpos"			"0"
 			"ypos"			"2"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
-			"font"			"Regular14"
+			"labeltext"		"%red_alive%"
+			"font"			"Killfeed"
 			"textAlignment"	"center"
 			"fgcolor"		"blank"
 			"auto_wide_tocontents"	"1"
@@ -161,7 +162,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"alert"
-			"xpos"			"387"
+			"xpos"			"411+p0.002"
 			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"8"
@@ -169,8 +170,8 @@
 			"font"			"Killfeed"
 			"textAlignment"	"center"
 			"labelText"	"!"
-			"fgcolor"		"Black"
-			"bgcolor_override"	"255 255 0 255"
+			"fgcolor"		"Neutral"
+			"bgcolor_override"	"Negative"
 			"pin_to_sibling"	"countfalse"
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPRIGHT"	

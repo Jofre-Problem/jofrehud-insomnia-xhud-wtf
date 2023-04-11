@@ -167,20 +167,23 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelMid"
-		"font"			"Medhealtarget"
-		"xpos"			"427"
-		"ypos"			"522"
+		"font"			"Size 16"
+		"xpos"			"433"
+		"ypos"			"525"
 		"zpos"			"1"
 		"wide"			"130"
-		"tall"			"24"
+		"tall"			"16"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
-		"fgcolor"		"236 240 241 255"
+		"auto_wide_tocontents"	"1"
+				"fgcolor_override"		"black"
+		"bgcolor_override"	"white"
 	}
+
 	"TargetNameLabelMidS" //healing targetid
 	{	
 		"ControlName"		"CExLabel"
@@ -193,7 +196,7 @@
 		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
 		"textAlignment"		"west"
@@ -274,7 +277,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelTrue"
-		"font"			"SpecTargetIDdata"
+		"font"			"Size 16 Uber"
 		"xpos"			"40"
 		"ypos"			"410"
 		"zpos"			"1"
@@ -352,7 +355,7 @@
 		"tall"			"1500"
 		"visible"		"0"
 		"enabled"		"0"	
-		"HealthBonusPosAdj"	"10"
+		"HealthBonusPosAdj"	"31"//"10"
 		"HealthDeathWarning"	"0.69" // nice
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"

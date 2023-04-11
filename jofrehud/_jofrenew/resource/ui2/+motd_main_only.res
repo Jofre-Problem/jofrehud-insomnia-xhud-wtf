@@ -416,16 +416,32 @@
 		{
 					"ControlName""ImagePanel"
 					"fieldName""LogoImage"
-					"xpos""rs1-60"
+					"xpos""rs1"
 					"ypos""rs1"
-					"wide""256"
+					"wide""280"
 					"tall""o1"
 
 
 					"image""logos/UI/spray"
 					"scaleImage""1"
 		}		
-	
+		"logosound"
+		{
+			"ControlName"							"CExImageButton"
+			"fieldName"								"logosound"
+			"xpos"									"0"
+			"ypos"									"0"
+			"zpos"									"160"
+			"wide"									"280"
+			"tall"									"o1"
+			"pin_to_sibling"	"LogoImage"
+			"labelText"								""
+			"actionsignallevel"						"2"
+			"command"								"engine play vo/Hey.wav"
+			"sound_depressed"						"UI/buttonclick.wav"
+			"sound_released"						"vo/null.mp3"
+			"paintbackground"	"0"
+		}	
 		"MOTD_Label"
 		{			"ControlName"	"cexLabel"
 			"fieldname"		"MOTD_Label"

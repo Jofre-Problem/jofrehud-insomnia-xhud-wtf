@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-75"
-		"ypos"			"r106"
+		"ypos"			"r95"
 		"x_offset"		"0"
 		"y_offset"		"0"
 		"wide"			"150"

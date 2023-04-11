@@ -231,7 +231,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular42"
+		"Regular30"
 		{
 			"1"
 			{
@@ -624,7 +624,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular42"
+		"Regular30"
 		{
 			"1"
 			{
@@ -664,7 +664,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular50"
+		"Regular30"
 		{
 			"1"
 			{

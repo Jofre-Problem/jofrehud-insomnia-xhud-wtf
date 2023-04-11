@@ -629,7 +629,7 @@
 		FieldName				"Notifications_ShowButtonPanel"
 		xPos					cs-0.5
 		yPos					50
-		zPos					30
+		zPos					11000
 		"wide"			"p0.1"
 		"tall"			"40"
 		paintBackground			0
@@ -743,24 +743,7 @@
 		tall					80
 		visible				0
 		border			"noborder"
-		"Windows_Notification"
-		{
-			"ControlName"	"EditablePanel"
-			"fieldName"		"Windows_Notification"
-			"xpos"		"0"
-			"ypos"		"0"
-			"zpos"		"-10"
-			"wide"		"210"
-			"tall"		"80"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			//"enabled"		"1"
-			"tabPosition"		"0"
-			"PaintBackgroundType"	"0"
-			"paintbackground"		"1"
-			"bgcolor_override"				"W_ColorTheme2"	//"W_ColorTheme2"
-		}		
+
 		"Notifications_CloseButton"
 		{
 			ControlName				CExButton
@@ -782,10 +765,10 @@
 			sound_depressed			"sound_menu/button.wav"
 			sound_released			"sound_menu/button2.wav"
 		
-			defaultFgColor_override		"W_ColorIcons1"
-			defaultBgColor_override		"245 245 245 255"
-			armedBgColor_override		"W_CerrarArmed"
-			armedFgColor_override		"245 245 245 255"
+			defaultFgColor_override		"black"
+			defaultBgColor_override		"white"
+			armedBgColor_override		"Red"
+			armedFgColor_override		"white"
 
 			paintBackground			1
 		}		
@@ -806,7 +789,7 @@
 			textAlignment			west
 			wrap					0
 			textInsetY				2
-			fgcolor_override		"W_ColorIcons1"
+			fgcolor_override		"white"
 			
 			paintBackground			0
 		}
@@ -821,7 +804,7 @@
 			tall					f25
 			proportionalToParent		1
 
-			fgcolor_override			"W_ColorIcons1"
+			fgcolor_override			"Primary"
 			
 			"Notifications_Control"		// width harcoded as parent - scrollbar
 			{

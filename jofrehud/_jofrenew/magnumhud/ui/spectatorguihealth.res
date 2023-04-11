@@ -153,18 +153,23 @@
 	}
 	"PlayerStatusPlayerLevel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusPlayerLevel"
-		"xpos"			"8"
-		"xpos_minmode"	"0"
-		"ypos"			"9"
-		"zpos"			"5"
-		"wide"			"16"
-		"tall"			"12"
+
 		"visible"		"0"
-		"enabled"		"1"
-		"textAlignment"	"center"	
-		"font"			"ScoreboardVerySmall"
-		"fgcolor"		"TFOrange"
+
+	}		
+		"HPBar"
+	{
+		"ControlName"		"ContinuousProgressBar"
+		"fieldName"		"HPBar"
+		"xpos"			"-40"
+		"ypos"			"420"
+		"zpos"			"100"
+		"wide"			"154" //due to max players being 32, value is different
+		"tall"			"20"
+		//max value for players is 31
+		"variable"		"health"
+		"fgcolor_override"		"white"
+		"bgcolor_override"		"0 0 0 0"
+		"scaleImage"		"1"
 	}							
 }

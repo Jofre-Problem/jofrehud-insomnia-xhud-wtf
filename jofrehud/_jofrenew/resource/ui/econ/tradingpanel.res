@@ -1,4 +1,4 @@
-#base "../ui2/multiple-bg.res"
+#base "../../ui2/lead_bg.res"
 "Resource/UI/TradingPanel.res"
 {
 	"MMBackgroundPanel"

@@ -62,7 +62,23 @@
 		labelText				"Join the Discord Server for more info! Click here."
 		textAlignment			center
 		"bgcolor_override"	"0 0 0 150"
-	}	
+	}
+	"github"		
+	{
+		ControlName				CEXLabel
+		FieldName				"github"
+		xPos					5
+		yPos					rs1-60
+		wide					40
+		"zpos"	"1000"
+		tall					40	
+		font					"NewIcons22"
+		fgcolor_override			"255 255 255 255"
+		labelText				"è"
+		textAlignment			west
+
+		visible	"0"
+	}		
 	"discordurl"
 	{
 		"ControlName"		"URLLabel"

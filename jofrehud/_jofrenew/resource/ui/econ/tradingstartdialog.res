@@ -2,7 +2,7 @@
 #base "../../#jofre/w_icons.res"
 //#base "../../ui2/testgradient.res"
 //#base "../../#jofre/home.res"
-#base "../../ui2/multiple-bg.res"
+#base "../../ui2/lead_bg.res"
 "Resource/UI/TradingPanel.res"
 {
 	"MMBackgroundPanel"
@@ -21,7 +21,7 @@
 		"font"	"NewIcons12"
 		"paintBackground"	"0"
 		"labelText"	"M"
-		"defaultFgColor_override"	"W_ColorTheme1"
+		"defaultFgColor_override"	"Primary"
 		"armedFgColor_override"	"W_BorderArmed"
 		"textAlignment"	"center"
 	//	"textinsety"	"-2"
@@ -65,7 +65,7 @@
 				//"enabled"		"1"
 				"tabPosition"	"0"
 				"labelText"		""
-				"font"			"ItemFontAttribLarger"
+				"font"			"Regular14"
 				"textAlignment"	"west"
 				"textinsetx"	"23"
 				"use_proportional_insets" "1"
@@ -105,8 +105,8 @@
 		"zpos"										"2000"
 		"wide"										"p0.235"
 		"tall"										"25"
-		"fgcolor_override" 							"W_ColorTexto1"
-		"bgcolor_override"		"0 0 0 100"
+		"fgcolor_override" 							"PrimaryT4"
+		
 	
 	}
 	
@@ -166,9 +166,9 @@
 		"paintbackgroundtype"	"0"
 		"paintborder"		"1"
 		
-	"defaultFgColor_override" "W_ColorTheme1"
-		"armedFgColor_override" "A_ColorTheme3"
-		"depressedFgColor_override" "W_ColorIcons1"
+	"defaultFgColor_override" "Primary"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		
 		"defaultBgColor_override" "Blank"
 		"armedBgColor_override" "Blank"
@@ -205,9 +205,9 @@
 		"paintbackground"	"1"
 		"paintbackgroundtype"	"0"
 		"paintborder"		"1"
-	"defaultFgColor_override" "W_ColorTheme1"
-		"armedFgColor_override" "A_ColorTheme3"
-		"depressedFgColor_override" "W_ColorIcons1"
+	"defaultFgColor_override" "Primary"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		
 		
 		"defaultBgColor_override" "Blank"
@@ -230,7 +230,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -243,7 +243,7 @@
 			"visible"		"0"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor_override" "W_ColorIcons1"
+			"fgcolor_override" "White"
 		}
 
 		"FriendIcon"
@@ -264,7 +264,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton0"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular12"
 			"labelText"		"Friend List"
 			"textAlignment"	"south"
 			"xpos"			"5"
@@ -287,9 +287,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "W_ColorTheme1"
-		"armedFgColor_override" "A_ColorTheme3"
-		"depressedFgColor_override" "W_ColorIcons1"
+	"defaultFgColor_override" "Primary"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 		
 			
 			"defaultBgColor_override" "Blank"
@@ -316,7 +316,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton1"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular12"
 			"labelText"		"Current Server"
 			"textAlignment"	"south"
 			"xpos"			"85"
@@ -339,9 +339,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "W_ColorTheme1"
-		"armedFgColor_override" "A_ColorTheme3"
-		"depressedFgColor_override" "W_ColorIcons1"
+	"defaultFgColor_override" "Primary"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 			
 			"defaultBgColor_override" "0 0 255 0"
 			"armedBgColor_override" "Blank"
@@ -367,7 +367,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"subbutton2"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular12"
 			"labelText"		"Steam Profile"
 			"textAlignment"	"south"
 			"xpos"			"165"
@@ -390,9 +390,9 @@
 			"paintbackground"	"1"
 			"paintbackgroundtype"	"0"
 			"paintborder"		"1"
-	"defaultFgColor_override" "W_ColorTheme1"
-		"armedFgColor_override" "A_ColorTheme3"
-		"depressedFgColor_override" "W_ColorIcons1"
+	"defaultFgColor_override" "Primary"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
 			
 			"defaultBgColor_override" "Blank"
 			"armedBgColor_override" "Blank"
@@ -452,7 +452,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"#TF_TradeStartDialog_Friends"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -465,16 +465,16 @@
 			"visible"		"0"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor"		"W_ColorIcons1"
-			"fgcolor_override" "W_ColorIcons1"
-			"bgcolor_override"	"W_ColorTheme1"
+			"fgcolor"		"White"
+			"fgcolor_override" "White"
+			"bgcolor_override"	"Primary"
 		}	
 		
 		"ErrorLabel"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ErrorLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"Error"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -487,8 +487,8 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor"		"W_ColorIcons1"
-			"fgcolor_override" "W_ColorIcons1"
+			"fgcolor"		"White"
+			"fgcolor_override" "White"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -567,7 +567,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"#TF_TradeStartDialog_Server"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -580,8 +580,8 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor"		"W_ColorIcons1"
-			"fgcolor_override" "W_ColorIcons1"
+			"fgcolor"		"White"
+			"fgcolor_override" "White"
 			"bgcolor_override"	"224 224 224 255"
 		}	
 		
@@ -589,7 +589,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ErrorLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"Error"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -602,8 +602,8 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor"		"W_ColorIcons1"
-			"fgcolor_override" "W_ColorIcons1"
+			"fgcolor"		"White"
+			"fgcolor_override" "White"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -680,7 +680,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"ItemFontAttribLarger"
+			"font"			"Regular14"
 			"labelText"		"#TF_TradeStartDialog_Profile"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -693,7 +693,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"textinsetx"	"25"
-			"fgcolor"		"W_ColorIcons1"
+			"fgcolor"		"White"
 			"fgcolor_override" "200 187 161 255"
 		}	
 		
@@ -716,9 +716,9 @@
 			"wrap"			"1"
 			"centerwrap"	"0"
 			"textinsetx"	"25"
-			"fgcolor"		"113 113 113 255"
-			"fgcolor_override" "113 113 113 255"
-			"bgcolor_override"	"W_Colortheme1"
+			"fgcolor"		"White"
+			"fgcolor_override" "White"
+			"bgcolor_override"	"Primary"
 		}	
 		
 		"URLFailLabel"
@@ -782,7 +782,7 @@
 			"textHidden"		"0"
 			"editable"		"1"
 			"unicode"		"1"
-			"fgcolor_override"	"W_ColorIcons1"
+			"fgcolor_override"	"White"
 			"bgcolor_override"	"32 32 32 0"
 			"paintbackgroundtype" "0"
 			"font"		"Regular14"
@@ -802,7 +802,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"W_ColorTheme1"
+			"bgcolor_override"	"Primary"
 			"alpha"	"180"
 		}
 		

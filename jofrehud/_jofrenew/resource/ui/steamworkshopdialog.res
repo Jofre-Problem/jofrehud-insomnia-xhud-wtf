@@ -48,6 +48,20 @@
 				"visible"			"0"
 			}			
 	}
+	"thanks"		
+	{
+		ControlName				Label
+		FieldName				"thanks"
+		xPos					0
+		yPos					60
+		wide					f0
+		tall					40	
+		"zpos"	"0"
+		font					"Regular18"
+		labelText				"MAJOR Credits to: Lead, Peaches and JarateKing."
+		textAlignment			center
+		"fgcolor_override"	"Green"
+	}	
 	"discord"		
 	{
 		ControlName				Label
@@ -63,6 +77,21 @@
 		textAlignment			center
 		"bgcolor_override"	"0 0 0 150"
 	}
+	"discord2"		
+	{
+		ControlName				Label
+		FieldName				"discord2"
+		xPos					0
+		yPos					rs1-100
+		wide					f0
+		tall					40	
+		"zpos"	"80"
+		font					"Regular18"
+		fgcolor_override			"255 255 255 255"
+		labelText				"Found a bug? Need help? Click here."
+		textAlignment			center
+		"bgcolor_override"	"0 0 0 150"
+	}	
 	"github"		
 	{
 		ControlName				CEXLabel
@@ -84,10 +113,10 @@
 		"ControlName"		"URLLabel"
 		"fieldName"		"discordurl"
 		"xpos"		"0"
-		"ypos"		"0"
+		"ypos"		"40"
 		"zpos"		"90"
 		"wide"		"f0"
-		"tall"		"40"
+		"tall"		"80"
 		"labelText"		""
 		"URLText"		"https://discord.gg/gdVqu3eHzN"
 		"pin_to_sibling"	"discord"
@@ -102,8 +131,8 @@
 				zpos		10
 				wide					f0
 				tall					20	
-				font					"Regular12"
-				fgcolor_override		"PolyIconsFg1"
+				font					"Regular16"
+				fgcolor_override		"White"
 				labelText				"Click anywhere to close this window."
 				"border"						"LINE_TOP_3_Primary_0"
 				textAlignment			center
@@ -312,7 +341,7 @@
 			yPos					0
 			wide					f0
 			tall					f0
-			"zpos"					"-10"
+			"zpos"					"20"
 			"labelText"		""
 			"command"		"cancel"	
 			"sound_depressed"	"UI/button.wav"

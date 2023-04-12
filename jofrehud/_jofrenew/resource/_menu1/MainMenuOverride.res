@@ -15,7 +15,7 @@
 //	#base "../ui2/mm_border.res"
 //	#base "../ui2/polybar_1.res"
 //	#base "../#jofre/safe-mode.res"
-#base "../../../scripts/preload.res"
+#base "../../scripts/preload.res"
 #base "../../../setup/setup_menu.res"
 #base "../../../../../cfg/ih_custom.txt"
 #base "../uni_base/btn/1.res"

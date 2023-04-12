@@ -1,10 +1,12 @@
 #base "../uni_base/panel/1.res"
 #base "../../../../cfg/jp_id_hudlayout.txt"
-
+#base "../fallbackhud/targetid.res"
 //#base "../resource/ui/hudteamgoal.res"
 //#base "../spacer.res"
 "Resource\HudLayout.res"
 {
+	
+
 	"CurrencyStatusPanel"
 	{
 		"ControlName"		"CCurrencyStatusPanel"
@@ -933,7 +935,7 @@
 	HudCrosshair
 	{
 		"xpos"			"cs-0.5-p0.0005"	//p0.05 = 1 wide	- > 0.01
-		"ypos"			"cs-0.5"	//needs to be - .5 pixel
+		"ypos"			"cs-0.5"//+40	//needs to be - .5 pixel
 		//remember that p0.001 is the lowest value possible
 		"wide"			"f0"
 		"tall"			"f0"

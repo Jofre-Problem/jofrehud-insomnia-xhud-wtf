@@ -3,8 +3,8 @@
 "blank"			"=========================="
 "blank"						"=============================="
 "blank"						"JofreHUD settings at bottom."
+"+forward"		"#Valve_Move_Forward"
 "+back"			"#Valve_Move_Back"
-
 "+moveleft"		"#Valve_Move_Left"
 "+moveright"	"#Valve_Move_Right"
 "+jump"			"#Valve_Jump"

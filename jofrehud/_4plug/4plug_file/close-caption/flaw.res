@@ -1,4 +1,4 @@
-"lol""
+"lol"
 {
 	"HudCloseCaption"
 	{

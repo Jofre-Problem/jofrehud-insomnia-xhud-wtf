@@ -171,7 +171,7 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"ToggleChatButton"
-			"xpos"			"rs1-62"//95
+			"xpos"			"rs1-56"//95
 			"ypos"			"0"
 			"zpos"			"100"
 			"wide"			"30"

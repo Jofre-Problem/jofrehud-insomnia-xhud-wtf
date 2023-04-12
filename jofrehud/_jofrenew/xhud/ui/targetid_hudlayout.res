@@ -18,7 +18,10 @@
 		"ypos"		"c70"
 		"tall"	 	"31"
 	}
-
+	Warning
+	{
+		"visible"	"0"
+	}
 	CSecondaryTargetID
 	{
 		"xpos"		"cs-0.5"

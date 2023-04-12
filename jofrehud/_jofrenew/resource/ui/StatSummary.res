@@ -2,7 +2,7 @@
 #base "../ui3/tank_gif.res"
 //#base "../ui3/menu_multiple.res"
 #base "../uni_base/image/1.res"
-#base "../../ui_overrides/full-timer/file.res"
+#base "../../ui_overrides/full-timer/file2.res"
 #base "statsummary2.res"
 "Resource/UI/StatSummary.res"
 {
@@ -70,7 +70,6 @@
 		"ypos"					"2"
 	"drawcolor"				"Primary"
 		"enabled"				"1"
-		"image"					"replay/thumbnails/timer_hour/hour10"
 		"scaleimage"			"1"
 		"zpos"					"6000"
 	}

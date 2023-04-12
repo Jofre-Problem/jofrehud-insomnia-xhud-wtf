@@ -152,7 +152,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}
 	"MapInfoBack2" 
@@ -172,7 +172,7 @@
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}	
 	"ShadedBar"
@@ -208,7 +208,7 @@
 		"font"			"ItemFontAttribSmallest"
 		"fgcolor"		"White"
 		"defaultFgColor_override" "White"
-		"armedFgColor_override" "W_borderarmed"
+		"armedFgColor_override" "Primary"
 		"depressedFgColor_override" "White"
 	}
 

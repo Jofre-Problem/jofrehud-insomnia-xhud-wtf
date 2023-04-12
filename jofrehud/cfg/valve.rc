@@ -2,13 +2,11 @@
 r_decal_cullsize 1
 stuffcmds
 
-alias chud_firstrun "exec hud_firstrun.cfg"
-exec "hud_has_run.txt"
-chud_firstrun
+
 
 exec "joystick.cfg"
 exec "autoexec.cfg"
-exec ih_aliases_crosshair_size.cfg  //why it breaks wtf
+exec ih_aliases_crosshair_size
 startupmenu
 sv_unlockedchapters 99
 
@@ -37,3 +35,10 @@ exec ih_setup_complete.txt
 ih_setup
 
 exec "hud_always.cfg"
+
+alias chud_firstrun "exec hud_firstrun.cfg"
+exec "hud_has_run.txt"
+chud_firstrun
+
+
+

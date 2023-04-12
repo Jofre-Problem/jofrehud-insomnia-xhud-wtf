@@ -49,7 +49,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"0"
-			
+			"color"	"Primary"
 			"image"					"replay/thumbnails/mm/circle"
 			
 			"src_corner_height"		"0"				// pixels inside the image

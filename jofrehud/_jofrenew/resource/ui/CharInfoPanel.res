@@ -5,10 +5,20 @@
 //#base "../ui2/tank.res"
 //#base "../ui2/multiple-bg.res"
 //#base "../ui3/menu_multiple.res"
-#base "../../ui_overrides/full-timer/file.res"
+#base "../../ui_overrides/full-timer/file2.res"
 "Resource/UI/CharInfoPanel.res"
 {
-
+	"Time_hour10"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"Time_hour10"
+	//	"xpos"					"cs-0.5-36"
+		"ypos"					"5"
+	"drawcolor"				"Primary"
+		"enabled"				"1"
+		"scaleimage"			"1"
+		"zpos"					"6000"
+	}
 	"MMBackgroundPanel"
 	{
 		"xpos"			"0"

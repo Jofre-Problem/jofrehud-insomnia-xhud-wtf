@@ -73,7 +73,7 @@ Scheme
 			"1"
 			{
 				"name" "Open Sans ExtraboldOutline"
-				"tall" "38"
+				"tall" "20"
 				"antialias"	"1"
 			}
 		}

@@ -4,7 +4,7 @@
 #base "../../resource/scheme/colors.res"
 
 
-#base "clientscheme_backup.res"
+//	#base "clientscheme_backup.res"
 	#base "borders.res"
 //	#base "product.res"
 	#base "scheme/hp-ammo/file.res"
@@ -42,21 +42,7 @@ Scheme
 
 		"Replay.RenderDialog.BgColor"						"LighterDarkBrown"
 
-		"Econ.Dialog.BgColor"								"Blank"
-		"Econ.Button.BgColor"								"PanelO2"
-		"Econ.Button.FgColor"								"Text0"
-		"Econ.Button.ArmedBgColor"							"PanelO3"
-		"Econ.Button.ArmedFgColor"							"Text0"
-		"Econ.Button.DepressedBgColor"						"PanelO3"
-		"Econ.Button.DepressedFgColor"						"Text0"
-
-		"Econ.Button.PresetDefaultColorFg"					"TanLight"
-		"Econ.Button.PresetArmedColorFg"					"TanLight"
-		"Econ.Button.PresetDepressedColorFg"				"TanLight"
-
-		"Econ.Button.PresetDefaultColorBg"					"LighterRed"
-		"Econ.Button.PresetArmedColorBg"					"LightRed"
-		"Econ.Button.PresetDepressedColorBg"				"TFOrange"
+	
 
 		"Border.Bright"										"Blank"
 		"Border.Dark"										"Black"
@@ -255,21 +241,7 @@ Scheme
 	BaseSettings
 	{
 
-		Econ.Dialog.BgColor									"0 0 0 0"
-		Econ.Button.BgColor									"blank"
-		Econ.Button.FgColor									"TanLight"
-		Econ.Button.ArmedBgColor							"blank"
-		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"blank"
-		Econ.Button.DepressedFgColor						"Black"
-		
-		Econ.Button.PresetDefaultColorFg					"TanLight"
-		Econ.Button.PresetArmedColorFg						"TanLight"
-		Econ.Button.PresetDepressedColorFg					"TanLight"
-		
-		Econ.Button.PresetDefaultColorBg					"blank"
-		Econ.Button.PresetArmedColorBg						"blank"
-		Econ.Button.PresetDepressedColorBg					"blank"
+
 		TextEntry.TextColor			"W_ColorIcons1"
 		TextEntry.BgColor			"W_ColorTheme2"
 		TextEntry.DisabledTextColor	"W_ColorIcons1"
@@ -605,104 +577,11 @@ Scheme
 		"OrangeLight"							"255 200 55 255"
 		
 		"GreenLight"							"185 220 25 255"
-		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"77 116 85 255"
-		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"204 204 250 255"
-		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorVintage"					"71 98 145 255"
-		"QualityColorUnique"					"255 240 130 255"
-		"QualityColorCommunity"					"112 176 74 255"
-		"QualityColorDeveloper"					"165 15 121 255"
-		"QualityColorSelfMade"					"112 176 74 255"
-		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 106 50 255"
-		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"56 243 171 255"
-		"QualityColorCollectors"				"170 0 0 255"
-		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
-		"ItemRarityDefault"						"131 126 119 255"
-		"ItemRarityCommon"						"176 195 217 255"
-		"ItemRarityUncommon"					"94 152 217 255"
-		"ItemRarityRare"						"75 105 255 255"
-		"ItemRarityMythical"					"136 71 255 255"
-		"ItemRarityLegendary"					"211 44 230 255"
-		"ItemRarityAncient"						"235 75 75 255"
-		
-		"ItemRarityDefault_GreyedOut"			"44 42 40 255"
-		"ItemRarityCommon_GreyedOut"			"59 65 72 255"
-		"ItemRarityUncommon_GreyedOut"			"31 50 72 255"
-		"ItemRarityRare_GreyedOut"				"25 35 85 255"
-		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
-		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
-		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
-		
-		"QualityColorNormal_GreyedOut"			"44 44 44 255"
-		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
-		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
-		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
-		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
-		"QualityColorVintage_GreyedOut"			"18 25 36 255"
-		"QualityColorUnique_GreyedOut"			"64 54 0  255"
-		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
-		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
-		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
-		"QualityColorStrange_GreyedOut"			"52 27 13 255"
-		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
-		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
-		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
-		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		//=============================================================================
 		// ITEM QUALITY COLORS
 		//=============================================================================
-		
-		"Normal"								"235 235 235 255"
-		"Genuine"								"115 215 140 255"
-		"Unusual"								"195 125 245 255"
-		"Vintage"								"110 165 255 255"
-		"Unique"								"255 230 100 255"
-		"Community"								"145 225 100 255"
-		"Developer"								"255 90 205 255"
-		"SelfMade"								"145 225 100 255"
-		"Customized"							"110 165 255 255"
-		"Strange"								"255 165 105 255"
-		"Completed"								"195 125 245 255"
-		"Haunted"								"60 255 180 255"
-		"Collectors"							"245 70 70 255"
-		"PaintkitWeapon"						"235 235 235 255"
 
-		"GradedWeaponDefault"					"190 190 190 255"
-		"CivilianGrade"							"195 220 255 255"
-		"FreelanceGrade"						"115 200 255 255"
-		"MercenaryGrade"						"70 130 250 255"
-		"CommandoGrade"							"160 125 255 255"
-		"AssassinGrade"							"245 150 255 255"
-		"EliteGrade"							"255 130 130 255"
-		
-		"Normal_Hover"							"225 225 225 255"
-		"Genuine_Hover"							"105 205 130 255"
-		"Unusual_Hover"							"185 115 235 255"
-		"Vintage_Hover"							"100 155 245 255"
-		"Unique_Hover"							"245 220 90 255"
-		"Community_Hover"						"135 215 90 255"
-		"Developer_Hover"						"245 80 195 255"
-		"SelfMade_Hover"						"135 215 90 255"
-		"Customized_Hover"						"100 155 245 255"
-		"Strange_Hover"							"245 155 95 255"
-		"Completed_Hover"						"185 115 235 255"
-		"Haunted_Hover"							"50 245 170 255"
-		"Collectors_Hover"						"235 60 60 255"
-		"PaintkitWeapon_Hover"					"225 225 225 255"
-
-		"GradedWeaponDefault_Hover"				"180 180 180 255"
-		"CivilianGrade_Hover"					"185 210 245 255"
-		"FreelanceGrade_Hover"					"105 190 245 255"
-		"MercenaryGrade_Hover"					"60 120 240 255"
-		"CommandoGrade_Hover"					"150 115 245 255"
-		"AssassinGrade_Hover"					"235 140 245 255"
-		"EliteGrade_Hover"						"245 120 120 255"
 	}	
 	Fonts
 	{

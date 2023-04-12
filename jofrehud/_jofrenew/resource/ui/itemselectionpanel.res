@@ -110,7 +110,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"W_ColorTheme1"
+		"fgcolor"		"white"
 	}
 
 	"NameFilterTextEntry"
@@ -172,7 +172,7 @@
 		"enabled"		"1"
 		"wrap"			"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 	}
 	
 	
@@ -211,13 +211,13 @@
 		
 		"auto_wide_tocontents"	"1"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
-		"defaultBgColor_override" 	"34 34 34 255"
-		"armedBgColor_override" 		"34 34 34 255"
-		"depressedBgColor_override" 	"34 34 34 255"
+		"defaultBgColor_override" 	"0 0 0 100"
+		"armedBgColor_override" 		"0 0 0 100"
+		"depressedBgColor_override" 	"0 0 0 100"
 		
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP" // Corner of this Element
@@ -235,13 +235,13 @@
 		
 		"auto_wide_tocontents"	"1"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
-		"defaultBgColor_override" 	"34 34 34 255"
-		"armedBgColor_override" 		"34 34 34 255"
-		"depressedBgColor_override" 	"34 34 34 255"
+		"defaultBgColor_override" 	"0 0 0 100"
+		"armedBgColor_override" 		"0 0 0 100"
+		"depressedBgColor_override" 	"0 0 0 100"
 		
 		"pin_to_sibling" "CenterAnchor"
 		"pin_corner_to_sibling" "PIN_CENTER_TOP" // Corner of this Element
@@ -269,7 +269,7 @@
 		"ypos"			"0"
 		"wide"			"40"
 		"tall"			"20"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 		"textinsety"	"0"
 		
 		"auto_wide_tocontents"	"1"
@@ -295,7 +295,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "W_ColorTheme1"
+		"fgcolor_override" "white"
 		"auto_wide_tocontents"	"1"
 		
 		"pin_to_sibling" "CurPageLabel"
@@ -315,9 +315,9 @@
 		"font"			"NewIcons17"
 		"textAlignment"	"center"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
 		"defaultBgColor_override" 	"46 43 42 0"
 		"armedBgColor_override" 	"240 240 240 0"
@@ -335,9 +335,9 @@
 		"font"			"NewIcons17"
 		"textAlignment"	"center"
 		
-		"defaultFgColor_override" 	"W_ColorTheme1"
-		"armedFgColor_override" 	"W_ColorIcons1"
-		"depressedFgColor_override" "W_ColorTheme1"
+		"defaultFgColor_override" 	"white"
+		"armedFgColor_override" 	"Primary"
+		"depressedFgColor_override" "white"
 		
 		"defaultBgColor_override" 	"46 43 42 0"
 		"armedBgColor_override" 	"240 240 240 0"

@@ -4674,7 +4674,7 @@ BackpackItemGreyedOutSelectedBorder_RarityLegendary
 "draw_corner_height" "5"
 }
 //*********************************************
-BackpackItemBorder_RarityAncient
+_RarityAncient
 {
 "bordertype""scalable_image"
 "backgroundtype""2"

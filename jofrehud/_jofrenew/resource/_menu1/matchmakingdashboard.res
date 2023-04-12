@@ -350,7 +350,7 @@
 			"tall""o1"
 			"scaleImage""1"
 			"image""replay/thumbnails/misc/spinner"
-			"fgcolor""TanDark"
+			"drawcolor""Primary"
 			}	
 			"CTFLogoPanel"
 			{
@@ -445,10 +445,10 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"CloseButton"
-				"xpos"			"5"
-				"ypos"			"20"
+				"xpos"			"15"
+				"ypos"			"24"
 				"zpos"			"10"
-				"wide"			"15"
+				"wide"			"f0"
 				"tall"			"o1"
 				//"autoResize"	"0"
 				"pinCorner"		"0"
@@ -467,27 +467,20 @@
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 			
-				"paintbackground"	"0"
+				"paintbackground"	"1"
 			
-				"defaultFgColor_override" "46 43 42 255"
+			"defaultFgColor_override" "46 43 42 255"
 				"armedFgColor_override" "235 226 202 255"
 				"depressedFgColor_override" "46 43 42 255"
+				"defaultBgColor_override"	"Red"
+				"armedbgColor_override"	"white" 
 			
-				"image_drawcolor"	"117 107 94 255"
-				"image_armedcolor"	"200 80 60 255"
+
 				"SubImage"
 				{
-					"ControlName"	"ImagePanel"
-					"fieldName"		"SubImage"
-					"xpos"			"0"
-					"ypos"			"0"
-					"zpos"			"1"
-					"wide"			"13"
-					"tall"			"13"
-					"visible"		"1"
-					//"enabled"		"1"
-					"image"			"close_button"
-					"scaleImage"	"1"
+
+					"visible"		"0"
+		
 				}				
 			}		
 		}

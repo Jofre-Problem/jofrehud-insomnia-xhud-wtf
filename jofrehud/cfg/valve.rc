@@ -8,7 +8,7 @@ chud_firstrun
 
 exec "joystick.cfg"
 exec "autoexec.cfg"
-
+exec ih_aliases_crosshair_size.cfg  //why it breaks wtf
 startupmenu
 sv_unlockedchapters 99
 

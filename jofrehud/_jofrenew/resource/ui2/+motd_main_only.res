@@ -437,7 +437,7 @@
 			"pin_to_sibling"	"LogoImage"
 			"labelText"								""
 			"actionsignallevel"						"2"
-			"command"								"engine play vo/Hey.wav"
+			"command"								"engine play UI/buttonclick.wav"
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"vo/null.mp3"
 			"paintbackground"	"0"

@@ -40,7 +40,7 @@
 						"labeltext"				"AWSD Screen Keyboard OFF"
 						"font"					"regular14"
 						"textalignment"			"center"
-						"command"				"engine jp_custom_alias_awsd;host_writeconfig config_before_awsd; exec screen-keyboard; ih_reloadscheme"
+						"command"				"engine jp_custom_awsd_clear; showconsole; echo I have exec screen-keyboard.cfg for reset your awsd stuff; exec screen-keyboard-off; ih_reloadscheme"
 						"actionsignallevel"		"5"
 						"paintbackground"		"0"
 						"border_default"		"FLAT_Black_4"

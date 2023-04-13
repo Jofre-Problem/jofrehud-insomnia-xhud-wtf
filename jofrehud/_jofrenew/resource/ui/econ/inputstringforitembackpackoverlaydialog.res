@@ -243,7 +243,7 @@
 		"zpos"			"1"
 		"wide"			"95" //From 90
 		"tall"			"25"
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		//"enabled"		"1"

@@ -199,7 +199,7 @@
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
 				"xpos"			"9999"
-				"wide"			"0"
+				"visible"			"0"
 				"enabled"		"0"
 			}
 			"specindex"
@@ -207,7 +207,7 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
 				"xpos"			"9999"
-				"wide"			"0"
+				"visible"			"0"
 				"enabled"		"0"
 			}
 

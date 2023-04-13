@@ -9,7 +9,7 @@
 		"zpos"			"1200"
 		wide					35
 		tall					p0.045
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"2"
 		"visible"		"1"
 		//"enabled"		"1"

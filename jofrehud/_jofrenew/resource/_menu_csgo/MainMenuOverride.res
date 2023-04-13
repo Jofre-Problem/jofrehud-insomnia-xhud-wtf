@@ -286,7 +286,7 @@
 	}
 	"RankTooltipPanel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"CreateServer"			// open create server window; on top of ServersButton
 	{
@@ -621,12 +621,12 @@
 
 		"TitleLabel"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 
 		"InnerShadow"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 		"Icon"				// visual
 		{
@@ -971,7 +971,7 @@
 		"zpos"			"999999"
 		"wide"			"44"
 		"tall"			"45"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -1017,7 +1017,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"0"
+				"visible"			"0"
 				"tall"			"32"
 				"visible"		"1"
 				"enabled"		"1"
@@ -1059,10 +1059,10 @@
 				"labelText"		"%motdheader%"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"0"
+				"visible"			"0"
 				"tall"			"24"
-				"autoResize"	"0"
-				"pinCorner"		"0"
+				//"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"PaintBackgroundType" "2"
@@ -1080,8 +1080,8 @@
 			"zpos"			"10"
 			"wide"			"14"
 			"tall"			"14"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			//"tabPosition"	"0"
@@ -1133,7 +1133,7 @@
 			"xpos"			"265"
 			"ypos"			"25"
 			"zpos"			"100"
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"25"
 			"visible"		"0"
 			"enabled"		"1"
@@ -1152,8 +1152,8 @@
 			"ypos"			"25"
 			"wide"			"250"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"LabelDark"
@@ -1171,8 +1171,8 @@
 			"ypos"			"40"
 			"wide"			"300"
 			"tall"			"15"
-			"autoResize"	"0"
-			"pinCorner"		"0"
+			//"autoResize"		"0"
+			//"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"LabelDark"
@@ -1227,164 +1227,164 @@
 	}				
 	"TFLogoImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"RankTooltipPanel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}
 
 	"CallVoteButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}
 	"MutePlayersButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}
 	"RequestCoachButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}	
 	"ReportPlayerButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}	
 	"WorkshopButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"alpha"			"0"
 	}	
 	"StoreHasNewItemsImage"		//Possible use in the future
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 		"GeneralStoreButton"
 		{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}		
 		"TF2SettingsButton"
 		{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}			
 		"AchievementsButton"
 		{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}		
 		"SettingsButton"
 		{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"0"
 		}							
 	"NoGCImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"RankBorder"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 	"WatchStreamButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 	"VRBGPanel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"VRModeButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}
 	"BackgroundFooter"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}				
 	"FooterLine"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"CommentaryButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"CoachPlayersButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"ReplayButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}		
 	"ReportBugButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}		
 	"BackToReplaysButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"RequestCoachButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"

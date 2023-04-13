@@ -74,7 +74,7 @@
 	}
 	"MapLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"ClassOrTeamLabel"
 	{
@@ -83,27 +83,27 @@
 
 "SwitchCamModeKeyLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 "SwitchCamModeLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 "CycleTargetFwdKeyLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 "CycleTargetFwdLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 "CycleTargetRevKeyLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 "CycleTargetRevLabel"
 {
-"wide"			"0"
+"visible"			"0"
 }
 	"TipLabel"
 	{

@@ -11,8 +11,8 @@
 		"zpos"			"-999"
 		"wide"			"f0"
 		"tall"			"f0" 
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"
@@ -61,19 +61,19 @@
 	}	
 	"BlueTeamImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"RedTeamImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"BlueScoreBG2"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"RedScoreBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"gradient"
 	{
@@ -127,12 +127,12 @@
 	}
 	"MainBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 
 	"BlueTeamLabel"
 	{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"10"
 	}							
 
@@ -147,10 +147,10 @@
 		"xpos"			"176"
 		"ypos"			"13" 
 		"zpos"			"4"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -171,10 +171,10 @@
 		"xpos"			"401"
 		"ypos"			"21"
 		"zpos"			"20"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"23"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -195,10 +195,10 @@
 		"xpos"			"369"
 		"ypos"			"13"
 		"zpos"			"4"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"55"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -243,10 +243,10 @@
 		"xpos"			"286"
 		"ypos"			"12"
 		"zpos"			"1"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"border"		"TFFatLineBorderOpaque"
@@ -268,8 +268,8 @@
 		"zpos"			"2"
 		"wide"			"72"
 		"tall"			"8"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
 		
@@ -288,8 +288,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"alpha"			"255"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"border"		"noborder"
 		"visible"		"1"
 		//"enabled"		"1"
@@ -315,7 +315,7 @@
 		"zpos"			"400"
 		"wide"			"300"
 		"tall"			"300"
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		//"tabPosition"	"0"
@@ -367,8 +367,8 @@
 		"zpos"			"4"
 		"wide"			"424"
 		"tall"			"20"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		
@@ -383,7 +383,7 @@
 		"xpos"			"25"
 		"ypos"			"rs1"
 		"zpos"			"2"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 
@@ -397,8 +397,8 @@
 		"zpos"			"2"		
 		"wide"			"340"
 		"tall"			"300"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"paintbackground"	"1"
@@ -534,7 +534,7 @@
 	}
 	"PlayerNameBG"
 	{
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 	}
 
@@ -718,8 +718,8 @@
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"53"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		
@@ -806,8 +806,8 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"wrap"			"0"
@@ -826,8 +826,8 @@
 				"zpos"			"3"
 				"wide"			"100"
 				"tall"			"20"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -882,8 +882,8 @@
 				"zpos"			"2"
 				"wide"			"100"
 				"tall"			"18"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"wrap"			"0"
@@ -902,8 +902,8 @@
 				"zpos"			"3"
 				"wide"			"200"
 				"tall"			"20"
-				//"autoResize"	"0"
-				"pinCorner"		"0"
+				////"autoResize"		"0"
+				//"pinCorner"		"0"
 				"visible"		"1"
 				//"enabled"		"1"
 				"font"			"ScoreboardMedium"
@@ -1641,11 +1641,11 @@
 		}
 		"DamageLabel"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 		"Damage"
 		{
-			"wide"			"0"
+			"visible"			"0"
 		}
 
 
@@ -1660,8 +1660,8 @@
 		"zpos"			"0"
 		"wide"			"539"
 		"tall"			"38"
-		//"autoResize"	"0"
-		"pinCorner"		"0"
+		////"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		//"tabPosition"	"0"	

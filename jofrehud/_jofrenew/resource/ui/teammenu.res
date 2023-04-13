@@ -23,7 +23,7 @@
 	}
 	"MenuBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"1_btn"//JoinBlue"
 	{
@@ -337,48 +337,48 @@
 	}
 	"bluedoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"reddoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	
 	"autodoor"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	
 	"spectate"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 
 	
 	"HighlanderLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"HighlanderLabelShadow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"TeamsFullLabel" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	
 	"TeamsFullLabelShadow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"TeamsFullArrow" 
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 }
 

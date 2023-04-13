@@ -272,7 +272,7 @@
 		wide					28
 		tall					25
 
-		//"autoResize"	"0"
+		////"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		//"enabled"		"1"
@@ -300,7 +300,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"0"
-			"wide"			"0"
+			"visible"			"0"
 			"tall"			"0"
 			"visible"		"1"
 			//"enabled"		"1"

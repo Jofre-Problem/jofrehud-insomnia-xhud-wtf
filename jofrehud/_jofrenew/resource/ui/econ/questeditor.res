@@ -263,7 +263,7 @@
 					"FieldName"		"UpButton"
 					"visible"		"0"
 					"tall"			"0"
-					"wide"			"0"
+					"visible"			"0"
 				}
 				
 				"DownButton"
@@ -272,7 +272,7 @@
 					"FieldName"		"DownButton"
 					"visible"		"0"
 					"tall"			"0"
-					"wide"			"0"
+					"visible"			"0"
 				}
 			}
 		}

@@ -9,7 +9,7 @@
 		zPos					1051
 		wide					20
 		tall					13
-		"pinCorner"		"0"
+		//"pinCorner"		"0"
 		labelText				"ï"
 		font					"NewIcons9"
 		textAlignment			center

@@ -20,17 +20,17 @@
 	
 	"LeftSideBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 		
 	"RightSideBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 		
 	"OutlineBG"
-	{
-		"wide"			"0"
+	{	"xpos"	"999"
+		"visible"			"0"
 	}
 	
 	"BlueScore"
@@ -41,12 +41,12 @@
 		"ypos"			"rs1"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"24"
+		"tall"			"20"
 		"visible"		"1"
 		//"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"Regular30"
+		"font"			"Size 30"
 		"fgcolor"		"NotoWhite"
 		
 		"if_hybrid"
@@ -67,7 +67,7 @@
 		
 	"BlueScoreShadow"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 							
 	"RedScore"
@@ -78,12 +78,12 @@
 		"ypos"			"rs1"
 		"zpos"			"8"
 		"wide"			"75"
-		"tall"			"24"
+		"tall"			"20"
 		"visible"		"1"
 		//"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"Regular30"
+		"font"			"Size 30"
 		"fgcolor"		"NotoWhite"		
 		
 		"if_hybrid"
@@ -104,7 +104,7 @@
 		
 	"RedScoreShadow"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"BluePanelBG"
@@ -175,7 +175,7 @@
 		"ypos"			"r30"
 		"zpos"			"0"
 		"wide"			"50"
-		"tall"			"30"
+		"tall"			"0"
 		"visible"		"0"
 		//"enabled"		"1"
 		"scaleImage"	"1"
@@ -246,8 +246,8 @@
 	}	
 			
 	"PlayingToBG"
-	{
-		"wide"			"0"
+	{	"xpos"	"999"
+		"visible"			"0"
 	}	
 		
 	"BlueFlag"
@@ -417,7 +417,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpecCarriedImage"
 		"xpos"			"c-18"
-		"ypos"			"r43"	[$WIN32]
+		"ypos"			"r43"	
 		"zpos"			"10"
 		"wide"			"36"
 		"tall"			"36"

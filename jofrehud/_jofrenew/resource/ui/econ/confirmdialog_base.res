@@ -68,7 +68,7 @@
 		"xpos"			"40"
 		"ypos"			"50"
 		"zpos"			"1"
-	//	"wide"			"0"
+	//	"visible"			"0"
 		"visible"		"0"
 		//"enabled"		"1"
 		"centerwrap"	"1"
@@ -132,10 +132,10 @@
 	}		
 	"ConfirmButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 	"CancelButton"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}				
 }

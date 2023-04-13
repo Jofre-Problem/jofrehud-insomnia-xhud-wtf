@@ -33,7 +33,7 @@
 	"HudWeaponAmmoBG"
 	{
 		"xpos"	"999"
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"AmmoAnchor"
 	{
@@ -116,7 +116,7 @@
 	"HudWeaponLowAmmoImage"
 	{
 		"xpos"	"999"
-		"wide"			"0"		
+		"visible"			"0"		
 	}
 	"AmmoInClip"
 	{

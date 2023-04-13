@@ -2,11 +2,11 @@
 {
 	"TitleLabel"
 	{		
-		"wide"			"0"	}	
+		"visible"			"0"	}	
 	"CancelButton"
-	{		"wide"			"0"	}	
+	{		"visible"			"0"	}	
 	"OkButton"
-	{		"wide"			"0"	}		
+	{		"visible"			"0"	}		
 	"CloseShortcut"		// keyboard shortcut
 	{
 		ControlName			CExButton
@@ -96,8 +96,8 @@
 		"zpos"		"20"
 		"wide"		"480"
 		"tall"		"390"
-		"autoResize"		"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
 		"tabPosition"		"0"

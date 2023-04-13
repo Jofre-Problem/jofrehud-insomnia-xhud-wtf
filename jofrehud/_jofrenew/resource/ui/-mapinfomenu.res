@@ -123,8 +123,8 @@
 		"zpos"			"3"
 		"wide"			"300"
 		"tall"			"0"
-		"autoResize"	"0"
-		"pinCorner"		"0"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"paintborder"	"0"
@@ -197,11 +197,11 @@
 
 	"ShadedBar"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 
 	"Footer" [$X360]
 	{
-"wide"			"0"
+"visible"			"0"
 	}	
 }

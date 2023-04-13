@@ -29,11 +29,11 @@
 	}
 	"Hint"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}			
 	"Offense"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 "CountLabel"
 	{
@@ -42,37 +42,37 @@
 
 "ClassHighlightText"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"Defense"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"Support"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}		
 	"ClassMenuSelect2"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}	
 	"ClassMenuSelect"		//seems to be broken?
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}		
 	"MenuBG"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 	}	
 	"ShadedBar"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 	"CancelButton" 

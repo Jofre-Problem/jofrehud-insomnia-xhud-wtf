@@ -448,7 +448,7 @@
 			"font"			"Regular18"
 			"xpos"			"cs-0.5"
 			"ypos"			"5"
-			"wide"			"0"	//cant find a good use
+			"visible"			"0"	//cant find a good use
 			"textAlignment"	"center"
 			"textinsety"	"0"
 			"zpos""10"
@@ -508,7 +508,8 @@
 		
 		"MOTD_URLButton"
 		{
-			"wide"			"0"
+			"xpos"	"r0"
+			"visible"			"0"
 		}	
 					
 		"MOTD_PrevButton"

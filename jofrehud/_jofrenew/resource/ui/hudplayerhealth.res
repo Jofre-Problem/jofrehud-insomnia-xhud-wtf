@@ -97,8 +97,8 @@
 		"image"			"replay/thumbnails/hp/healthcrossicon"
 	}	
 	"Playerstatusmaxhealthvalue"
-	{
-		"wide"			"0"
+	{	"xpos"	"999"
+		"visible"			"0"
 	}
 	"PlayerStatusHealthImage"
 	{
@@ -107,7 +107,7 @@
 		"xpos"			"-45"
 		"ypos"			"0"
 		"zpos"			"7"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"		"34"
 	}
 	"ProgressBar10"
@@ -144,7 +144,8 @@
 	}				
 	"PlayerStatusHealthImageBG"
 	{
-		"wide"			"0"
+		"xpos"	"999"
+		"visible"			"0"
 	}	
 	"TeamColoredAmmoTextBG"
 	{

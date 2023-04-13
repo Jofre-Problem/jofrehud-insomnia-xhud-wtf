@@ -154,12 +154,12 @@
 	}		
 	"CaratLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}
 	"NameFilterLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 	"Filler"		// else closed ContextMenu will stay on screen

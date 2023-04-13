@@ -66,9 +66,9 @@
 		"xpos"			"-9999"
 		"ypos"			"-9999"
 		"zpos"			"-9999"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
-		"autoResize"	"0"
+		//"autoResize"		"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
@@ -83,17 +83,17 @@
 	}		
 	"BackgroundHeader"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}				
 	"BackgroundFooter"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}				
 	"FooterLine"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 	"CloseShortcut"		// keyboard shortcut

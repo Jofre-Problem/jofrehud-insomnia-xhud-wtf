@@ -71,18 +71,18 @@
 	}
 	"CaratLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 
 	"FiltersLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}		
 	"ArmoryLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 	}	
 	
@@ -227,7 +227,7 @@
 		"xpos"			"c-70"
 		"ypos"			"270"
 		"zpos"			"10000"
-		"wide"			"0"
+		"visible"			"0"
 		"tall"			"0"
 		"visible"		"0"
 		"bgcolor_override"		"Blank"

@@ -9,7 +9,7 @@
 //////"xpos_minmode""0"
 
 "zpos""2"
-"wide""0"
+"visible"		"0"
 "tall""6"
 
 

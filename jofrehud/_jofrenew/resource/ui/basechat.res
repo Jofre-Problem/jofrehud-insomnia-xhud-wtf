@@ -43,7 +43,7 @@
 		"proportionaltoparent" "1"
 		"labelText"		"opt"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"Default"		"0"
 	}

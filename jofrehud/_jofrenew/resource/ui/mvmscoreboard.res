@@ -103,7 +103,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"22"
 		"textcolor"		"White"

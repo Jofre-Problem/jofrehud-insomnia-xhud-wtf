@@ -216,7 +216,7 @@
 		{
 "xpos""60"
 "ypos""375"
-"wide""0"
+"visible"		"0"
 "tall""0"
 "font""Regular14"
 "fgcolor_override"	"W_ColorIcons1"
@@ -252,12 +252,12 @@
 }			
 		"DescLine1"
 		{
-		"wide""0"
+		"visible"		"0"
 		}
 
 		"DescLine2"
 		{
-		"wide""0"
+		"visible"		"0"
 		}
 
 		"StatsContainer"
@@ -358,7 +358,7 @@
 					{
 						"Controlname"	"EditablePanel"
 						"fieldName"		"Frame"
-						"wide"	"0"
+						"visible"		"0"
 						"border"		"InnerShadowBorderThin"
 					}
 				}

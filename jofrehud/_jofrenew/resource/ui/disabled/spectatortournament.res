@@ -31,7 +31,7 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			
 			"PanelBackground"
 			{
@@ -541,7 +541,7 @@
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
+			//"dulltext"	"0"
 			"brighttext"	"0"
 		}
 	}	

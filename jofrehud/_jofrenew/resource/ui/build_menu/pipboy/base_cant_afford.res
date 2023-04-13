@@ -36,7 +36,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 		"fgcolor"		"98 98 98 255"
 	}

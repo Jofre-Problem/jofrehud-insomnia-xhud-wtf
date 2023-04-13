@@ -258,8 +258,8 @@
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmall"
 				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"	"0"
+				//"dulltext"	"0"
 				"default"		"1"
 				"actionsignallevel" "3"
 
@@ -329,8 +329,8 @@
 				"use_proportional_insets" "1"
 				"font"			"HudFontSmall"
 				"textAlignment"	"west"
-				"dulltext"		"0"
-				"brighttext"	"0"
+				//"dulltext"	"0"
+				//"dulltext"	"0"
 				"default"		"1"
 				"actionsignallevel" "3"
 

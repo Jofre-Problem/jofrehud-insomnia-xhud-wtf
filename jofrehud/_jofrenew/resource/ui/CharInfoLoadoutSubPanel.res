@@ -27,13 +27,13 @@
 		"SubImage"
 		{
 
-			"drawcolor"								"245 245 245 245"
+		//	"drawcolor"								"245 245 245 245"
 		}
 
 		"SubImage2"
 		{
 
-			"drawcolor"								"245 245 245 255"
+		//	"drawcolor"								"245 245 245 255"
 		}
 	}
 	// can't change pos, width, height
@@ -488,7 +488,7 @@
 	{
 		ControlName				CBackpackPanel
 		fieldName				"backpack_panel"
-		xpos					40
+		xpos					0
 		ypos					0
 		tall		f0
 		zpos					5

@@ -87,7 +87,7 @@
 		"labeltext"		""
 		//"labelText"		"|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------"
 		"textAlignment"		"North-West"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"alpha"			"0"
 	}
@@ -267,7 +267,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 	}
 	"TargetDataLabelTrue"
@@ -286,7 +286,7 @@
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"fgcolor"		"236 240 241 255"
 	}
@@ -338,7 +338,7 @@
 		"labelText"		"#TIDdatafulluber" //basically checks for 4 of a combo of numbers and %
 		// ammo never gets to 4 digits big and names never contain either so we're good boys
 		"textAlignment"		"east"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"fgcolor"		"150 245 0 80"
 	}
@@ -469,7 +469,7 @@
 			"enabled"		"1"
 			"labelText"		"%movekey%"
 			"textAlignment"		"North"
-			"dulltext"		"0"
+			//"dulltext"	"0"
 			"brighttext"		"0"
 		}	
 	}

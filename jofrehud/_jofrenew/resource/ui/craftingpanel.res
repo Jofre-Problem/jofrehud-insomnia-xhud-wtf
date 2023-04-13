@@ -146,7 +146,7 @@
 
 "ClassLabel"
 {
-"wide""0"
+"visible"		"0"
 }
 
 "selectedrecipecontainer"

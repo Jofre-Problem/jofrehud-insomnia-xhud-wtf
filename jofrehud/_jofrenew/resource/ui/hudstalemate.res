@@ -3,7 +3,7 @@
 {
 "HudStalemateBG"
 {
-"wide""0"
+"visible"		"0"
 }
 "Monika"
 {

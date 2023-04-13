@@ -16,7 +16,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 

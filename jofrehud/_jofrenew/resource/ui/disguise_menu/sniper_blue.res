@@ -17,7 +17,7 @@
 		"labelText"		"8"
 		"fgcolor"		"70 130 180 255"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	

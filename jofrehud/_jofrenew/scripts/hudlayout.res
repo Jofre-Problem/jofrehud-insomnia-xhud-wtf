@@ -5,7 +5,7 @@
 //#base "../spacer.res"
 "Resource\HudLayout.res"
 {
-	
+
 
 	"CurrencyStatusPanel"
 	{

@@ -433,7 +433,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
@@ -499,7 +499,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 0"//153
 		"PaintBackgroundType"	"0"
 		
@@ -700,11 +700,11 @@
 	}
 "ServerTimeLeft"
 {
-"wide"	"0"
+"visible"		"0"
 }
 "ServerTimeLeftValue"
 {
-"wide"	"0"
+"visible"		"0"
 }	
 "ServerTimeLeftValue2"
 {
@@ -1080,7 +1080,7 @@ if_mvm
 	}		
 "HorizontalLine"
 {
-"wide""0"
+"visible"		"0"
 }		
 	"BlurMainBG"
 	{
@@ -1165,7 +1165,7 @@ if_mvm
 		"tall"			"10"[$LINUX]
 		"tall"			"12" [$WINDOWS]
 		"variable"		"kills"
-		"fgcolor_override"		"255 215 0 255"
+		"fgcolor_override"		"Positive"
 		"bgcolor_override"		"0 0 0 0"
 	}	
 	"death1"
@@ -1179,7 +1179,7 @@ if_mvm
 		"tall"			"10"[$LINUX]
 		"tall"			"12" [$WINDOWS]
 		"variable"		"deaths"
-		"fgcolor_override"		"190 45 57 255"
+		"fgcolor_override"		"Gray"
 		"bgcolor_override"		"0 0 0 0"
 	}	
 		"Kills"

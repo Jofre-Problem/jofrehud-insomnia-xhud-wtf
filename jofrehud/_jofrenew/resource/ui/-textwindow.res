@@ -64,8 +64,8 @@
 		"enabled"		"1"
 		"labelText"		"WELCOME"
 		"textAlignment"	"west"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"font"			"Regular14"
 		"fgcolor"		"255 255 255 255"
 	}	

@@ -202,7 +202,7 @@
 	}
 "TeamMenuAuto"
 {
-"wide""0"
+"visible"		"0"
 
 }
 	"TeamMenuSelect"

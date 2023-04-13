@@ -54,7 +54,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Disguise_Title"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	
@@ -97,7 +97,7 @@
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"bgcolor_override"	"NotoBlack"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	
@@ -117,7 +117,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Spy_Minus_Toggle"
 		"textAlignment"	"Center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 		"fgcolor"		"0 0 0 255"
 	}
@@ -138,7 +138,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"east"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	
@@ -155,7 +155,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -173,7 +173,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -191,7 +191,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}

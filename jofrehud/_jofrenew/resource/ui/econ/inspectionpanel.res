@@ -1,17 +1,18 @@
-#base "../../ui2/multiple-bg.res"
+#base "../../ui2/mod_rgb.res"
+#base "../../ui2/lead_bg.res"
 "Resource/UI/TradingPanel.res"
 {
-	"MMBackgroundPanel"
+	"MenuColorizer"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
 		"zpos"			"-200"
-		"wide"			"f0"
-		"tall"			"f0"
-	}	
+	}
+	"MenuRGB"
+	{
+		"zpos"			"-199"
+	}			
 	"BGImage"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"ItemName"
@@ -263,12 +264,12 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			//"enabled"		"1"
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			"labelText"		""
 			"font"			"HudFontSmallBold"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 			"default"		"0"
 			"sound_depressed"	"sound_menu/button.wav"
 			"sound_released"	"sound_menu/button2.wav"
@@ -521,13 +522,13 @@
 			//"autoResize"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			"labelText"		""
 			"actionsignallevel" "2"
 			"use_proportional_insets" "1"
 			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 			"keyboardinputenabled"	"0"
 			"paintBackground"	"0"
 			"sound_depressed"	"sound_menu/button.wav"
@@ -584,7 +585,7 @@
 			//"autoResize"	"0"
 			"visible"		"1"
 			//"enabled"		"1"
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			"actionsignallevel" "2"
 			"default"		"1"
 			"NumericInputOnly"	"1"

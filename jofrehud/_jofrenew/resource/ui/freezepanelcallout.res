@@ -52,7 +52,7 @@
 		"enabled"		"1"
 		"labelText"		"#FreezePanel_Callout"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 	}
 }

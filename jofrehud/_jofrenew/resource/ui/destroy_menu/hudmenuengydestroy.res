@@ -29,7 +29,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -47,7 +47,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -65,7 +65,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -86,7 +86,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -124,7 +124,7 @@
 		"enabled"		"1"
 		"labelText"		"Destroy"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	
@@ -141,7 +141,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"32 32 32 255"
 		"PaintBackgroundType"	"0"
 	}
@@ -185,7 +185,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Cancel"
 		"textAlignment"	"East"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	

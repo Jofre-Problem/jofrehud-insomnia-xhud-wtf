@@ -87,11 +87,11 @@
 	
 	"ClassLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 	"ItemSlotLabel"
 	{
-		"wide"			"0"
+		"visible"			"0"
 	}
 
 	"SearchLabel"
@@ -149,7 +149,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"255 255 255 255"
 		"PaintBackgroundType"	"0"
 	}				

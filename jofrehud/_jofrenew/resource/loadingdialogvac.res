@@ -10,7 +10,7 @@
 	}
 	"frame_menu"
 	{
-		"wide"		"0"
+		"visible"		"0"
 		"alpha"		"0"
 	}		
 	"progress"

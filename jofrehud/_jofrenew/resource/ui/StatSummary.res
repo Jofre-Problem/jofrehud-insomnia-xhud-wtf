@@ -19,7 +19,7 @@
 	}
 "OnYourWayLabel"
 {
-"wide""0"
+"visible"		"0"
 }	
 	"MenuColorizer"
 	{
@@ -444,8 +444,8 @@
 		"font"	"Future30"
 		"labelText"		"Locked Session."
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"vguicancel"
 	}
 }

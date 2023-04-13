@@ -55,7 +55,7 @@
 	}			
 	"MenuBG"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"Key1"
 	{
@@ -177,11 +177,11 @@
 	}	
 	"ShadedBar"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}	
 	"MapInfoContinue"
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}			
 	"MapInfoWatchIntro" 
 	{
@@ -198,8 +198,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_WatchIntro"
 		"textAlignment"	"east"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"command"		"intro"
 		"default"		"1"
 		"border_default"	""
@@ -227,8 +227,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Back"
 		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"command"		"back"
 		"border_default"	""
 		"border_armed"		""

@@ -8,7 +8,7 @@
 		"fieldName" 	"mouseoveritempanelAnchor"
 		"xpos" 		"p1.2945"
 		"ypos"		"r209+p0.001" //its coincidence
-		"wide"		"0"
+		"visible"		"0"
 		"tall" 		"0"
 		"visible"	"1"
 		"enabled" 	"1"

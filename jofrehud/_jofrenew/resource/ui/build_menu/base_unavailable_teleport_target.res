@@ -17,7 +17,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_Object_Sentry"
 		"textAlignment"	"East"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	
@@ -53,7 +53,7 @@
 		"enabled"		"1"
 		"labelText"		"#Hud_Menu_Build_Unavailable"
 		"textAlignment"	"East"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 		"fgcolor"		"98 98 98 255"
 	}

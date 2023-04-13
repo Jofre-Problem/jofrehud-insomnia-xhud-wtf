@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
 	}
@@ -68,7 +68,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"tabPosition"	"0"
+			//"tabPosition"	"0"
 			"image"			"replay/thumbnails/hp/REFRACTblur"
 			"scaleImage"	"1"					
 		}
@@ -90,8 +90,8 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"	"Left"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"fgcolor_override"	"255 255 0 255"
 		"bgcolor_override"	"50 0 0 255"
 	}					

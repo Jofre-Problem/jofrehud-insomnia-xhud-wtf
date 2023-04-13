@@ -48,7 +48,7 @@
 	}			
 	"BlueScoreBG"
 	{
-		"wide"	"0"
+		"visible"		"0"
 	}
 	"ShadedBar"
 	{
@@ -318,7 +318,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
 		"textcolor"		"red"
@@ -342,7 +342,7 @@
 		"tall"			"360"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"3"
 		"linespacing"	"18"
 		"paintbackground"	"1"
@@ -679,7 +679,7 @@
 		"wide"			"f0"
 		"tall"			"0"
 		"visible"		"0"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
@@ -1664,7 +1664,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		//"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 	}
@@ -1693,8 +1693,8 @@
 
 			"labelText"		"C"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"SelectHintLabel"
@@ -1710,8 +1710,8 @@
 
 			"labelText"		"#GameUI_Select"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardIcon"
@@ -1727,8 +1727,8 @@
 
 			"labelText"		"A"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardLabel"
@@ -1744,8 +1744,8 @@
 
 			"labelText"		"#TF_ViewGamercard"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationIcon"
@@ -1761,8 +1761,8 @@
 
 			"labelText"		"X"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationLabel"
@@ -1778,8 +1778,8 @@
 
 			"labelText"		"#GameUI_PlayerReview"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 	}				
 	

@@ -89,7 +89,7 @@
 		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
-		"CTFLogoPanel"
+		"WorkingLogo"
 		{
 			"fieldName"		"WorkingLogo"
 			"controlname"	"CTFLogoPanel"
@@ -136,7 +136,7 @@
 		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
-		"CTFLogoPanel"
+		"SuccessLogo"
 		{
 			"fieldName"		"SuccessLogo"
 			"controlname"	"CTFLogoPanel"
@@ -183,7 +183,7 @@
 		"border"		"DarkComboboxBorder"
 		"bgcolor_override"	"TanDarker"
 
-		"CTFLogoPanel"
+		"FailureLogo"
 		{
 			"fieldName"		"FailureLogo"
 			"controlname"	"CTFLogoPanel"
@@ -243,8 +243,8 @@
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"cancel"
 		"proportionaltoparent"	"1"
 		"sound_depressed"			"sound_menu/button.wav"
@@ -273,8 +273,8 @@
 		"font"			"HudFontSmall"
 		"textAlignment"	"center"
 		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
+		//"dulltext"	"0"
+		//"dulltext"	"0"
 		"Command"		"accept"
 		"proportionaltoparent"	"1"
 		"sound_depressed"	"sound_menu/button.wav"

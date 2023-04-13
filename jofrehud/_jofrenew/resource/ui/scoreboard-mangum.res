@@ -489,7 +489,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"0"
 		"linespacing"	"20"
 		"linegap"		"0"
@@ -513,7 +513,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"
+		//"tabPosition"	"0"
 		"autoresize"	"0"
 		"linespacing"	"20"
 		"linegap"		"0"
@@ -579,7 +579,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
@@ -645,7 +645,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 		
@@ -963,7 +963,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 		
@@ -1845,7 +1845,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"tabPosition"	"0"	
+		//"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
 		"PaintBackgroundType"	"0"
 	}
@@ -1877,8 +1877,8 @@
 			"enabled"		"1"
 			"labelText"		"C"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"SelectHintLabel"
@@ -1897,8 +1897,8 @@
 			"enabled"		"1"
 			"labelText"		"#GameUI_Select"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardIcon"
@@ -1917,8 +1917,8 @@
 			"enabled"		"1"
 			"labelText"		"A"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"GamerCardLabel"
@@ -1937,8 +1937,8 @@
 			"enabled"		"1"
 			"labelText"		"#TF_ViewGamercard"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationIcon"
@@ -1957,8 +1957,8 @@
 			"enabled"		"1"
 			"labelText"		"X"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 		
 		"ReputationLabel"
@@ -1977,8 +1977,8 @@
 			"enabled"		"1"
 			"labelText"		"#GameUI_PlayerReview"
 			"textAlignment"	"Left"
-			"dulltext"		"0"
-			"brighttext"	"0"
+			//"dulltext"	"0"
+			//"dulltext"	"0"
 		}
 	}				
 	

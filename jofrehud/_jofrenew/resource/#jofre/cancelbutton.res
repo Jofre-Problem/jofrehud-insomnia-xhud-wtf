@@ -16,7 +16,7 @@
 		"tabPosition"		"0"
 		"labelText"		"#TF_ContinueCarat"
 		"textAlignment"		"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"		"0"
 		"wrap"		"0"
 		"command"		"continue"

@@ -18,7 +18,7 @@
 		"fgcolor"		"NotoRedSolid"
 		"bgcolor_override"	"0 0 0 0"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 	}
 	

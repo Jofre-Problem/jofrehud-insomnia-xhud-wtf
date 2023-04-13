@@ -105,7 +105,7 @@
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"HudTournamentNameBG"
 		"xpos"		"9999"
-		"wide"		"0"
+		"visible"		"0"
 		"enabled"	"0"
 	}
 	"HudTournamentSetupBG"

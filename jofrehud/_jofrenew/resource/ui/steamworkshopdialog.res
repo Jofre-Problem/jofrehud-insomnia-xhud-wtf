@@ -326,7 +326,7 @@
 		"xpos"		"0"
 		"ypos"		"0"
 		"zpos"		"10"
-		"wide"		"0"
+		"visible"		"0"
 	}					
 	"ClickAway1"
 	{

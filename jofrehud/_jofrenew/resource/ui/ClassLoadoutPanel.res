@@ -3,6 +3,7 @@
 //#base "../#jofre/blur_bg.res"
 #base "../ui2/tank.res"
 #base "../ui2/lead_bg.res"
+#base "../ui2/mod_rgb.res"
 //#base "../ui2/gif_tank.res"
 #base "../uni_base/cexlabel/1.res"
 #base "../uni_base/cexlabel/2.res"

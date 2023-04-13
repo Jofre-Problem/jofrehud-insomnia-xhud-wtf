@@ -275,15 +275,15 @@
 		}	
 	"Next" 
 	{
-		"wide"		"0"
+		"visible"		"0"
 	}
 	"Prev" 
 	{	
-//"wide"		"0"
+//"visible"		"0"
 	}
 	"Play" 
 	{
-"wide"		"0"
+"visible"		"0"
 	}
 	"Cancel" 
 	{
@@ -301,12 +301,12 @@
 	}
 	"divider"	
 	{
-"wide"		"0"
+"visible"		"0"
 		
 	}
 	"Div"	
 	{
-"wide"		"0"
+"visible"		"0"
 	}
 
 	"GammaLabel"

@@ -6,7 +6,7 @@
 	{
 		ControlName				Frame
 		fieldName				"armory_panel"
-		ypos					60
+		ypos					0
 		wide					f0
 		tall					f0
 		zpos					5
@@ -63,7 +63,7 @@
 		ControlName				ImagePanel
 		fieldName				"LeftBackground"
 		xpos					c-293
-		ypos					71
+		ypos					120
 		zpos					-1
 		wide					290
 		tall					223
@@ -90,10 +90,10 @@
 	{
 		ControlName				ComboBox
 		fieldName				"FilterComboBox"
-		xpos						0
-		ypos						2
+		xpos						140
+		ypos						60
 		zpos						1
-		wide						95
+		wide						195
 		tall						15
 		visible					1
 		enabled					1
@@ -113,9 +113,6 @@
 		selectionTextColor_override			"W_ColorIcons1"
 		defaultSelectionBG2Color_override	"Blank"
 
-		pin_to_sibling				"LeftBackground"
-		pin_corner_to_sibling	PIN_BOTTOMRIGHT
-		pin_to_sibling_corner	PIN_TOPRIGHT
 	}
 	
 	"DataPanel"			// item info
@@ -123,14 +120,14 @@
 		ControlName					EditablePanel
 		fieldName					"DataPanel"
 		xpos							c3
-		ypos							95 // 71
+		ypos							120 // 71
 		zpos							5
 		wide							290
-		tall							199
+		tall							220
 		visible						1
 
 		PaintBackground			1
-		bgcolor_override			"W_ColorTheme2"
+		bgcolor_override			"0 0 0 100"
 		paintborder					0
 
 		"Data_TextRichText"
@@ -138,9 +135,9 @@
 			ControlName					CEconItemDetailsRichText
 			fieldName					"Data_TextRichText"
 			xpos							cs-0.5
-			ypos							rs1
+			ypos							0
 			wide							290
-			tall							125
+			tall							220
 			proportionaltoparent		1
 			visible						1
 			
@@ -168,10 +165,10 @@
 		ControlName				CItemModelPanel
 		fieldName				SelectedItemModelPanel
 		xpos						0
-		ypos						2
+		ypos						0
 		zpos						1
 		wide						290
-		tall						135
+		tall						150
 		visible					1
 		bgcolor_override		"W_ColorTheme1"
 		PaintBackground		1

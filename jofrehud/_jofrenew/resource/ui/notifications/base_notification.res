@@ -46,7 +46,7 @@
 		//"enabled"		"1"
 		"labelText"		"60 seconds until gates open"
 		"textAlignment"	"center"
-		"dulltext"		"0"
+		//"dulltext"	"0"
 		"brighttext"	"0"
 		"font"			"Regular10"
 	}

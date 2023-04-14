@@ -21,15 +21,15 @@
 		"zpos"			"5"
 		"wide"			"17"
 		"tall"			"34"
-		"fillcolor"		"245 245 245 255"
+		"fillcolor"		"whattimeis1"
 	}
 	"3_Image"
 	{
-		"xpos"			"71"
+		"xpos"			"70"
 		"zpos"			"5"
 		"wide"			"17"
 		"tall"			"34"
-		"fillcolor"		"245 245 245 255"
+		"bgcolor_override"		"whattimeis1"
 	}
 	"Background"
 	{
@@ -112,7 +112,7 @@
 		//"dulltext"	"0"
 		"bgcolor_override" "0 0 0 0"
 		//"fgcolor_override" "110 255 25 175"
-		"fgcolor_override" "245 245 245 255"
+		"fgcolor_override" "whattimeis1"
 		"alpha"			"0"
 	}
 	"ChargeMeterBGNew"
@@ -215,7 +215,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"whattimeis1"
 		"xpos"			"-58"
 		"ypos"			"-5"
 		"zpos"			"5"
@@ -227,7 +227,7 @@
 	"1_label"
 	{
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"whattimeis1"
 		"xpos"			"-381"
 		"ypos"			"-5"
 		"zpos"			"4"
@@ -242,7 +242,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"font"			"HealthAndAmmo"
-		"fgcolor"		"245 245 245 255"
+		"fgcolor"		"whattimeis1"
 		"xpos"			"-384"
 		"ypos"			"-5"
 		"zpos"			"5"

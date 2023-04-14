@@ -34,5 +34,10 @@
 
 		"Crosshair"			"255 255 255 255"
 		"CreditsGreen"		"64 160 255 255"
+
+		// yeah
+
+		"whattimeis1"											"245 245 245 255"
+		"whattimeisinvert"											"0 0 0 255"
 	}
 }

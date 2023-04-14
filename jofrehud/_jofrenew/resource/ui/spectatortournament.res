@@ -1,5 +1,5 @@
-#base "../../cfg/xhud_resolution_selection.txt"
 
+#base "../../../../../cfg/jp_custom_resolution.txt"
 "Resource/UI/SpectatorTournament.res"
 {
 	"specgui"
@@ -37,7 +37,7 @@
 				"ypos"				"0"
 				"zpos"				"3"
 				"wide"				"148"
-				"HealthBonusPosAdj"	"341"
+			//	"HealthBonusPosAdj"	"341"
 				"tall"				"f0"
 				"visible"			"1"
 				"enabled"			"1"

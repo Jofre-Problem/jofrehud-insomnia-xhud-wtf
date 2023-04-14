@@ -1,3 +1,4 @@
+#base "../../../../cfg/jp_custom_hp_scheme.txt"
 #base "../leadhud/clientscheme.res"
 #base "../xhud/clientscheme.res"
 		

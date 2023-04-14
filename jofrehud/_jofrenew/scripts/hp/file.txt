@@ -3,7 +3,7 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.0	0.0
 
 
-	Animate	OverhealHealthTextBG 	bgcolor		"0 0 0 255"			Accel 0.0	0.0
+	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"0 0"			Accel 0.0	0.0
 	Animate	FixForHP 	alpha		"0"			Accel 0.0	0.0
 	RunEvent LevelInitAny 0.0
@@ -39,7 +39,7 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"		Linear 0.0 0.0
 	SetVisible HealthSpectatorBarHurt 1 0.0
 	SetVisible HealthBarLowHealth 1 0.0		
-	Animate	OverhealHealthTextBG 	bgcolor		"0 0 0 255"			Accel 0.0	0.0
+	Animate	OverhealHealthTextBG 	bgcolor		"whattimeisinvert"			Accel 0.0	0.0
 	Animate	OverhealHealthTextBG 	Xpos		"34 0"			Accel 0.0	0.0
 	RunEvent LevelInitAny 0.0
 	RunEvent TI_Death 0.0

@@ -133,9 +133,9 @@
 		}
 	}
 
-	"CaratLabel"	{	"xpos"  "9999" "visible"		"0"	}
- "ClassLabel"		{	"xpos"  "9999"		"visible"		"0"	}  
- 	"ShowExplanationsButton"	{"xpos"  "9999"	"visible"		"0"	}
+	"CaratLabel"	{	"xpos"  "r0" "visible"		"0"	}
+ "ClassLabel"		{	"xpos"  "r0"		"visible"		"0"	}  
+ 	"ShowExplanationsButton"	{"xpos"  "r0"	"visible"		"0"	}
 	"NameFilterLabel"
 	{
 		"ControlName"	"CExLabel"

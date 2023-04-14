@@ -10,7 +10,7 @@
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"
-		"enabled"									"1"
+	//	"enabled"									"1"
 		"mouseinputenabled"							"0"
 
 		"SubImage"

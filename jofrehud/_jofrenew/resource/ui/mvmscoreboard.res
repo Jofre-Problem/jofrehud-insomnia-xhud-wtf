@@ -223,7 +223,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"250 250 250 0"
-			"border"		"LightWhiteLeft"
+			"border"		"noborder"
 			
 			"pin_to_sibling" 		"PreviousWaveCreditInfoPanel"
 			"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element
@@ -245,7 +245,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fillcolor"		"250 250 250 0"
-			"border"		"LightWhiteLeft"
+			"border"		"noborder"
 			
 			"pin_to_sibling" 		"TotalGameCreditInfoPanel"
 			"pin_corner_to_sibling" "PIN_BOTTOMLEFT" // Corner of this Element

@@ -1,4 +1,5 @@
 #base "../../../../cfg/jp_custom_hp_scheme.txt"
+#base "../../../../cfg/jp_ex_square.txt"
 #base "../leadhud/clientscheme.res"
 #base "../xhud/clientscheme.res"
 		

@@ -1,6 +1,7 @@
 hudanimations_manifest
 {
 	"file"		"scripts/hudanimations.txt"
+	"file"		"../../cfg/jp_ex_scope.txt"	
 	"file"		"../../cfg/jp_id_anim_bonus.txt"
 	"file"		"../../cfg/jp_id_anim_death.txt"
 	"file"		"../../cfg/jp_id_anim_neutral.txt"
@@ -14,7 +15,7 @@ hudanimations_manifest
 	"file"		"_jofrenew/scripts/disguise/file.txt"
 	"file"		"_jofrenew/scripts/hp/file.txt"
 	"file"		"_jofrenew/scripts/uber/file.txt"
-	"file"		"_jofrenew/ui_overrides/remove-scope/file.txt"
+//	"file"		"_jofrenew/ui_overrides/remove-scope/file.txt"
 	"file"		"_jofrenew/ui_overrides/score-slide/file.txt"
 	"file"		"_jofrenew/ui_overrides/no-chat-bg/file.txt"
 	"file"		"_jofrenew/ui_overrides/cart-glow/file.txt"

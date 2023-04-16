@@ -14,7 +14,7 @@
 					"ypos"					"0"
 					"zpos"					"50"
 					"wide"					"f0"
-					"tall"					"120"	//change
+					"tall"					"140"	//change
 					"proportionaltoparent"	"1"
 					"border"				"LINE_LEFT_3_Primary_0"
 
@@ -196,7 +196,31 @@
 							"border_armed"				"LINE_LEFT_0_Primary_0"
 							"sound_depressed"			"UI/buttonclick.wav"
 							"sound_released"			"UI/buttonclickrelease.wav"
-						}							
+						}			
+						"Exploit"		//be careful on this one
+						{
+							"ControlName"				"CExButton"
+							"fieldName"					"Exploit"
+							"xpos"						"0"
+							"ypos"						"100"
+							"wide"						"f0"
+							"tall"						"20"
+							"proportionaltoparent"		"1"
+							"command"					"engine ih_custom_submenu_ig_exploit; ih_reloadmenus"
+							"actionsignallevel"			"6"
+							"labelText"					"Misc Stuff II"
+							"font"						"regular12"
+							"textalignment"				"west"
+							"textinsetx"				"20"
+							"use_proportional_insets"	"1"
+							"paintbackground"			"0"
+							"defaultfgcolor_override"	"PrimaryT4"
+							"armedfgcolor_override"		"PrimaryT2"
+							"border_default"			"NoBorder"
+							"border_armed"				"LINE_LEFT_0_Primary_0"
+							"sound_depressed"			"UI/buttonclick.wav"
+							"sound_released"			"UI/buttonclickrelease.wav"
+						}				
 					}
 				}
 			}

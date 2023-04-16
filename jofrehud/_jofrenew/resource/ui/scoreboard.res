@@ -1,4 +1,4 @@
-#base "..\..\overrides\crosshair_in_scoreboard\file.res"
+//#base "..\..\overrides\crosshair_in_scoreboard\file.res"
 #base "../../ui_overrides/summer-border/file.res"
 //#base "../#jofre/blur_bg.res"
 #base "base/progressbar1.res"
@@ -198,11 +198,11 @@
 		}
 	}
 	"ServerLabel"
-	{
+	{	"alpha"	"0"
 		"visible"			"0"
 	}		
 	"ServerLabelNew"
-	{
+	{	"xpos"	"0"
 		"visible"			"0"
 	}	
 	"MainBG"
@@ -488,26 +488,9 @@
 	}							
 	"ShadedBar"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ShadedBar"
-		"xpos"			"0"
-		"ypos"			"r78"
-		"zpos"			"-2"
-		"wide"			"f0"
-		"tall"			"80"
-		//"autoResize"		"0"
-		//"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 0"//153
-		"PaintBackgroundType"	"0"
-		
-		if_mvm
-		{
-			"visible"		"1"
-		}
-	}
+		"visible"		"0"
+		"xpos"	"r0"
+	}	
 	"ClassImage"
 	{
 		"ControlName"		"ImagePanel"
@@ -699,11 +682,11 @@
 		}
 	}
 "ServerTimeLeft"
-{
+{	"alpha"	"0"
 "visible"		"0"
 }
 "ServerTimeLeftValue"
-{
+{	"alpha"	"0"
 "visible"		"0"
 }	
 "ServerTimeLeftValue2"
@@ -971,6 +954,7 @@ if_mvm
 		"tall"			"51" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
+		
 		}	
 		"upbg1"
 		{
@@ -984,6 +968,7 @@ if_mvm
 		"tall"			"8" [$LINUX]
 			"bgcolor_override"	"0 0 0 200"
 			"border"	"BlurBorder"
+		if_mvm		{			"visible"		"0"		}
 		}
 	"MapName"
 	{
@@ -1028,6 +1013,7 @@ if_mvm
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
+		if_mvm		{			"visible"		"0"		}
 	}		
 	"center1"
 	{
@@ -1042,6 +1028,7 @@ if_mvm
 		"enabled"		"1"
 		"bgcolor_override"			"255 255 255 255"
 		"pin_to_sibling"	"BlueScoreBG"
+		
 	}	
 	"center2"
 	{
@@ -1079,7 +1066,7 @@ if_mvm
 		}
 	}		
 "HorizontalLine"
-{
+{	"alpha"	"0"
 "visible"		"0"
 }		
 	"BlurMainBG"
@@ -1096,7 +1083,7 @@ if_mvm
 	"pin_to_sibling"	"BluePlayerList"
 		if_mvm
 		{
-			"visible"		"1"
+			"visible"		"0"
 			"tall"	"410+p0.001"
 		"ypos"				"12"[$WINDOWS]
 		"ypos"			"9-p0.001" [$LINUX]
@@ -1167,6 +1154,10 @@ if_mvm
 		"variable"		"kills"
 		"fgcolor_override"		"Positive"
 		"bgcolor_override"		"0 0 0 0"
+				if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	"death1"
 	{
@@ -1181,6 +1172,10 @@ if_mvm
 		"variable"		"deaths"
 		"fgcolor_override"		"Negative"
 		"bgcolor_override"		"0 0 0 0"
+			if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 		"Kills"
 		{

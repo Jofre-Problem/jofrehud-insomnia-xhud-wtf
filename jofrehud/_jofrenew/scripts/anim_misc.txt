@@ -1,3 +1,28 @@
+//ReadyUp Timers
+event HudTournament_ShowTimerCompetitive
+{
+	SetVisible CountdownLabel 1 0.0
+}
+
+event HudTournament_ShowTimerDefault
+{
+	SetVisible CountdownLabel 1 0.0
+}
+
+event HudTournament_HideTimer
+{
+	SetVisible CountdownLabel 0 0.0
+}
+
+//==============================================================================
+
+//Casual match start count down
+event HudMatchStatus_ShowCountdown
+{
+	Animate CountdownLabel	ypos	150	Linear 0.0 0.0
+	SetVisible CountdownLabel 1 0.0
+	SetVisible CountdownLabel 0 9.9
+}
 event HudTournamentSetupPanelOpen
 {
 	Animate	HudTournamentSetup	ypos	61	Spline 0.0 0.2

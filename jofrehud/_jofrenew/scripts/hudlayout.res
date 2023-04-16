@@ -12,12 +12,12 @@
 	{
 		"ControlName"		"CCurrencyStatusPanel"
 		"fieldName"			"CurrencyStatusPanel"
-		"xpos"				"0"
-		"ypos"				"r100"
-		"wide"				"100"
-		"tall"				"100"
-		"visible" 			"0"
-		"enabled" 			"1"
+		"xpos"		"cs-0.5"
+		"ypos"		"c146"
+		"xpos_minmode"	"cs-0.5"
+		"ypos_minmode"	"c146"
+		"wide"		"80"
+		"tall"		"10"
 
 		"PaintBackgroundType"	"2"
 	}
@@ -28,319 +28,11 @@
 		"enabled"				"1"
 		"xpos"					"cs-0.5"
 		"ypos"					"80"
-		"wide"					"280"
+		"wide"					"260"
 		"tall"					"20"
 		"border"				"FLAT_Black_4"
 	}
 
-	ramka
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"ramka"
-		"xpos"					"r84"//83
-		"ypos"					"9999"//"r148"
-		"zpos"					"-2"
-		"wide"					"96"//95
-		"tall"					"49"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/ramka"
-		"scaleImage"			"1"
-	}
-
-	avg
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"avg"
-		"xpos"					"-14"
-		"ypos"					"-11"
-		"zpos"					"-2"
-		"wide"					"36"
-		"tall"					"9"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/avg"
-		"scaleImage"			"1"
-		"pin_to_sibling"	"ramka"
-	}
-
-	max
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"max"
-		"xpos"					"0"
-		"ypos"					"-19"
-		"zpos"					"-2"
-		"wide"					"36"
-		"tall"					"9"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/max"
-		"scaleImage"			"1"
-		"pin_to_sibling"	"avg"
-	}
-	speedmeter	//main
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"speedmeter"
-		"xpos"					"r109"
-		"ypos"					"9999"//"rs1+10"
-		"zpos"					"-2"
-		"wide"					"110"
-		"tall"					"110"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/speedometer"
-		"scaleImage"			"1"
-	}
-
-	arrow
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"arrow"
-		"xpos"					"-1"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"110"
-		"tall"					"110"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/arrow"
-		"scaleImage"			"1"
-		"pin_to_sibling"	"speedmeter"
-	}
-
-	digits16
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits16"
-		"xpos"					"-7"
-		"ypos"					"4"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"o2"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_16"
-		"scaleImage"			"1"
-		"pin_to_sibling"	"max"
-							"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-	}
- 
-	digits13
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits13"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_13"
-		"scaleImage"			"1"
-				"pin_to_sibling"		"digits16"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}
-
-	digits14
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits14"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"o2"
-		"visible"				"1"
-		"image"					"replay/thumbnails/speed/digits_14"
-		"scaleImage"			"1"
-		"pin_to_sibling"		"digits13"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}
-
-	digits15
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits15"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"o2"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_15"
-		"scaleImage"			"1"
-				"pin_to_sibling"		"digits14"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}
-
-
-	digits12
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits12"
-		"xpos"					"-6"
-		"ypos"					"3"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_12"
-		"scaleImage"			"1"
-		"pin_to_sibling"	"avg"
-							"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-			
-	}
-
-	digits9
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits9"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_9"
-		"scaleImage"			"1"
-				"pin_to_sibling"		"digits12"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}
-
-	digits10
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits10"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_10"
-		"scaleImage"			"1"
-								"pin_to_sibling"		"digits9"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-	}
-
-	digits11
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits11"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_11"
-		"scaleImage"			"1"
-								"pin_to_sibling"		"digits10"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-	}
-
-	digits8
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits8"
-		"xpos"					"-11"
-		"ypos"					"-30"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_8"
-		"scaleImage"			"1"
-		"pin_to_sibling"		"arrow"
-		"pin_corner_to_sibling"	"PIN_CENTER_RIGHT"
-		"pin_to_sibling_corner"	"PIN_CENTER_BOTTOM"
-	}
-
-	digits5
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits5"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_5"
-		"scaleImage"			"1"
-						"pin_to_sibling"		"digits8"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
-	}
-
-	digits6
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits6"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_6"
-		"scaleImage"			"1"
-							"pin_to_sibling"		"digits5"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"	
-	}
-
-	digits7
-	{
-		"ControlName"			"ImagePanel"
-		"fieldName"				"digits7"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-2"
-		"wide"					"8"
-		"tall"					"16"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"image"					"replay/thumbnails/speed/digits_7"
-		"scaleImage"			"1"
-						"pin_to_sibling"		"digits6"
-		"pin_corner_to_sibling"					"PIN_TOPLEFT"
-		"pin_to_sibling_corner"					"PIN_TOPRIGHT"
-	}	
 	"StatPanel"
 	{
 		"fieldName"									"StatPanel"
@@ -604,31 +296,20 @@
 
 	HudTournament
 	{
-		"fieldName"				"HudTournament"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		//"ypos_lodef"			"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"f0"
+		"xpos"		"cs-0.5"
+		"ypos"		"5"
+		"zpos"		"2"
+		"wide"		"500"
+		"tall"		"80"
 	}
 
 	HudTournamentSetup
 	{
-		"fieldName"				"HudTournamentSetup"
-		"visible"				"0"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		//"ypos_lodef"			"0"
-		"zpos"					"0"
-		"wide"					"f0"
-		"tall"					"f0"
-	//	"pin_to_sibling"	"HudTournament"	 //HELL		
+		"xpos"		"cs-0.5"
+		"ypos"		"-70"
+		"wide"		"180"
+		"tall"		"65"
 	}
-	
 
 	
 	"HudMenuEngyBuild"

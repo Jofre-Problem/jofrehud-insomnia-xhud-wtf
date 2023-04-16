@@ -93,7 +93,47 @@
 						"pin_to_sibling" "CrosshairScale"	
 						"pin_corner_to_sibling" "7"
 						"pin_to_sibling_corner" "5"
-					}					
+					}		
+					"CustomChargeSniperOFF"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"CustomChargeSniperOFF"
+						"xpos"					"0"
+						"ypos"					"80"
+						"wide"					"p0.5"
+						"tall"					"40"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Sniper Charge: Default"
+						"font"					"regular14"
+						"textalignment"			"center"
+						"command"				"engine jp_custom_alias_snchar_def; ih_reloadscheme"
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}			
+					"CustomChargeSniperON"
+					{
+						"ControlName"			"CExButton"
+						"fieldName"				"CustomChargeSniperON"
+						"xpos"					"0+p0.5"
+						"ypos"					"80"
+						"wide"					"p0.5"
+						"tall"					"40"
+						"proportionaltoparent"	"1"
+						"labeltext"				"Sniper Charge: Custom"
+						"font"					"regular14"
+						"textalignment"			"center"
+						"command"				"engine jp_custom_alias_snchar_custom; ih_reloadscheme"
+						"actionsignallevel"		"5"
+						"paintbackground"		"0"
+						"border_default"		"FLAT_Black_4"
+						"border_armed"			"FLAT_Black_2"
+						"sound_depressed"		"UI/buttonclick.wav"
+						"sound_released"		"UI/buttonclickrelease.wav"
+					}											
 				}
 			}
 		}

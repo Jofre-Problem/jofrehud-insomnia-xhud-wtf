@@ -1,5 +1,6 @@
 #base "../uni_base/panel/1.res"
 #base "../../../../cfg/jp_id_hudlayout.txt"
+#base "../../../../cfg/jp_sniperchar_hudlayout.txt"
 #base "../fallbackhud/targetid.res"
 //#base "../resource/ui/hudteamgoal.res"
 //#base "../spacer.res"
@@ -577,7 +578,7 @@
 		"xpos"	 "c64"
 		"ypos"	 "c-60"
 		"wide"	 "64"
-		"tall"	 "0"
+	//	"tall"	 "0"
 		"alpha" "1"
 	}
 	CDamageAccountPanel

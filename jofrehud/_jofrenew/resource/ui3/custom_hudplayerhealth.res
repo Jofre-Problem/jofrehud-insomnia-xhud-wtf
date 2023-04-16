@@ -73,7 +73,7 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"HealthBarLowHealth"
-		"xpos"		"104"
+		"xpos"		"0"
 		"ypos"		"35-p0.003"
 		"zpos"		"700"
 		"wide"		"200"

@@ -15,6 +15,9 @@
 	}		
 	"progress"
 	{
+		ShowProgressText	"1"
+		ProgressText	"1"
+		"ControlName"	"ContinuousProgressBar"
 	}		
 	"TimeRemainingLabel"
 	{

@@ -24,6 +24,7 @@
 //	#base "../ui2/polybar_1.res"
 "Resource/UI/MainMenuOverride.res"
 {
+
 	"Items"
 	{
 		"ControlName"								"EditablePanel"

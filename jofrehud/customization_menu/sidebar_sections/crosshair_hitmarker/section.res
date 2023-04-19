@@ -11,16 +11,16 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"CrosshairHitmarker"
 					"xpos"					"0"
-					"ypos"					"0"
+					"ypos"					"40"
 					"zpos"					"50"
 					"wide"					"f0"
 					"tall"					"60"
 					"proportionaltoparent"	"1"
 					"border"				"LINE_LEFT_3_Primary_0"
 
-					"pin_to_sibling"		"Colors"
-					"pin_corner_to_sibling"	"PIN_TOPLEFT"
-					"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
+				//	"pin_to_sibling"		"Colors"
+				//	"pin_corner_to_sibling"	"PIN_TOPLEFT"
+				//	"pin_to_sibling_corner"	"PIN_BOTTOMLEFT"
 
 					"TitleText"
 					{

@@ -14,7 +14,7 @@
 					"ypos"					"100"
 					"zpos"					"50"
 					"wide"					"f0"
-					"tall"					"160"	//change
+					"tall"					"240"	//change
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"	"1"
 					"border"				"LINE_LEFT_3_Primary_0"
@@ -46,42 +46,11 @@
 						"ypos"						"20"
 						"zpos"						"50"
 						"wide"						"170"
-						"tall"						"100"
+						"tall"						"340"
 					//	"proportionaltoparent"		"1"
-					"ControlName"			"CScrollableList"
+					"ControlName"			"EditablePanel"
 					"border"				"LINE_LEFT_3_Primary_0"
-				"ScrollBar"
-				{
-					"ControlName"	"Scrollbar"
-					"FieldName"		"ScrollBar"
-					"xpos"			"rs1-5"
-					
-					"tall"			"f0"
-					"wide"			"8" // This gets slammed from client schme.  GG.
-					"zpos"			"1000"
-					"nobuttons"		"1"
-					"proportionaltoparent"	"1"
 
-					"Slider"
-					{
-						"fgcolor_override"	"Primary"
-						"bgcolor_override"	" 0 0 0 100"
-					}
-				
-					"UpButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"UpButton"
-						"visible"		"0"
-					}
-				
-					"DownButton"
-					{
-						"ControlName"	"Button"
-						"FieldName"		"DownButton"
-						"visible"		"0"
-					}
-				}	
 						"Resolution"
 						{
 							"ControlName"				"CExButton"

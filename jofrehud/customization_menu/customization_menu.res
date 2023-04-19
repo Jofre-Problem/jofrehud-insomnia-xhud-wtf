@@ -93,7 +93,7 @@
 					"tall"						"f0"
 					"proportionaltoparent"		"1"
 					"font"						"regular14"
-					"labelText"					"CUSTOMIZE"
+					"labelText"					"CUSTOMIZE!"
 					"textAlignment"				"west"
 					"textinsetx"				"5"
 					"use_proportional_insets"	"1"
@@ -125,15 +125,48 @@
 
 			"SideBar"
 			{
-				"ControlName"				"EditablePanel"
+				"ControlName"			"CScrollableList"
 				"fieldName"					"SideBar"
 				"xpos"						"0"
 				"ypos"						"20"
 				"zpos"						"51"
 				"wide"						"160"
-				"tall"						"f40"
+				"tall"						"260"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"			"PanelT3"
+
+								"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"5" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"Primary"
+						"bgcolor_override"	" 0 0 0 100"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}	
 			}
 			
 			"MenuContainer"
@@ -209,8 +242,8 @@
 				"wide"						"f0"
 				"tall"						"20"
 				"proportionaltoparent"		"1"
-				"font"						"regular14"
-				"labelText"					"NOTICE: Some options, such as color-related ones, will require a game restart in order to take effect."
+				"font"						"regular12"
+				"labelText"					"NOTICE: Some options, such as color-related ones, will require a game restart in order to take effect. Please use this only on main-menu. Not in-game"
 				"textAlignment"				"center"
 				"fgcolor"					"PrimaryT4"
 				"bgcolor_override"			"PanelT2"

@@ -101,45 +101,28 @@ Scheme
 			"1"
 			{
 				"name"			"ProductChat"
-				"tall"			"14"
-				"yres"			"480 599"
-				"dropshadow"	"0"
+				"tall"		"15"
+				"weight"	"0"
+				"yres"		"480 1023"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
-
 			"2"
 			{
-				"name"			"ProductChat"
-				"tall"			"16"
-				"yres"			"600 767"
-				"dropshadow"	"0"
+				"name"		"ProductChat"
+				"tall"		"17"
+				"weight"	"0"
+				"yres"		"1024 1199"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
-
 			"3"
 			{
-				"name"			"ProductChat"
-				"tall"			"18"
-				"yres"			"768 1023"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-
-			"4"
-			{
-				"name"			"ProductChat"
-				"tall"			"18"
-				"yres"			"1024 1199"
-				"dropshadow"	"0"
-				"antialias"		"1"
-			}
-
-			"5"
-			{
-				"name"			"ProductChat"
-				"tall"			"22"
-				"yres"			"1200 10000"
-				"dropshadow"	"0"
+				"name"		"ProductChat"
+				"tall"		"24"
+				"weight"	"0"
+				"yres"		"1200 6000"
+				"dropshadow"	"1"
 				"antialias"		"1"
 			}
 		}	

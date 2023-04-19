@@ -20,8 +20,217 @@
 	//	{
 	//		"visible"		"0"
 	//	}				
-	//	}	
-	
+	//	}	 
+				"Buttons"
+					{
+						
+						"fieldName"					"Buttons"
+						"xpos"						"cs-0.5"
+						"ypos"						"rs1-73"
+						"zpos"						"5000"
+						"wide"						"170"
+						"tall"						"100"
+					//	"proportionaltoparent"		"1"
+					"ControlName"			"CScrollableList"
+					"border"				"cs1"
+				"ScrollBar"
+				{
+					"ControlName"	"Scrollbar"
+					"FieldName"		"ScrollBar"
+					"xpos"			"rs1"
+					
+					"tall"			"f0"
+					"wide"			"8" // This gets slammed from client schme.  GG.
+					"zpos"			"1000"
+					"nobuttons"		"1"
+					"proportionaltoparent"	"1"
+
+					"Slider"
+					{
+						"fgcolor_override"	"Primary"
+						"bgcolor_override"	"Black"
+					}
+				
+					"UpButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"UpButton"
+						"visible"		"0"
+					}
+				
+					"DownButton"
+					{
+						"ControlName"	"Button"
+						"FieldName"		"DownButton"
+						"visible"		"0"
+					}
+				}		
+		"BlurMainBG"
+	{
+	"ControlName""ImagePanel"
+	"fieldName""BlurMainBG"
+	"xpos""0"
+	"ypos""0"
+	"zpos""-100"
+	"wide""f0"
+	"tall""f0"
+	"image""replay/thumbnails/hp/REFRACTblur"
+	"visible""1"
+	"enabled""1"
+	"scaleimage""1"
+	}			
+	"ChatLabel"
+	{
+		"ControlName"		"CexLabel"
+		"fieldName"		"ChatLabel"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"111"
+		"wide"		"24"
+		"tall"		"o1"
+		"labelText"		"z"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Primary"
+		"font"					"NewIcons12"		
+	}
+	"ChatSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"ChatSlider"
+		"xpos"		"25"
+		"ypos"		"7"
+		"wide"		"190"
+		"tall"		"25"
+		"zpos"		"111"
+		"leftText"		"0"
+		"rightText"		"24.0"
+		"minvalue"		"0"
+		"maxvalue"		"24"
+		"cvar_name"		"hud_saytext_time"
+		fgcolor_override		"Primary"
+	}
+	"DeathLabel"
+	{
+		"ControlName"		"CexLabel"
+		"fieldName"		"DeathLabel"
+		"xpos"		"0"
+		"ypos"		"24"
+		"zpos"		"111"
+		"wide"		"24"
+		"tall"		"o1"
+		"labelText"		"0"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Primary"
+		"font"					"NewIcons12"		
+	}
+	"DDDSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"DDDSlider"
+		"xpos"		"25"
+		"ypos"		"7+24"
+		"wide"		"190"
+		"tall"		"25"
+		"zpos"		"111"
+		"leftText"		"0"
+		"rightText"		"24.0"
+		"minvalue"		"0"
+		"maxvalue"		"24"
+		"cvar_name"		"hud_deathnotice_time"
+		fgcolor_override		"Primary"
+	}
+	"Volabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Volabel"
+		"xpos"		"0"
+		"ypos"		"24+24"
+		"zpos"		"111"
+		"wide"		"23"
+		"tall"		"o1"
+		"labelText"		"ã"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Primary"
+		"font"					"NewIcons12"		
+	}
+	"VolumeSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"VolumeSlider"
+		"xpos"		"25"
+		"ypos"		"7+24+24"
+		"wide"		"190"
+		"tall"		"15"
+		"zpos"		"111"
+		"leftText"		"#GameUI_Low"
+		"rightText"		"#GameUI_High"
+		"minvalue"		"0"
+		"maxvalue"		"100"
+		"cvar_name"		"volume"
+		fgcolor_override		"Primary"
+	}	
+	"Netlabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"Netlabel"
+		"xpos"		"0"
+		"ypos"		"24+24+24"
+		"zpos"		"111"
+		"wide"		"23"
+		"tall"	"23"
+		"labelText"		"V"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Primary"
+		"font"					"NewIcons12"		
+	}
+	"NSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"NSlider"
+		"xpos"		"25"
+		"ypos"		"7+24+24+24"
+		"wide"		"190"
+		"tall"		"15"
+		"zpos"		"111"
+		"leftText"		"0"
+		"rightText"		"4.0"
+		"minvalue"		"0"
+		"maxvalue"		"4"
+		"cvar_name"		"net_graph"
+		fgcolor_override		"Primary"
+	}	
+	"ColorLabel"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"ColorLabel"
+		"xpos"		"0"
+		"ypos"		"24+24+24+24"
+		"zpos"		"111"
+		"wide"		"24"
+		"tall"		"o1"
+		"labelText"		"R"
+		"textAlignment"		"center"
+		"fgcolor_override"		"Primary"
+		"font"					"NewIcons12"		
+	}
+	"CSlider"
+	{
+		"ControlName"		"CCvarSlider"
+		"fieldName"		"CSlider"
+		"xpos"		"25"
+		"ypos"		"7+24+24+24+24"
+		"wide"		"190"
+		"tall"		"15"
+		"zpos"		"111"
+		"leftText"		"0"
+		"rightText"		"4.0"
+		"minvalue"		"0"
+		"maxvalue"		"12"
+		"cvar_name"		"joy_advaxisu"
+		fgcolor_override		"Primary"
+	}							
+
+}			
 	"Removeline"
 	{
 			xpos					cs-0.5
@@ -402,6 +611,7 @@
 		"zpos"				"4"
 		"wide"				"p0.505"
 		"tall"				"204"
+		"tall_minmode""0"
 		//"pinCorner"		"0"
 		"visible"			"1"
 		"enabled"			"1"

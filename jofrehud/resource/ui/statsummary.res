@@ -1,4 +1,4 @@
-	#base	"../../custom/resource/ui/statsummary.res"
+	//#base	"../../custom/resource/ui/statsummary.res"
 	#base	"../../_jofrenew/resource/ui/statsummary.res"
 	#base	"../../_jofrehud/_tf2custom/statsummary.res"	
 //	#base	"../../_jofrehud/resource/ui/statsummary.res"

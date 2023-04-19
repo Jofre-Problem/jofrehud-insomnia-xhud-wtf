@@ -30,7 +30,7 @@ Scheme
 	"BaseSettings"
 	{
 		ScrollBarSlider.FgColor								"Primary"
-		ScrollBarSlider.BgColor								"blank"	
+		ScrollBarSlider.BgColor								"0 0 0 100"	
 		Slider.NobColor				"Primary"
 		"ReplayBrowser.BgColor"								"DarkBrown"
 		"ReplayBrowser.Details.TitleEdit.Carat.FgColor"		"LightRed"

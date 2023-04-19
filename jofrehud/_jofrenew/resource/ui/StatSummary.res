@@ -83,7 +83,7 @@
 					"tall""o1"
 					"zpos"		"999"
 
-					"image""logos/UI/spray"
+					"image""replay/thumbnails/spray"
 					"scaleImage""1"
 					}		
 		"defbg"

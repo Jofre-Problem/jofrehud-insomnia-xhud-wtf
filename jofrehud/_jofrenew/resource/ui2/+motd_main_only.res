@@ -422,7 +422,7 @@
 					"tall""o1"
 
 
-					"image""logos/UI/spray"
+					"image""replay/thumbnails/spray"
 					"scaleImage""1"
 		}		
 		"logosound"

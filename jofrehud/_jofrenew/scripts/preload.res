@@ -7,8 +7,35 @@
 		"xpos"				"9999"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"crosshairs/crosshair1"
+		"image"				"crosshairs/../replay/thumbnails/w"
 	}	
+	"crosshair2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"crosshair2"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"crosshairs/../replay/thumbnails/s"
+	}	
+	"crosshair3"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"crosshair3"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"crosshairs/../replay/thumbnails/a"
+	}	
+	"crosshair4"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"crosshair4"
+		"xpos"				"9999"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"crosshairs/../replay/thumbnails/d"
+	}				
 	"icon_obj_1_blu"
 	{
 		"ControlName"		"ImagePanel"

@@ -1,3 +1,4 @@
+#base "../../../../../cfg/jp_steam_border.txt"
 #base "../../ui_overrides/full-timer/file.res"
 //#base "../../ui_overrides/summer-border/file.res"
 #base "../ui3/tank_gif.res"
@@ -7,8 +8,10 @@
 #base "../ui2/polybar_1.res"
 #base "../ui2/polyconfig1.res"
 #base "../#jofre/blur_bg.res"
+#base "../ui3/partyslot0.res"
 "Resource/UI/TeamMenu.res"
 {
+	
 	"o_label"
 	{
 		"xpos"			"rs1-120"
@@ -30,30 +33,9 @@
 			}		
 	"Removeline"
 	{
-		ControlName				EditablePanel
-		FieldName				"Removeline"
-			xpos					cs-0.5
-			ypos					50
-			zpos					100
-			wide					42
-			tall					40
-		bgcolor_override				"blank"
-		"border"		"Rice1"
-		mouseInputEnabled			0
 
-		"PartySlot0"  // player
-		{
-			ControlName				CDashboardPartyMember
-			fieldName				"PartySlot0"
-			xpos					0
-			ypos					0
-			zpos					100
-			wide					42
-			tall					o1
-
-			party_slot				0
-		}	
-	}		
+	}	
+	
 	"info"
 	{
 		"ControlName"			"Frame"

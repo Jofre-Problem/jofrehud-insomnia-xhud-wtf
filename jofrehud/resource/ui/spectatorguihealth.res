@@ -1,5 +1,5 @@
 //	#base "../../_jofrenew/magnumhud/ui/id_spectatorguihealth.res"
-	#base	"../../custom/resource/ui/spectatorguihealth.res"
+	//#base	"../../custom/resource/ui/spectatorguihealth.res"
 	#base	"../../_jofrenew/resource/ui/spectatorguihealth.res"
 //	#base	"../../_jofrehud/resource/ui/spectatorguihealth.res"
 //	#base	"../../_tf2hud/resource/ui/spectatorguihealth.res"

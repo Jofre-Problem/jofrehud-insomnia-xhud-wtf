@@ -1,3 +1,11 @@
+event SurveyShowSequence{}
+event SurveySubmitSequence{}
+event SurveyDelete{}
+event SurveyHideSequence{}
+event CompetitiveGame_ShowPvPRankPanel
+{
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+}
 //ReadyUp Timers
 event HudTournament_ShowTimerCompetitive
 {

@@ -339,7 +339,7 @@
 				enabled						1
 
 				labelText					"%queue_state%"
-				font							"Noto9"
+				font							"Regular11"
 				textAlignment				center
 				AllCaps						1
 				textinsety					2
@@ -475,7 +475,7 @@
 				enabled						1
 
 				labelText					"#TF_MM_JoinPartyLobby_Prompt"
-				font							"Noto9"
+				font							"Regular11"
 				textAlignment				center
 				textinsety					2
 

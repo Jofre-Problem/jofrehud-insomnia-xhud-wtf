@@ -16,7 +16,7 @@
 #base "../../overrides/teamcolor_always_blu/ammo.res"
 #base "../../overrides/teamcolor_always_white/ammo.res"
 
-#base "../ui3/teamcolor/ammo.res"
+#base "teamcolor/ammo.res"
 
 
 #base "../ui/base/editable1.res"

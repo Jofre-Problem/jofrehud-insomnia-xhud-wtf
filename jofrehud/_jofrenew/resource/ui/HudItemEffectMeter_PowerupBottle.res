@@ -52,7 +52,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Regular10"
-		"fgcolor_override"		"NotoWhite"
+		"fgcolor_override"		"White"
 	}
 
 	"ItemEffectMeter"
@@ -69,7 +69,7 @@
 		"pinCorner"				"0"
 		"visible"				"0"
 		"enabled"				"0"
-		"textAlignment"			"Left"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}					
@@ -92,7 +92,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"Regular18"
-		"fgcolor_override"		"NotoWhite"
+		"fgcolor_override"		"White"
 		
 	}
 	

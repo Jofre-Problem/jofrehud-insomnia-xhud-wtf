@@ -2,6 +2,19 @@
 
 "Resource/UI/Spectator.res"
 {
+			"ProgressBar1"
+		{
+		"ControlName""ContinuousProgressBar"
+		"fieldName""ProgressBar1"
+		"xpos"	"20"
+		"ypos"	"40"
+		"variable"	"reapawntime"
+			"zpos"			"10"
+				"tall"			"2"
+				"wide"	"60"
+		"fgcolor_override"		"255 255 255 255"
+		"bgcolor_override"		"0 0 0 0"
+	}	
 "topbar"
 {
 "ypos""r0"

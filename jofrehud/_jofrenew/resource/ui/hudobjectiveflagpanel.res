@@ -47,7 +47,7 @@
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
 		"font"			"Size 30"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
@@ -84,7 +84,7 @@
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
 		"font"			"Size 30"
-		"fgcolor"		"NotoWhite"		
+		"fgcolor"		"White"		
 		
 		"if_hybrid"
 		{
@@ -119,7 +119,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"NotoBlueSolid"
+		"fillcolor"		"blue"
 		
 		"if_hybrid"
 		{
@@ -149,7 +149,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"NotoRedSolid"
+		"fillcolor"		"red"
 		
 		"if_hybrid"
 		{
@@ -179,7 +179,7 @@
 		"visible"		"0"
 		//"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"NotoDark"
+		"fillcolor"		"black"
 		
 		"if_hybrid"
 		{
@@ -226,8 +226,8 @@
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
 		"font"			"Regular14"
-		"fgcolor"		"NotoWhite"
-		"bgcolor_override"	"NotoDark"
+		"fgcolor"		"White"
+		"bgcolor_override"	"black"
 		
 		"if_hybrid"
 		{

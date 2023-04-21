@@ -11,7 +11,7 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"Colors"
 					"xpos"					"0"
-					"ypos"					"0"
+					"ypos"					"60"
 					"zpos"					"50"
 					"wide"					"f0"
 					"tall"					"40"

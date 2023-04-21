@@ -60,8 +60,8 @@
 		//"dulltext"	"0"
 		//"dulltext"	"0"
 		"font"			"Regular12"
-		"fgcolor"		"NotoWhite"
-		"bgcolor_override"	"NotoBlack"
+		"fgcolor"		"White"
+		"bgcolor_override"	"black"
 		
 		"if_hybrid"
 		{
@@ -186,7 +186,7 @@
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
 			"font"			"Regular16"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"White"
 			"proportionalToParent"	"1"	
 		}	
 
@@ -235,7 +235,7 @@
 			"visible"		"1"
 			//"enabled"		"1"
 			"PaintBackgroundType"	"0"
-			"bgcolor_override"	"NotoDark"
+			"bgcolor_override"	"34 34 34 255"
 		}
 	}
 
@@ -292,7 +292,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlueSolid"
+				"fillcolor"     "blue"
 				"scaleImage"    "1"
 			}	
 			
@@ -307,7 +307,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoRedSolid"
+				"fillcolor"     "red"
 				"scaleImage"    "1"
 			}
 			
@@ -322,7 +322,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "black"
 				"scaleImage"    "1"
 			}
 			
@@ -337,7 +337,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "black"
 				"scaleImage"    "1"
 			}
 			
@@ -352,7 +352,7 @@
 				"tall"          "30"
 				"visible"       "1"
 				"enabled"       "1"
-				"fillcolor"     "NotoBlack"
+				"fillcolor"     "black"
 				"scaleImage"    "1"
 			}
 
@@ -386,8 +386,8 @@
 				"textAlignment"	"center"	
 				"labelText"		"%blue_escrow%"
 				"font"			"Regular14"
-				"fgcolor"		"NotoWhite"	
-				"fgcolor_override"		"NotoWhite"	
+				"fgcolor"		"White"	
+				"fgcolor_override"		"White"	
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 				"textinsetx"	"0"
@@ -441,8 +441,8 @@
 				"textAlignment"	"center"	
 				"labelText"		"%red_escrow%"
 				"font"			"Regular14"
-				"fgcolor"		"NotoWhite"	
-				"fgcolor_override"		"NotoWhite"	
+				"fgcolor"		"White"	
+				"fgcolor_override"		"White"	
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
 				"textinsetx"	"0"
@@ -578,7 +578,7 @@
 
 				"left_offset"			"10"
 				"right_offset"			"0"
-				"standard_color"		"NotoBlueSolid"
+				"standard_color"		"blue"
 				"bright_color"			"110 159 189 255"
 				"left_to_right"			"0"
 				"blink_threshold"		"1.0"
@@ -722,7 +722,7 @@
 
 				"left_offset"			"0"
 				"right_offset"			"9"
-				"standard_color"		"NotoRedSolid"
+				"standard_color"		"red"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"
 				"blink_threshold"		"1.0"
@@ -783,7 +783,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"Regular32"
-				"fgcolor"		"NotoWhite"
+				"fgcolor"		"White"
 				"proportionalToParent"	"1"
 			}	
 		
@@ -836,7 +836,7 @@
 				"textAlignment"	"center"	
 				"labelText"		"%score%"
 				"font"			"Regular32"
-				"fgcolor"		"NotoWhite"
+				"fgcolor"		"White"
 				"proportionalToParent"	"1"
 			}	
 		

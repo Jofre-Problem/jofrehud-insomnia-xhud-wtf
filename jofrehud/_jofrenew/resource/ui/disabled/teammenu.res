@@ -64,7 +64,7 @@
 		"labelText"		"Choose Your Team"
 		"textAlignment"	"west"
 		"font"			"Regular24"
-		"fgcolor_override"		"NotoWhite"
+		"fgcolor_override"		"White"
 		"bgcolor_override"		"0 0 0 0"
 		"textinsetx"	"0"
 	}
@@ -131,7 +131,7 @@
 		//"dulltext"	"0"
 		"brighttext"	"1"
 		"font"			"Regular60"
-		"fgcolor_override"		"NotoWhite"
+		"fgcolor_override"		"White"
 	}
 	
 	"AnyTeamButton" [$WIN32] 
@@ -156,13 +156,13 @@
 		"command"		"jointeam auto"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"SpecTeamButton" [$WIN32] 
@@ -187,13 +187,13 @@
 		"command"		"jointeam spectate"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"RedTeamButton" [$WIN32] 
@@ -218,13 +218,13 @@
 		"command"		"jointeam red"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"BlueTeamButton" [$WIN32] 
@@ -249,13 +249,13 @@
 		"command"		"jointeam blue"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"teambutton0"
@@ -281,26 +281,26 @@
 		"command"		"jointeam blue"
 		"team"				"3"		// team blue
 		"font"			"Regular48"
-		"fgcolor"					"NotoBlueSolid"
-		"fgcolor_override"			"NotoBlueSolid"
+		"fgcolor"					"blue"
+		"fgcolor_override"			"blue"
 		
 		"defaultBgColor_override" 	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 		"selectedBgColor_override" 	"0 0 0 0"
 		
-		"defaultFgColor_override" 	"NotoBlueSolid"
-		"armedFgColor_override"		"NotoWhite"
-		"depressedFgColor_override" "NotoBlueSolid"
-		"selectedFgColor_override" 	"NotoWhite"
+		"defaultFgColor_override" 	"blue"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "blue"
+		"selectedFgColor_override" 	"White"
 		
-		//"fgcolor"					"NotoBlueSolid"
-		//"fgcolor_override"			"NotoBlueSolid"
+		//"fgcolor"					"blue"
+		//"fgcolor_override"			"blue"
 		
-		//"defaultFgColor_override" 	"NotoBlueSolid"
-		//"armedFgColor_override"		"NotoWhite"
-		//"depressedFgColor_override" "NotoBlueSolid"
-		//"selectedFgColor_override" 	"NotoWhite"
+		//"defaultFgColor_override" 	"blue"
+		//"armedFgColor_override"		"White"
+		//"depressedFgColor_override" "blue"
+		//"selectedFgColor_override" 	"White"
 		
 		"border_default"		"FuckinBorderDude"
 		"border_armed"		"FuckinBorderDude"
@@ -329,26 +329,26 @@
 		"command"		"jointeam red"
 		"team"				"4"		// team red
 		"font"			"Regular48"
-		"fgcolor"					"NotoRedSolid"
-		"fgcolor_override"			"NotoRedSolid"
+		"fgcolor"					"red"
+		"fgcolor_override"			"red"
 		
 		"defaultBgColor_override" 	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 		"selectedBgColor_override" 	"0 0 0 0"
 		
-		"defaultFgColor_override" 	"NotoRedSolid"
-		"armedFgColor_override"		"NotoWhite"
-		"depressedFgColor_override" "NotoRedSolid"
-		"selectedFgColor_override" 	"NotoWhite"
+		"defaultFgColor_override" 	"red"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "red"
+		"selectedFgColor_override" 	"White"
 		
-		//"fgcolor"					"NotoRedSolid"
-		//"fgcolor_override"			"NotoRedSolid"
+		//"fgcolor"					"red"
+		//"fgcolor_override"			"red"
 		
-		//"defaultFgColor_override" 	"NotoRedSolid"
-		//"armedFgColor_override"		"NotoWhite"
-		//"depressedFgColor_override" "NotoRedSolid"
-		//"selectedFgColor_override" 	"NotoWhite"
+		//"defaultFgColor_override" 	"red"
+		//"armedFgColor_override"		"White"
+		//"depressedFgColor_override" "red"
+		//"selectedFgColor_override" 	"White"
 		
 		"border_default"		"FuckinBorderDude"
 		"border_armed"		"FuckinBorderDude"
@@ -382,9 +382,9 @@
 		"fgcolor_override"		"NotoGray"
 		
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
@@ -423,9 +423,9 @@
 		"fgcolor_override"		"NotoGray"
 		
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
 		
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
@@ -458,13 +458,13 @@
 		"command"		"cancelmenu"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"CancelButton2" [$WIN32] 
@@ -489,13 +489,13 @@
 		"command"		"cancelmenu"
 		"font"			"Regular24"
 		"defaultFgColor_override" "NotoGray"
-		"armedFgColor_override" "NotoWhite"
-		"depressedFgColor_override" "NotoWhite"
-		"selectedFgColor_override" 	"NotoWhite"
-		"defaultBgColor_override" "NotoBlack"
-		"armedBgColor_override" "NotoBlack"
-		"depressedBgColor_override" "NotoBlack"
-		"selectedBgColor_override" 	"NotoBlack"
+		"armedFgColor_override" "White"
+		"depressedFgColor_override" "White"
+		"selectedFgColor_override" 	"White"
+		"defaultBgColor_override" "34 34 34 255"
+		"armedBgColor_override" "34 34 34 255"
+		"depressedBgColor_override" "34 34 34 255"
+		"selectedBgColor_override" 	"34 34 34 255"
 	}
 	
 	"TeamMenuSelect"
@@ -623,7 +623,7 @@
 		//"dulltext"	"0"
 		"brighttext"	"1"
 		"font"			"Regular24"
-		"fgcolor"		"NotoBlueSolid"
+		"fgcolor"		"blue"
 	}
 	"BlueCountPlayers"
 	{
@@ -666,7 +666,7 @@
 		//"dulltext"	"0"
 		"brighttext"	"1"
 		"font"			"Regular24"
-		"fgcolor_override"		"NotoRedSolid"
+		"fgcolor_override"		"red"
 	}	
 	"RedCountPlayers"
 	{

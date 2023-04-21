@@ -2322,11 +2322,10 @@
 					
 	"tr_walkay"	
 	{
-		"pin_to_sibling"	"PanelTraining"
 		"ControlName"	"CExImageButton"
 			"fieldName"		"tr_walkay"
 			"xpos"	"0"
-			"YPOS"	"-15"
+			"YPOS"	"rs1-40"
 			"zpos"										"20"
 			"wide"										"90"
 			"tall"										"12"
@@ -2337,34 +2336,8 @@
 			"actionsignallevel"	"2"	
 			"sound_depressed"							"sound_menu/button.wav"
 			"sound_released"							"sound_menu/button2.wav"
-			"paintBackground"	"0"
-			"defaultFgColor_override"					"W_ColorIcons1"
-			"armedFgColor_override" 					"NotoGray"
-			"depressedFgColor_override" 				"PolyIconsFg4"			
+			"paintBackground"	"0"		
 	}
-	"tr_aim"	
-	{
-		"pin_to_sibling"	"PanelTraining"
-		"ControlName"	"CExImageButton"
-		"pin_to_sibling"	"tr_walkay"
-			"fieldName"		"tr_aim"
-			"xpos"	"0"
-			"YPOS"	"-25"
-			"zpos"										"20"
-			"wide"										"90"
-			"tall"										"12"
-			labelText				"TR_AIM"
-			font					"Regular12"
-			textAlignment			center
-			command				"engine sv_cheats 1; map tr_aim"
-			"actionsignallevel"	"2"	
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
-			"paintBackground"	"0"
-			"defaultFgColor_override"					"W_ColorIcons1"
-			"armedFgColor_override" 					"NotoGray"
-			"depressedFgColor_override" 				"PolyIconsFg4"			
-	}	
 
 
 

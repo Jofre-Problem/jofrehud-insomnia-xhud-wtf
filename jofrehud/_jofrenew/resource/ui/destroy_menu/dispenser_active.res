@@ -89,7 +89,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Regular26"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"xpos"			"12"
 		"ypos"			"16"
 		"zpos"			"5"

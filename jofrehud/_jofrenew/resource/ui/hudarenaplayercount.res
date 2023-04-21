@@ -56,7 +56,7 @@
 			"tall"			"19"
 			"font"			"Regular14"
 			"textAlignment"	"center"
-			"fgcolor"		"NotoWhite"
+			"fgcolor"		"White"
 		}	
 			"countshadow"
 		{
@@ -136,7 +136,7 @@
 			"tall"			"19"
 			"font"			"Regular14"
 			"textAlignment"	"center"
-			"fgcolor"		"Notowhite"
+			"fgcolor"		"White"
 		}		
 		"countshadow"
 		{

@@ -89,7 +89,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
 		"font"			"Regular18"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"xpos"			"74"			
 		"ypos"			"0"
 		"zpos"			"2"

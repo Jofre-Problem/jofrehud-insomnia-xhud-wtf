@@ -131,7 +131,7 @@
 				"ypos"						"20"
 				"zpos"						"51"
 				"wide"						"160"
-				"tall"						"260"
+				"tall"						"440"
 				"proportionaltoparent"		"1"
 				"bgcolor_override"			"PanelT3"
 

@@ -23,11 +23,11 @@
 		"ControlName"		"Label"
 		"fieldName"		"AlertLabel"
 		"font"			"Regular20"
-		"fgcolor_override"	"NotoWhite"
+		"fgcolor_override"	"White"
 		"xpos"			"c-125"
 		"ypos"			"70"
 		"zpos"			"1"
-		"wide"			"250"	[$WIN32]
+		"wide"			"250"
 		"tall"			"55"
 		//"autoResize"		"0"
 		//"pinCorner"		"0"

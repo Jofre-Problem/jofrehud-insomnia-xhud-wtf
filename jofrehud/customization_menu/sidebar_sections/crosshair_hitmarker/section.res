@@ -11,7 +11,7 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"CrosshairHitmarker"
 					"xpos"					"0"
-					"ypos"					"40"
+					"ypos"					"40+60"
 					"zpos"					"50"
 					"wide"					"f0"
 					"tall"					"60"

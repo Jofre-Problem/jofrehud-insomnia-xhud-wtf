@@ -2,44 +2,21 @@
 {
 	"PlayerStatusHealthImage"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImage"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"4"
 		"visible"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
 	}		
 	"PlayerStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"PlayerStatusHealthImageBG"
 		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"
 		"visible"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../hud/health_bg"
-		"scaleImage"	"0"	
 	}	
 	"BuildingStatusHealthImageBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"BuildingStatusHealthImageBG"
 		"xpos"			"0"
-		"ypos"			"r0"
-		"zpos"			"0"
 		"visible"			"0"
 		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"image"			"../hud/health_equip_bg"
-		"scaleImage"	"1"	
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -63,6 +40,7 @@
     "pin_to_sibling"	"PlayerStatusHealthValueID2"
     "wide"		"25"
     "tall"		"15"
+	"zpos"	"2"
 	"ypos"	"-1"
 	"xpos"	"-315"
     "visible"		"1"
@@ -77,7 +55,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HealthSpectatorBarHurt"
 		"xpos"			"0"
-		"ypos"			"-14"
+		"ypos"			"-8"	//close
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"20"
@@ -92,7 +70,36 @@
 		"pin_corner_to_sibling"		"6"
 		"pin_to_sibling_corner"		"6"
 	}
-
+	"cleanhurt"
+	{
+	"ControlName"	"ImagePanel"
+	"fieldName"	"cleanhurt"
+	"xpos"	"275"
+	"ypos"	"401+p0.0029"
+	"zpos"	"6"
+	"wide"	"25"
+	"tall"	"19"
+	"visible" "1"
+	"bgcolor_override" "Black"
+			"enabled"		"1"
+	"image"	"replay/thumbnails/hp/REFRACTnormal"
+	"scaleimage""1"
+	}		
+	"cleanoverheal"
+	{
+	"ControlName"	"ImagePanel"
+	"fieldName"	"cleanoverheal"
+	"xpos"	"275"
+	"ypos"	"420+15"
+	"zpos"	"6"
+	"wide"	"25"
+	"tall"	"15"
+	"visible" "1"
+	"bgcolor_override" "Black"
+			"enabled"		"1"
+	"image"	"replay/thumbnails/hp/REFRACTnormal"
+	"scaleimage""1"
+	}	
 	"HealthSpectatorBarBuff"
 	{
 		"ControlName"	"ImagePanel"
@@ -144,6 +151,7 @@
 		"font"			"Killfeed"
 		"fgcolor"		"Black"
 	}
+
 	"PlayerStatusHealthValueS"
 	{
 		"ControlName"	"CExLabel"

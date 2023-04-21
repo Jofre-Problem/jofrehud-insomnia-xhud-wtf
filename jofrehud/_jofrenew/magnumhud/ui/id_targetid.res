@@ -291,7 +291,7 @@
 		"textAlignment"		"center"
 		//"dulltext"	"0"
 		"brighttext"		"0"
-		"fgcolor"		"236 240 241 255"
+		"fgcolor"		"black"
 	}
 	"TriUberTID"
 	{
@@ -322,7 +322,8 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 125"
+    "fillcolor"		"White"
+		"alpha"		"150"
 	}
 	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
 	{	

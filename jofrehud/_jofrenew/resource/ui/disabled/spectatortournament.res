@@ -126,7 +126,7 @@
 			//"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"NotoBlack"
+			"fillcolor" 	"34 34 34 255"
 			}
 		
 			"playername"
@@ -403,7 +403,7 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"Regular20"
-		"fgcolor_override"		"NotoWhite"
+		"fgcolor_override"		"White"
 	}
 	"BuyBackLabel"
 	{
@@ -499,7 +499,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"NotoBlack"
+		"bgcolor_override"		"34 34 34 255"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"1"
 		

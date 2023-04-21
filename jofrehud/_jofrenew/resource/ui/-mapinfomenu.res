@@ -93,7 +93,7 @@
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
 		"font"			"Future40"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 	//	"auto_wide_tocontents"	"1"
 		"bgcolor_override"		"0 0 0 90"
 	}
@@ -109,7 +109,7 @@
 		"textAlignment"	"west"
 		"font"			"Regular14"
 		"allcaps"	"1"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"bgcolor_override"	"0 0 0 0"	
 	}	
 	
@@ -129,7 +129,7 @@
 		"enabled"		"1"
 		"paintborder"	"0"
 		"textAlignment"	"west"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"MaximumWidth"	"150"
 	}
 	

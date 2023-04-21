@@ -56,7 +56,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"RefreshLabel2"
 		"xpos"		"686"
-		"ypos"		"369"
+		"ypos"		"rs1-200"
 		"wide"		"90"
 		"tall"		"24"
 		"textAlignment"		"west"

@@ -55,7 +55,7 @@
 		"textAlignment"	"north"
 		//"dulltext"	"0"
 		"brighttext"	"0"
-		"fgcolor_override"	"NotoRedSolid"
+		"fgcolor_override"	"red"
 	}
 	
 	"MetalIcon"	
@@ -133,7 +133,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
 		"font"			"Regular26"
-		"fgcolor"		"NotoWhite"
+		"fgcolor"		"White"
 		"xpos"			"12"
 		"ypos"			"16"
 		"zpos"			"5"

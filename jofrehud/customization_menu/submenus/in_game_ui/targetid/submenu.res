@@ -12,7 +12,7 @@
 				{
 					"Buttons"
 					{
-						"Scoreboard"
+						"TargetID"
 						{
 							"defaultfgcolor_override"		"Primary"
 							"armedfgcolor_override"			"White"
@@ -24,10 +24,10 @@
 			}
 			"MenuContainer"
 			{
-				"ScoreboardSizeButtons"
+				"TargetIDSizeButtons"
 				{
 					"ControlName"				"EditablePanel"
-					"fieldName"					"ScoreboardSizeButtons"
+					"fieldName"					"TargetIDSizeButtons"
 					"xpos"						"0"
 					"ypos"						"0"
 					"wide"						"f0"

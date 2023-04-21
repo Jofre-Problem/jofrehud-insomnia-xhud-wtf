@@ -6,7 +6,7 @@
 		{
 			"MenuContainer"
 			{
-				"ScoreboardSizeButtons"
+				"TargetIDSizeButtons"
 				{
 					"XHUDTI"
 					{

@@ -11,7 +11,7 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"Misc"
 					"xpos"					"0"
-					"ypos"					"340+60"
+					"ypos"					"340+60+60"
 					"zpos"					"51"
 					"wide"					"f0"
 					"tall"					"240"	//change
@@ -155,7 +155,7 @@
 							"wide"						"f0"
 							"tall"						"20"
 							"proportionaltoparent"		"1"
-							"command"					"engine ih_custom_submenu_ig_summer; ih_reloadmenus"
+							"command"					"engine ih_custom_submenu_m_plugin; ih_reloadmenus"
 							"actionsignallevel"			"6"
 							"labelText"					"Server Plugin Font"
 							"font"						"regular12"

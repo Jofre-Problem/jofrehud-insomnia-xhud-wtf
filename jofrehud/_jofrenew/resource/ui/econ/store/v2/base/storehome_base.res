@@ -299,8 +299,8 @@
 			"selectedBgColor_override" "10 10 10 255"
 			"selectedFgColor_override"	"235 227 203 255"
 			
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"1"
@@ -333,8 +333,8 @@
 		//"dulltext"	"0"
 		//"dulltext"	"0"
 		"Command"		"prevpage"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}		
 	
 	"CurPageLabel"
@@ -376,8 +376,8 @@
 		//"dulltext"	"0"
 		//"dulltext"	"0"
 		"Command"		"nextpage"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -417,8 +417,8 @@
 		
 		"Command"		"viewcart"
 		"font"			"HudFontSmallBold"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"CartImage"
@@ -457,8 +457,8 @@
 		//"dulltext"	"0"
 		"default"		"1"
 		"Command"		"startshopping"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"MarketPlaceButton"
@@ -484,8 +484,8 @@
 		"Command"		"marketplace"
 		"paintbackground"	"1"
 		"defaultBgColor_override" "46 43 42 255"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"TitleLabel"

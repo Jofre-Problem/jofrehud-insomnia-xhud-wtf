@@ -37,8 +37,8 @@
 		//"brighttext"	"0"
 		//"Default"		"1"
 		"Command"		"Close"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	"OkButton2"
 	{
@@ -61,8 +61,8 @@
 		//"brighttext"	"0"
 		//"Default"		"1"
 		"Command"		"Ok"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		"defaultBgColor_override"	"Tandarker"
 	}	
 	"TFAdvancedOptionsDialog"

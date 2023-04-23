@@ -21,8 +21,8 @@
 //			enabled				1
 //			"command"				"engine safemodetoggle; echo friend list"
 
-//			sound_depressed			"sound_menu/button.wav"
-//			sound_released			"sound_menu/button2.wav"
+//			sound_depressed			"ui/buttonclick.wav"
+//			sound_released			"ui/buttonclickrelease.wav"
 //			"proportionaltoparent"		"1"
 //			"mouseinputenabled"			"1"
 //			"keyboardinputenabled"		"0"
@@ -89,8 +89,8 @@
 "actionsignallevel""2"
 "RoundedCorners""0"
 
-"sound_depressed""sound_menu/button.wav"
-"sound_released""sound_menu/button2.wav"
+"sound_depressed""ui/buttonclick.wav"
+"sound_released""ui/buttonclickrelease.wav"
 
 //"armedBgColor_override""192 28 0 250"
 //"defaultBgColor_override""192 28 0 150"

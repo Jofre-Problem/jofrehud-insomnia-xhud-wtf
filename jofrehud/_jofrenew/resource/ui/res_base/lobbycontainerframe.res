@@ -136,8 +136,8 @@
 		"brighttext"	"0"
 		"default"		"0"
 		"Command"		"options"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"image_drawcolor"	"235 226 202 255"
 		"image_armedcolor"	"235 226 202 255"
@@ -180,8 +180,8 @@
 		"NavUp"			"PlayNowButton"
 		"NavRight"		"LearnMoreButton"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"NotificationsPresentPanel"
@@ -256,8 +256,8 @@
 		"NavDown"		"LearnMoreButton"
 		"NavLeft"		"LearnMoreButton"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 
 	"StartPartyButton"
@@ -286,7 +286,7 @@
 		"NavDown"		"NextButton"
 		"NavLeft"		"PracticeButton"
 
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

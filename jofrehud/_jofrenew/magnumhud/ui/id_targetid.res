@@ -291,7 +291,7 @@
 		"textAlignment"		"center"
 		//"dulltext"	"0"
 		"brighttext"		"0"
-		"fgcolor"		"black"
+		"fgcolor"		"White"
 	}
 	"TriUberTID"
 	{
@@ -305,7 +305,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"variable"		"targetdata"
-		"fg_image"		"replay/thumbnails/hp/refractnormal"
+		"fg_image"		"replay/thumbnails/hp/modulate_blu"
 		"bg_image"		"replay/thumbnails/bg_blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 255"
@@ -322,7 +322,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-    "fillcolor"		"White"
+    "fillcolor"		"Black"
 		"alpha"		"150"
 	}
 	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it

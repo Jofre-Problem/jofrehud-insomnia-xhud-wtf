@@ -1,5 +1,8 @@
+#base "../../../../cfg/jp_sourcescheme_border.txt"		// font default tf2 stuff uses
+#base "../../../../cfg/jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
 #base "base/scheme/_sourceschemebase.res"
-
+#base "../fallbackhud/sourcescheme.res"	// in case user didnt set nothing
+//#base "../ui_overrides/frame-border/modulate.res"	//fallback
 // code from flarepunch hud
 Scheme
 {
@@ -12,11 +15,6 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"RaysPrimaryLight"		"0 255 255 255"
-		"RaysPrimaryDark"		"65 255 255 255"
-		"RaysBlack"				"32 32 32 255"
-		"RaysBlackTrans"		"32 32 32 200"
-		"RaysButtonHover"		"70 130 180 255"
 
 
 	    "Blank"				"0 0 0 0"
@@ -35,7 +33,7 @@ Scheme
 		ProgressBar.BgColor				"20 21 23 255"
 		ScrollBarSlider.FgColor								"Primary"
 		ScrollBarSlider.BgColor								"blank"
-		ScrollBar.Wide					"60"//"70"//"10"
+	//	ScrollBar.Wide					"60"//"70"//"10"
 		ScrollBarButton.FgColor					"Blank"	
 		ScrollBarButton.ArmedFgColor					"Blank"	
 		ScrollBarButton.DepressedFgColor					"Blank"	
@@ -306,7 +304,43 @@ Scheme
 				"wide"		"300"
 				"antialias" 	"1"
 			}
-		} 												
+		} 
+		"Trebuchet24"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"24"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		"Trebuchet20"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
+		"Trebuchet18"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"18"
+				"weight"	"900"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
+
 		"DefaultFixedOutline" //edited by INsane 2010 for small netgraph font on all screen sizes
 		{
             "1" //For screen heights between 768 and 1023 (eg 4:3 aspect Width 1024X768 High... 16:9 aspect Width 1360x768 High, 16:9 aspect Width 1776x1000 High... 16:10 aspect Width 1280x768 High, 16:10 aspect Width 1280x800 High, 16:10 aspect Width 1400x900 High.)
@@ -348,20 +382,6 @@ Scheme
 	}	
   Borders
         {	
-    //	FrameBorder {
-	//		"bordertype"			"scalable_image"	"backgroundtype"		"2"	 	
-	//		"image"				"replay/thumbnails/noto_apple2"
-	//		"src_corner_height"		"32"		"src_corner_width"		"32"
-	//		"draw_corner_width"		"0"			"draw_corner_height" 	"0"	  }	
-	    	FrameBorder {
-			"bordertype"				"scalable_image"
-			"background_type"			"0"
-			"color"						"Primary"
-			"image"						"replay/thumbnails/hp/modulate_white_test"
-			"src_corner_width"			"12"
-			"src_corner_height"			"12"
-			"draw_corner_width"			"2"
-			"draw_corner_height"		"2"	 }	
        testing
         {
 			"bordertype"			"scalable_image"

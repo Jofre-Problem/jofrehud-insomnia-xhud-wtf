@@ -11,13 +11,13 @@
 					"ControlName"			"EditablePanel"
 					"fieldName"				"InGameUI"
 					"xpos"					"0"
-					"ypos"					"180+60"
+					"ypos"					"180+60+60"
 					"zpos"					"50"
 					"wide"					"f0"
 					"tall"					"240"	//change
 					"proportionaltoparent"	"1"
 					"mouseinputenabled"	"1"
-					"border"				"NoBorder"
+					"border"				"LINE_LEFT_3_Primary_0"
 
 
 					"TitleText"

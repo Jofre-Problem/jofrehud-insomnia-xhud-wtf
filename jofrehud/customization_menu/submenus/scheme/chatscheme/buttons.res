@@ -296,6 +296,25 @@
 						"enabled"		"1"
 						"fgcolor"		"white"
 					}	
+									"resetcolor"
+						{
+							"ControlName" "CExButton"
+							"fieldName" "resetcolor"
+							"xpos" "5"
+							"ypos" "75"
+							"wide" "3"
+							"tall" "25"
+							"zpos" "25"
+							"proportionaltoparent" "1"
+							"labeltext" ""
+							"paintbackground" "1"
+							"command" "engine jp_chatscheme_color_clear; con_logfile cfg/jp_chat_color.txt; echo Scheme{BaseSettings{TFColors.ChatTextYellow white}}; con_logfile ."
+							"actionsignallevel" "5"
+							"defaultbgcolor_override" "white"
+							"armedbgcolor_override" "255 255 255 204"
+							"sound_depressed" "UI/buttonclick.wav"
+							"sound_released" "UI/buttonclickrelease.wav"
+						}				
 								"N0"
 						{
 							"ControlName" "CExButton"

@@ -234,8 +234,8 @@
 
 				"border_default"			"LINE_TOP_3_Primary_0"
 				"border_armed"				"LINE_TOP_0_Primary_0"
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		paintBackground			0
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
@@ -258,8 +258,8 @@
 
 				"border_default"			"LINE_TOP_3_Primary_0"
 				"border_armed"				"LINE_TOP_0_Primary_0"
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"1_btn"		
@@ -283,8 +283,8 @@
 
 				"border_default"			"LINE_TOP_3_Primary_0"
 				"border_armed"				"LINE_TOP_0_Primary_0"
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		"pin_corner_to_sibling"					"PIN_TOPLEFT"
 		"pin_to_sibling_corner"					"PIN_TOPRIGHT"		
 		"pin_to_sibling"	"2_btn"		
@@ -661,8 +661,8 @@
 
 			labelText				""
 			
-			sound_depressed			"sound_menu/button.wav"
-			sound_released			"sound_menu/button2.wav"
+			sound_depressed			"ui/buttonclick.wav"
+			sound_released			"ui/buttonclickrelease.wav"
 			sound_armed				"UI/buttonrollover.wav"
 			
 			paintbackground			0
@@ -763,8 +763,8 @@
 
 			Command				"noti_hide"
 
-			sound_depressed			"sound_menu/button.wav"
-			sound_released			"sound_menu/button2.wav"
+			sound_depressed			"ui/buttonclick.wav"
+			sound_released			"ui/buttonclickrelease.wav"
 		
 			defaultFgColor_override		"black"
 			defaultBgColor_override		"white"
@@ -921,8 +921,8 @@
 		font			"NewIcons12"
 		command				"engine workshop"
 
-		sound_depressed			"sound_menu/button.wav"
-		sound_released			"sound_menu/button2.wav"
+		sound_depressed			"ui/buttonclick.wav"
+		sound_released			"ui/buttonclickrelease.wav"
 		
 				"defaultFgColor_override" 	"White"
 				"armedFgColor_override" 	"White"
@@ -982,8 +982,8 @@
 		"depressedFgColor_override" "35 255 35 222"
 			"actionsignallevel" "2"
 			"Command"		"motd_show"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"paintbackground" "0"
 			"SubImage"
 			{

@@ -25,7 +25,7 @@
 					{
 						
 						"fieldName"					"Buttons"
-						"xpos"						"cs-0.5"
+						"xpos"						"r0"//"cs-0.5"
 						"ypos"						"rs1-73"
 						"zpos"						"5000"
 						"wide"						"170"

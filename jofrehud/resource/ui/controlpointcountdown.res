@@ -1,4 +1,13 @@
-	//#base	"../../custom/resource/ui/controlpointcountdown.res"
-	#base	"../../_jofrenew/resource/ui/controlpointcountdown.res"
-	#base	"../../_jofrehud/resource/ui/controlpointcountdown.res"
-	#base	"../../_tf2hud/resource/ui/controlpointcountdown.res"
+"Resource/UI/ControlPointCountdown.res"
+{
+	"CapCountdownLabel"
+	{
+		"font"			"Regular16"
+		"zpos"			"1"
+		"wide"			"26"
+		"tall"			"26"
+		"textAlignment"		"center"
+		"fgcolor"		"235 226 202 255"
+		"bgcolor"		"235 226 202 255"
+	}
+}

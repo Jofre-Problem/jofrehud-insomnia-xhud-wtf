@@ -150,8 +150,8 @@
 		//"dulltext"	"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
         "font"          "CustomSegundo"
         "defaultBgColor_override"	"20 20 20 255"
@@ -258,8 +258,8 @@
         "depressedFgColor_override" 	"230 230 230 255"
         "selectedFgColor_override" 		"255 255 255 255"
             
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -351,8 +351,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -444,8 +444,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -551,8 +551,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -644,8 +644,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -737,8 +737,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -844,8 +844,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -937,8 +937,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -1030,8 +1030,8 @@
         "depressedFgColor_override" "230 230 230 255"
         "selectedFgColor_override" "255 255 255 255"
         
-        "sound_depressed"   "sound_menu/button.wav"
-        "sound_released"    "sound_menu/button2.wav"
+        "sound_depressed"   "ui/buttonclick.wav"
+        "sound_released"    "ui/buttonclickrelease.wav"
         "sound_armed"       "UI/buttonrollover.wav"
         
         "paintbackground"   "0"
@@ -1080,8 +1080,8 @@
         //"dulltext"	"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
         "font"          "CustomSegundo"
         "defaultBgColor_override"	"20 20 20 255"
@@ -1114,8 +1114,8 @@
 		//"dulltext"	"0"
 		"brighttext"	"0"
 		"default"		"1"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
         "font"          "CustomSegundo"
         "defaultBgColor_override"	"20 20 20 255"
@@ -1827,8 +1827,8 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "0"
-            "sound_depressed"   "sound_menu/button.wav"
-            "sound_released"    "sound_menu/button2.wav"
+            "sound_depressed"   "ui/buttonclick.wav"
+            "sound_released"    "ui/buttonclickrelease.wav"
             "Command"       "close"
             
             "paintbackground"   "0"
@@ -2041,8 +2041,8 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "0"
-            "sound_depressed"   "sound_menu/button.wav"
-            "sound_released"    "sound_menu/button2.wav"
+            "sound_depressed"   "ui/buttonclick.wav"
+            "sound_released"    "ui/buttonclickrelease.wav"
             "Command"       "close"
             
             "paintbackground"   "0"

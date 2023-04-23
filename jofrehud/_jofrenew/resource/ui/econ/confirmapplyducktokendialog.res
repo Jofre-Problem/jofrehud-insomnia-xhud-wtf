@@ -233,8 +233,8 @@
 		//"dulltext"	"0"
 		"default"		"0"
 		"Command"		"cancel"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 	
 	"OkButton"
@@ -257,7 +257,7 @@
 		//"dulltext"	"0"
 		"default"		"1"
 		"Command"		"apply"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}
 }

@@ -11,6 +11,7 @@
 		"x_offset"		"0"
 		"wide"			"f0"
 		"tall"			"f0"
+		
 	}
 	"ItemEffectMeterBG"
 	{
@@ -48,6 +49,7 @@
 		"tall"			"3"
 		"fgcolor_override"	"245 245 245 255"
 		"bgcolor_override"	"0 0 0 210"
+		
 	}	
 	"FixForHP"
 	{

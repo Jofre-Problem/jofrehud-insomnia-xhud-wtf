@@ -160,8 +160,8 @@
 			"armedFgColor_override" "TanDark"
 			"depressedFgColor_override" "TanDark"
 			
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
@@ -271,8 +271,8 @@
 			//"dulltext"	"0"
 			//"dulltext"	"0"
 			"default"		"0"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			"Command"		"debug_menu"
 			"proportionaltoparent" "1"
 			"actionsignallevel"	"2"
@@ -531,8 +531,8 @@
 			//"dulltext"	"0"
 			"keyboardinputenabled"	"0"
 			"paintBackground"	"0"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 
 			"command"	"random_seed"
 
@@ -635,8 +635,8 @@
 			"armedBgColor_override"		"72 133 32 100"
 
 			"sound_armed"		"ui/item_info_mouseover.wav"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 		}
 		"CartImage"
 		{

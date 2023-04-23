@@ -52,8 +52,8 @@
 		//"dulltext"	"0"
 		"brighttext"	"0"
 		"Command"		"goprev"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}	
 	
 	"NextButton"
@@ -77,8 +77,8 @@
 		//"dulltext"	"0"
 		"brighttext"	"0"
 		"Command"		"gonext"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 	}	
 	
 	"GameModeLabel"
@@ -159,8 +159,8 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"Command"			"selectcurrentgamemode"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 
 		"border_default"	"MainMenuButtonDefault"
 		"border_armed"		"MainMenuButtonArmed"

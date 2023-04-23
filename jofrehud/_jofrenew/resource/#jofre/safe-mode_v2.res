@@ -25,8 +25,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine hud_reloadscheme"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 
@@ -90,8 +90,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine incrementvar tf_use_match_hud 0 1 -1"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator1"
@@ -142,8 +142,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine record !null; stop; jp_snd_beep"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"MatchStatus"
@@ -208,8 +208,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine togglechat"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator2"
@@ -260,8 +260,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine togglekillfeed"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"ChatToggle"
@@ -326,8 +326,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine incrementvar cl_showfps 0 1 -1"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator3"
@@ -378,8 +378,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine r_drawviewmodel cl_showfps 0 1 -1"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"FPS"
@@ -444,8 +444,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine togglesprays"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator4"
@@ -496,8 +496,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine togglecaptions"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Spray"
@@ -562,8 +562,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine snd_restart"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator5"
@@ -629,8 +629,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine exec cc_cfg/clear2; status; exec cc_cfg/clear2; showconsole"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator6"
@@ -681,8 +681,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine exec cc_cfg/clear"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Status"
@@ -747,8 +747,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine sm_nominate"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator7"
@@ -799,8 +799,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine cc_cfg/clear2; sm_help; cc_cfg/clear2; showconsole"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Sm_Nominate"
@@ -865,8 +865,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine incrementvar developer 0 1 -1"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Separator8"
@@ -917,8 +917,8 @@
 			"actionsignallevel"	"2"
 			"command"		"engine incrementvar cl_showpos 0 1 -1"
 		
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			
 			"paintbackground"							"0"
 			pin_to_sibling				"Dev1"

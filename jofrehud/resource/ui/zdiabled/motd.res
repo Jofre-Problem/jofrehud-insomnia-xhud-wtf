@@ -1,0 +1,1 @@
+	#base	"../../_jofrehud/resource/ui/motd.res"

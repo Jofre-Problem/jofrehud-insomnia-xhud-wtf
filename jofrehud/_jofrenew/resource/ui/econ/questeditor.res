@@ -48,8 +48,8 @@
 			"Command"		"open_edit_context"
 			"proportionaltoparent"	"1"
 
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 		
 			"image_drawcolor"	"235 226 202 255"
 			"SubImage"

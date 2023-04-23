@@ -99,7 +99,23 @@
 					"use_proportional_insets"	"1"
 					"fgcolor"					"Primary"
 				}
-
+				"TitleText2"
+				{
+					"ControlName"				"CExLabel"
+					"fieldName"					"TitleText2"
+					"xpos"						"cs-0.5+100"
+					"ypos"						"0"
+					"zpos"						"52"
+					"wide"						"f0"
+					"tall"						"f0"
+					"proportionaltoparent"		"1"
+					"font"						"regular12"
+					"labelText"					"∎∎∎ = Default"
+					"textAlignment"				"west"
+					"textinsetx"				"5"
+					"use_proportional_insets"	"1"
+					"fgcolor"					"Positive"
+				}
 				"ApplyAndExit"
 				{
 					"ControlName"				"CExButton"

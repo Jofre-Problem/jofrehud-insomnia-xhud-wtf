@@ -1,3 +1,4 @@
+	#base "../../_jofrenew/magnumhud/ui/textwindow.res"
 	//#base	"../../custom/resource/ui/textwindow.res"
 	#base	"../../_jofrenew/resource/ui/textwindow.res"
 	#base	"../../_jofrehud/resource/ui/textwindow.res"

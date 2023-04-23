@@ -5,7 +5,7 @@
 #base "teamcolor/health.res"
 
 //fallback
-#base "/hp_fallback.res"
+#base "hp_fallback.res"
 #base "../../overrides/circlesforstuff/file.res"
 #base "../../overrides/outlinedhealthnumber/file.res"
 #base "../ui3/healthshadow.res"

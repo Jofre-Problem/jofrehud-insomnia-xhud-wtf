@@ -72,8 +72,8 @@
 				//"dulltext"	"0"
 				//"dulltext"	"0"
 				"default"		"1"
-				"sound_depressed"	"sound_menu/button.wav"
-				"sound_released"	"sound_menu/button2.wav"
+				"sound_depressed"	"ui/buttonclick.wav"
+				"sound_released"	"ui/buttonclickrelease.wav"
 			}
 			
 			"avatar"
@@ -157,8 +157,8 @@
 		//"dulltext"	"0"
 		"default"		"1"
 		"Command"		"friends"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
@@ -197,8 +197,8 @@
 		//"dulltext"	"0"
 		"default"		"1"
 		"Command"		"profile"
-		"sound_depressed"	"sound_menu/button.wav"
-		"sound_released"	"sound_menu/button2.wav"
+		"sound_depressed"	"ui/buttonclick.wav"
+		"sound_released"	"ui/buttonclickrelease.wav"
 		
 		"border_default"	"noborder"
 		"border_armed"		"noborder"
@@ -279,8 +279,8 @@
 			"PaintBackgroundType"	"0"
 			
 			"Command"		"friends"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			
 			"border_default"	"noborder"
 			"border_armed"		"noborder"
@@ -331,8 +331,8 @@
 			"PaintBackgroundType"	"0"
 			
 			"Command"		"server"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			
 			"border_default"	"noborder"
 			"border_armed"		"noborder"
@@ -382,8 +382,8 @@
 			"PaintBackgroundType"	"0"
 			
 			"Command"		"profile"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 			
 			"border_default"	"noborder"
 			"border_armed"		"noborder"
@@ -827,8 +827,8 @@
 			//"dulltext"	"0"
 			"default"		"1"
 			"Command"		"url_ok"
-			"sound_depressed"	"sound_menu/button.wav"
-			"sound_released"	"sound_menu/button2.wav"
+			"sound_depressed"	"ui/buttonclick.wav"
+			"sound_released"	"ui/buttonclickrelease.wav"
 
 			
 			"border_default"	"noborder"

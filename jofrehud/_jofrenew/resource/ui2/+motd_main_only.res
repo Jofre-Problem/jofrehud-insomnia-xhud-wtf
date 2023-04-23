@@ -250,8 +250,8 @@
 			command				"OpenServerBrowser"
 			"actionsignallevel"	"2"
 			"paintBackground"	"0"
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			"border_default"						"LINE_BOTTOM_3_Primary_0"
 			"border_armed"							"LINE_BOTTOM_0_Primary_0"
 	}	
@@ -273,8 +273,8 @@
 		command				OpenOptionsDialog
 		"actionsignallevel"	"2"
 		
-		"sound_depressed"							"sound_menu/button.wav"
-		"sound_released"							"sound_menu/button2.wav"
+		"sound_depressed"							"ui/buttonclick.wav"
+		"sound_released"							"ui/buttonclickrelease.wav"
 		"paintBackground"	"0"
 							
 			"border_default"						"LINE_BOTTOM_3_Primary_0"
@@ -299,8 +299,8 @@
 			command				"opentf2options"
 			"actionsignallevel"	"2"
 
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 		"paintBackground"	"0"
 							
 			"border_default"						"LINE_BOTTOM_3_Primary_0"
@@ -325,8 +325,8 @@
 			command				"engine open_charinfo; hideconsole"
 			"actionsignallevel"	"2"
 
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 		"paintBackground"	"0"
 							
 			"border_default"						"LINE_BOTTOM_3_Primary_0"
@@ -352,8 +352,8 @@
 
 			"actionsignallevel"	"2"
 
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 		"paintBackground"	"0"
 							
 			"border_default"						"LINE_BOTTOM_3_Primary_0"
@@ -379,8 +379,8 @@
 
 			"actionsignallevel"	"2"
 
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 		"paintBackground"	"0"
 							
 			"border_default"						"LINE_BOTTOM_3_Primary_0"

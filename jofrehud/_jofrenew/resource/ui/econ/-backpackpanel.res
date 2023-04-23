@@ -52,8 +52,8 @@
 				textAlignment			center
 				labelText				"%page%"
 				font					"ItemFontNameLarge"
-				sound_depressed			"sound_menu/button.wav"
-				sound_released			"sound_menu/button2.wav"
+				sound_depressed			"ui/buttonclick.wav"
+				sound_released			"ui/buttonclickrelease.wav"
 			}
 
 			"New"		// ?
@@ -580,8 +580,8 @@
 		brighttext							0
 		Command								"canceltool"
 		
-		sound_depressed					"sound_menu/button.wav"
-		sound_released						"sound_menu/button2.wav"
+		sound_depressed					"ui/buttonclick.wav"
+		sound_released						"ui/buttonclickrelease.wav"
 		
 		paintbackground 						0
 		

@@ -2334,8 +2334,8 @@
 			textAlignment			center
 			command				"engine sv_allow_point_servercommand always; map tr_walkway_rc2"
 			"actionsignallevel"	"2"	
-			"sound_depressed"							"sound_menu/button.wav"
-			"sound_released"							"sound_menu/button2.wav"
+			"sound_depressed"							"ui/buttonclick.wav"
+			"sound_released"							"ui/buttonclickrelease.wav"
 			"paintBackground"	"0"		
 	}
 
@@ -2399,8 +2399,8 @@
 				"proportionaltoparent"	"1"
 				"command"		"safemode_save_settings"
 				"actionsignallevel"	"3"
-				"sound_depressed"							"sound_menu/button.wav"
-				"sound_released"							"sound_menu/button2.wav"
+				"sound_depressed"							"ui/buttonclick.wav"
+				"sound_released"							"ui/buttonclickrelease.wav"
 				
 				"paintbackground"							"0"
 				
@@ -2437,8 +2437,8 @@
 				"proportionaltoparent"	"1"
 				"command"		"safemode_leave"
 				"actionsignallevel"	"3"
-				"sound_depressed"							"sound_menu/button.wav"
-				"sound_released"							"sound_menu/button2.wav"
+				"sound_depressed"							"ui/buttonclick.wav"
+				"sound_released"							"ui/buttonclickrelease.wav"
 				
 				"paintbackground"							"0"
 				

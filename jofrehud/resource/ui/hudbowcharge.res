@@ -1,4 +1,22 @@
-	//#base	"../../custom/resource/ui/hudbowcharge.res"
-	#base	"../../_jofrenew/resource/ui/hudbowcharge.res"
-	#base	"../../_jofrehud/resource/ui/hudbowcharge.res"
-	#base	"../../_tf2hud/resource/ui/hudbowcharge.res"
+"Resource/UI/HudBowCharge.res"
+{
+"ChargeMeter"
+{
+"ControlName""ContinuousProgressBar"
+"fieldName""ChargeMeter"
+//"font""Default"
+"xpos""10"
+//////"xpos_minmode""0"
+
+"zpos""2"
+"visible"		"0"
+"tall""6"
+
+
+//"visible""1"
+
+//"textAlignment""Left"
+////"dulltext""0"
+//"brighttext""0"
+}
+}

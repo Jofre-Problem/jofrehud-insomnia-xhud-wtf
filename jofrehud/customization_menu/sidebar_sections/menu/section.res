@@ -56,7 +56,7 @@
 							"wide"						"f0"
 							"tall"						"20"
 							"proportionaltoparent"		"1"
-							"command"					"engine ih_custom_submenu_p_sec; ih_reloadmenus"
+							"command"					"engine jp_custom_sub_menu_main; ih_reloadmenus"
 							"actionsignallevel"			"6"
 							"labelText"					"Main Menu"
 							"font"						"regular12"

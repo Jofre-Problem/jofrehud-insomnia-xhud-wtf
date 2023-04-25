@@ -1,4 +1,4 @@
-//#base "../ui2/multiple-bg.res"
+#base "../../../../../cfg/jp_mainmenu_spray_frame.txt"
 #base "../ui3/tank_gif.res"
 //#base "../ui3/menu_multiple.res"
 #base "../uni_base/image/1.res"
@@ -73,6 +73,16 @@
 		"scaleimage"			"1"
 		"zpos"					"6000"
 	}
+		"MOTD_Panel"	{	
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MOTD_Panel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"999"
+		"wide"			"f0"
+		"tall"			"f0"
+		"border"	"noborder"
+		"bgcolor_override"	"blank"
 							"LogoImage"
 					{
 					"ControlName""ImagePanel"
@@ -81,11 +91,10 @@
 					"ypos""rs1-36"
 					"wide""280"
 					"tall""o1"
-					"zpos"		"999"
 
-					"image""replay/thumbnails/spray"
+					//"image""replay/thumbnails/spray"
 					"scaleImage""1"
-					}		
+					}		}	
 		"defbg"
 		{
 					"ControlName"	"ScalableImagePanel"

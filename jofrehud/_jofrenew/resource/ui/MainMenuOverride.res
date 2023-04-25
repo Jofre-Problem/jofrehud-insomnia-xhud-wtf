@@ -1,4 +1,4 @@
-//	#base "../_menu1/MainMenuOverride.res"
+#base "../../../../../cfg/jp_mainmenu_spray_frame.txt"		// font default tf2 stuff uses
 #base "../_menu1/MainMenuOverride.res"
 	// not how it works, has to redictoru to /cfg/
 "Resource/UI/MainMenuOverride.res"

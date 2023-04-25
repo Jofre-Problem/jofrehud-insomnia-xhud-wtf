@@ -280,7 +280,27 @@
 		"font"			"Size 16 Uber"
 		"xpos"			"40"
 		"ypos"			"410"
-		"zpos"			"1"
+		"zpos"			"5"
+		"wide"			"655"
+		"tall"			"35"
+		//"autoResize"		"0"
+		//"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%targetdata%"
+		"textAlignment"		"center"
+		//"dulltext"	"0"
+		"brighttext"		"0"
+		"fgcolor"		"Black"
+	}
+	"TargetDataLabelTrue2"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TargetDataLabelTrue2"
+		"font"			"Size 16 Uber Blur"
+		"xpos"			"40"
+		"ypos"			"410"
+		"zpos"			"4"
 		"wide"			"655"
 		"tall"			"35"
 		//"autoResize"		"0"
@@ -305,7 +325,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"variable"		"targetdata"
-		"fg_image"		"replay/thumbnails/hp/modulate_blu"
+		"fg_image"		"replay/thumbnails/hp/modulate_rgb"
 		"bg_image"		"replay/thumbnails/bg_blank"
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 255"
@@ -317,12 +337,13 @@
 		"fieldName"		"TriUberTIDBG"
 		"xpos"			"353"
 		"ypos"			"420"
-		"zpos"			"1"
+		"zpos"			"0"
 		"wide"			"30"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-    "fillcolor"		"Black"
+    "fillcolor"		"White"
+	
 		"alpha"		"150"
 	}
 	"TargetDataLabelUberFullBG" //this thing was balls to make and probably not worth it
@@ -330,9 +351,9 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelUberFullBG"
 		"font"			"SpecTargetIDuberfull"
-		"xpos"			"34"
+		"xpos"			"35"
 		"ypos"			"420" //420
-		"zpos"			"1"
+		"zpos"			"3"
 		"wide"			"1500"
 		"tall"			"15" //15
 		//"autoResize"		"0"
@@ -342,9 +363,7 @@
 		"labelText"		"#TIDdatafulluber" //basically checks for 4 of a combo of numbers and %
 		// ammo never gets to 4 digits big and names never contain either so we're good boys
 		"textAlignment"		"east"
-		//"dulltext"	"0"
-		"brighttext"		"0"
-		"fgcolor"		"150 245 0 80"
+		"fgcolor"		"blue"//"150 245 0 80"
 	}
 	"SpectatorGUIHealth"
 	{
@@ -357,7 +376,7 @@
 		"visible"		"0"
 		"enabled"		"0"	
 		"HealthBonusPosAdj"	"31"//"10"
-		"HealthDeathWarning"	"0.69" // nice
+		"HealthDeathWarning"	"1.0" // nice
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"236 240 241 255"

@@ -1,3 +1,4 @@
+	#base "kb_act.lst"
 	#base "../../../cfg/jp_awsd_hudlayout.txt"
 	#base "../_jofrenew/ui_overrides/close-caption/file.res"
 	#base "../_jofrenew/ui_overrides/global-timer/file.res"

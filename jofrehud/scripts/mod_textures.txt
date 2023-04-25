@@ -1714,7 +1714,7 @@
 
 		"crosshair_default"
 		{
-			"file"  "vgui/replay/thumbnails/crosshair"
+			"file"  "vgui/crosshairs"
 			"x"   "32"
 			"y"   "0"
 			"width"  "32"

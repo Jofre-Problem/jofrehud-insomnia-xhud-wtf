@@ -41,16 +41,16 @@
 			{
 				"HelpTextLabel"
 				{	
-					"bgcolor_override"	"Red"
-					"fgcolor_override"	"White"
-					"labeltext"				"Warning! These options require a restart!"
+				//	"bgcolor_override"	"Red"
+				//	"fgcolor_override"	"White"
+					"labeltext"				"Pick your layout!"
 				}
 			}
 			"TitleTextPanel"
 			{
 				"TitleTextLabel"
 				{
-					"labeltext"				"ChatScheme!"
+					"labeltext"				"Main Menu!"
 				}
 			}
 		}

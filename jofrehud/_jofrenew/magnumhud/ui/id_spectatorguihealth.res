@@ -148,7 +148,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Killfeed"
+		"font"			"Size 16"
 		"fgcolor"		"Black"
 	}
 

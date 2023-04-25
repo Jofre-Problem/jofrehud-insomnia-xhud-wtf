@@ -100,9 +100,20 @@ Scheme
 				"tall"	"16"
 				"additive"	"0"
 				"antialias"	"1"
-				"dropshadow"	"1"
+			//	"dropshadow"	"1"
 			}
 		}
+		"Size 16 Uber Blur"
+		{
+			"1"
+			{
+				"name"	"Renogare Uber"
+				"tall"	"16"
+				"blur"	"2"
+				"antialias"	"1"
+			//	"dropshadow"	"1"
+			}
+		}		
 		"Size 18 Uber"
 		{
 			"1"

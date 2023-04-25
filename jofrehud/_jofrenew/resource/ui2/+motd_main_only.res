@@ -4,7 +4,7 @@
 //	#base "_motd_sourcemod.res"
 //	#base "_motd_boxes.res"
 	#base "../../../../../cfg/jp_friends.txt"
-"_jofrehud/resource/motd-list.res"
+"x"
 {
 		"MOTD_Panel"	{	
 		"ControlName"	"EditablePanel"
@@ -422,7 +422,7 @@
 					"tall""o1"
 
 
-					"image""replay/thumbnails/spray"
+					//"image""replay/thumbnails/spray"
 					"scaleImage""1"
 		}		
 		"logosound"

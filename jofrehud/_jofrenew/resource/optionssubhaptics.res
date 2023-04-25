@@ -51,22 +51,13 @@
 "tall" "24"
 "labelText" "¾  Video"
 } 
-"Label5"
-{
-"ControlName""Label"
-"fieldName""Label5"
-"xpos" "25"
-"ypos" "150"
-"wide" "100"
-"tall" "24"
-"labelText" "¾  Video"
-} 
+
 "Label6"
 {
 "ControlName""Label"
 "fieldName""Label6"
 "xpos" "24"
-"ypos" "175"
+"ypos" "150"
 "wide" "100"
 "tall" "24"
 "labelText" " °  Voice"
@@ -76,7 +67,7 @@
 "ControlName""Label"
 "fieldName""Label7"
 "xpos" "25"
-"ypos" "200"
+"ypos" "175"
 "wide" "150"
 "tall" "24"
 "labelText" "ö  Multiplayer"
@@ -232,7 +223,7 @@
 "wide""64"
 "tall""64"
 
-
+"visible"   "0"
 ////"visible""1"
 
 

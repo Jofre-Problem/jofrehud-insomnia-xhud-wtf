@@ -45,7 +45,7 @@
         //"tabPosition"	"0"
 		"labelText"		"Select Class"
 		"textAlignment"	"center"
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"fgcolor"		"10 10 10 255"
 	}
 	"ClassMenuSelectBG"
@@ -153,7 +153,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "defaultBgColor_override"	"20 20 20 255"
 		"armedBgColor_override"		"30 30 30 255"
 		"depressedBgColor_override"	"20 20 20 255"
@@ -223,7 +223,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Scout"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "scout"
@@ -316,7 +316,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Soldier"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "soldier"
@@ -409,7 +409,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Pyro"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "pyro"
@@ -516,7 +516,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Demo"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "demoman"
@@ -609,7 +609,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Heavy"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "heavyweapons"
@@ -702,7 +702,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Engineer"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "engineer"
@@ -809,7 +809,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Medic"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "medic"
@@ -902,7 +902,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Sniper"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "sniper"
@@ -995,7 +995,7 @@
 		//"tabPosition"	"0"
 		"labelText"		"Spy"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"255 255 255 255"
 	}
     "spy"
@@ -1083,7 +1083,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "defaultBgColor_override"	"20 20 20 255"
 		"armedBgColor_override"		"30 30 30 255"
 		"depressedBgColor_override"	"20 20 20 255"
@@ -1117,7 +1117,7 @@
 		"sound_depressed"	"ui/buttonclick.wav"
 		"sound_released"	"ui/buttonclickrelease.wav"
         "paintbackground"   "1"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "defaultBgColor_override"	"20 20 20 255"
 		"armedBgColor_override"		"30 30 30 255"
 		"depressedBgColor_override"	"20 20 20 255"
@@ -1193,7 +1193,7 @@
         "labelText"     "%hint%"
         "textAlignment" "left"
         "wrap"          "0"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "HudTrainingHint"
     }     
     
@@ -1418,7 +1418,7 @@
         "tabPosition"   "0"
         "labelText"     ""
         "textAlignment" "left"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "TanLight"
     }
     
@@ -1439,7 +1439,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numScout%"
         "textAlignment" "west"
-        "font"          "CustomPrimero"
+        "font"          "Size 12"
         "fgcolor"       "255 255 255 225"
     } 
     
@@ -1460,7 +1460,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numSoldier%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }    
     
@@ -1481,7 +1481,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numPyro%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }          
     
@@ -1502,7 +1502,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numDemoman%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }            
     
@@ -1523,7 +1523,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numHeavy%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }                   
     
@@ -1544,7 +1544,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numEngineer%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }                      
     
@@ -1565,7 +1565,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numMedic%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }                         
     
@@ -1586,7 +1586,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numSniper%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }                     
     
@@ -1607,7 +1607,7 @@
 		"textinsetx"	"5"
         "labelText"     "%numSpy%"
         "textAlignment" "west"
-        "font"          "CustomSegundo"
+        "font"          "Size 14"
         "fgcolor"       "255 255 255 225"
     }                               
     
@@ -1773,7 +1773,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "TitleLabel"
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "labelText"     "#TF_MvM_UpgradeExplanation_Title"
             "textAlignment" "north"
             "xpos"          "0"
@@ -1792,7 +1792,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "TextLabel"
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "labelText"     "#TF_MvM_UpgradeExplanation_Text"
             "textAlignment" "north-west"
             "xpos"          "0"
@@ -1822,7 +1822,7 @@
             "enabled"       "0"
             "tabPosition"   "0"
             "labeltext"     ""
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "textAlignment" "center"
             "dulltext"      "0"
             "brighttext"    "0"
@@ -1987,7 +1987,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "TitleLabel"
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "labelText"     "#CMenu_ClassHighlightPanel_Title"
             "textAlignment" "north-west"
             "xpos"          "0"
@@ -2006,7 +2006,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "ClassHighlightText"
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "labelText"     "%ClassHighlightText%"
             "textAlignment" "north-west"
             "xpos"          "0"
@@ -2036,7 +2036,7 @@
             "enabled"       "0"
             "tabPosition"   "0"
             "labeltext"     ""
-            "font"          "CustomSegundo"
+            "font"          "Size 14"
             "textAlignment" "center"
             "dulltext"      "0"
             "brighttext"    "0"

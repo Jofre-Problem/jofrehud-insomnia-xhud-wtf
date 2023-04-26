@@ -202,42 +202,6 @@
 		"textAlignment"		"west"
 		"fgcolor"		"0 0 0 100"
 	}
-	"TargetNameLabelMid2" // healer targetid
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabelMid2"
-		"font"			"Size 16"
-		"xpos"			"-175"
-		"ypos"			"520"
-		"zpos"			"1"
-		"wide"			"408"
-		"tall"			"24"
-		//"autoResize"		"0"
-		//"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"fgcolor"		"236 240 241 255"
-	}
-	"TargetNameLabelMid2S" // healer targetid
-	{	
-		"ControlName"		"CExLabel"
-		"fieldName"		"TargetNameLabelMid2S"
-		"font"			"Size 16"
-		"xpos"			"-175"
-		"ypos"			"520"
-		"zpos"			"1"
-		"wide"			"408"
-		"tall"			"25"
-		//"autoResize"		"0"
-		//"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%targetname%"
-		"textAlignment"		"west"
-		"fgcolor"		"0 0 0 100"
-	}
 	"HealsIconMid"
 	{
 		"ControlName"	"ImagePanel"

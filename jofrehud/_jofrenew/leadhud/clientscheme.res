@@ -1,5 +1,3 @@
-#base "../../customization/colors/user_colors.res"
-#base "../../customization/colors/custom_colors.res"
 
 #base "scheme/colors.res"
 

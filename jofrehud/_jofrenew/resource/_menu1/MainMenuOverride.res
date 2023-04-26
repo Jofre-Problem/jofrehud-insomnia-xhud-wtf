@@ -1000,6 +1000,7 @@
 	}					
 	"RankPanel"
 	{
+		"xpos" "r0"
 		"visible"			"0"
 	}				
 }

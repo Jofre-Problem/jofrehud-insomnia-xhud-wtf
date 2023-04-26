@@ -33,7 +33,7 @@
 		"tall"			"36"//"36" //36
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+	//	"HealthBonusPosAdj"	"35"
 		"HealthDeathWarning"	"1.0"
 		"HealthDeathWarningColor"	"255 255 255 255"
 	}

@@ -25,7 +25,7 @@
 		"visible"		"1"
 		//"enabled"		"1"
 		"textAlignment"	"center"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 
 		"pin_to_sibling"	"Spacer"
 		"pin_corner_to_sibling"	"PIN_CENTER_BOTTOM"

@@ -18,12 +18,6 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"25"	[$WIN32]
-		"xpos_minmode"	"15"	[$WIN32]
-		"ypos"			"r88"	[$WIN32]
-		"ypos_minmode"	"r54"	[$WIN32]
-		"xpos"			"57"	[$X360]
-		"ypos"			"r110"	[$X360]
 		"zpos"			"2"
 		"wide"			"75"
 		"wide_minmode"	"37"
@@ -38,12 +32,6 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"3"		[$WIN32]
-		"xpos_minmode"	"-5"	[$WIN32]
-		"ypos"			"r67"	[$WIN32]
-		"ypos_minmode"	"r44"	[$WIN32]
-		"xpos"			"35"	[$X360]
-		"ypos"			"r89"	[$X360]
 		"zpos"			"2"
 		"wide"			"55"
 		"wide_minmode"	"27"
@@ -103,23 +91,10 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"-1"		[$WIN32]
-		"xpos_minmode"	"-15"		[$WIN32]
-		"ypos"			"r60"	[$WIN32]
-		"ypos_minmode"		"r40"	[$WIN32]
-		"xpos"			"41"	[$X360]
-		"ypos"			"r82"	[$X360]
 		"zpos"			"1"		
 		"wide"			"109"
-		"tall"			"50"
+		"tall"			"0"
 		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
 	}
 
 	"classmodelpanel"
@@ -127,10 +102,6 @@
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"0"	[$WIN32]
-		"xpos_minmode"	"0"	[$WIN32]
-		"ypos"			"r214"	[$WIN32]
-		"ypos_minmode"	"r88"	[$WIN32]
 		"zpos"			"2"		
 		"wide"			"100"
 		"wide_minmode"	"52"

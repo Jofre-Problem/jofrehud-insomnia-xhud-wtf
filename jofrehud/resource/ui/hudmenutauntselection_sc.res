@@ -1,2 +1,1 @@
-
-	#base	"hudmenutauntselection.res"
+#base "hudmenutauntselection.res"

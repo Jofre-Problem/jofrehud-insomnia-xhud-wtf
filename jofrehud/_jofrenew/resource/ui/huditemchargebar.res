@@ -2,6 +2,16 @@
 #base "base/modulate_team.res"
 "Resource/UI/HudItemEffectMeter_base.res"
 {
+	"FixForHP"
+	{
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"7"
+		"wide"			"64"
+		"tall"			"3"
+		"pin_to_sibling"	"ItemEffectMeter"
+	
+	}	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
@@ -51,15 +61,6 @@
 		"bgcolor_override"	"0 0 0 210"
 		
 	}	
-	"FixForHP"
-	{
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"7"
-		"wide"			"64"
-		"tall"			"3"
-		"pin_to_sibling"	"ItemEffectMeter"
-	
-	}
+
 						
 }

@@ -28,7 +28,7 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Demo Play"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				"engine demoui; demoui2"
 			"actionsignallevel"	"2"
@@ -70,7 +70,7 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Console"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				"engine con_enable 1; toggleconsole"
 			"actionsignallevel"	"2"
@@ -113,7 +113,7 @@
 			"wide"										"70"
 			"tall"										"30"
 			labelText				"Options"
-			font					"CustomSegundo"
+			font					"Size 14"
 			textAlignment			center
 			command				OpenOptionsDialog
 			"actionsignallevel"	"2"

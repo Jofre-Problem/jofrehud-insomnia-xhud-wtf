@@ -1,5 +1,63 @@
 "Resource/UI/CoachedByPanel.res"
 {
+	"Background_Blue"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"Background_Blue"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"252"
+		"tall"	 		"40"
+		//	"0"
+		//		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_blu"
+		"image_lodef"	"../hud/color_panel_blu"
+		
+		"src_corner_height"		"23"			// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+	"Background_Red"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"Background_Red"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-2"
+		"wide"			"252"
+		"tall"	 		"40"
+		//	"0"
+		//		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/color_panel_red"
+		"image_lodef"	"../hud/color_panel_red"
+		
+		"src_corner_height"		"23"			// pixels inside the image
+		"src_corner_width"		"23"
+			
+		"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"
+	}
+
+	"AvatarBGPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AvatarBGPanel"
+		"xpos"			"4"
+		"ypos"			"4"
+		"zpos"			"-1"
+		"wide"			"36"
+		"tall"			"36"
+		"visible"		"1"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"117 107 94 255"
+	}
 	"AvatarImage"
 	{
 		"ControlName"	"CAvatarImagePanel"

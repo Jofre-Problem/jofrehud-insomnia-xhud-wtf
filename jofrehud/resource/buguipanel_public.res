@@ -1,2 +1,1 @@
-"x.res"
-{}
+#base "buguipanel.res"

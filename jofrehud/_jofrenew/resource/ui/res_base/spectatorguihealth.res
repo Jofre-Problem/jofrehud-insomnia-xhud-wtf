@@ -14,7 +14,7 @@
 		//"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"fgcolor"		"236 240 241 255"
 	}
 //	"PlayerStatusHealthValue"
@@ -35,7 +35,7 @@
 		//"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValue"
 	}
@@ -52,7 +52,7 @@
 		//"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"fgcolor"		"Black"
 		"pin_to_sibling"	"PlayerStatusHealthValueID2"
 	}

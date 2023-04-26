@@ -24,14 +24,14 @@
 
 	"Notification_Icon"
 	{
-		"ControlName"								"CIconPanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Notification_Icon"
 		"xpos"										"9999"
 		"wide"										"0"
 	}
 	"Notification_Background"
 	{
-		"ControlName"								"CImagePanel"
+		"ControlName"								"Panel"
 		"fieldName"									"Notification_Background"
 		"tall"										"0"
 	}

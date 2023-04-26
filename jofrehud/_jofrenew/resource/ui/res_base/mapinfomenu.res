@@ -48,7 +48,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		"brighttext"	"0"
-		"font"			"CustomTercero"
+		"font"			"Size 16"
 		"fgcolor_override"		"WhiteSolid"
 		"textinsetx"	"5"
 		"border"		"MaterialOscuro"
@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"xpos"			"c-200"
 		////"autoResize"		"0"
 		"ypos"			"80"
@@ -138,7 +138,7 @@
 		"command"		"continue"
 		"default"		"1"
 		"wrap"			"1"
-		"font"			"CustomPrimero"
+		"font"			"Size 12"
 		"fgcolor"		"Black"
 	}
 	

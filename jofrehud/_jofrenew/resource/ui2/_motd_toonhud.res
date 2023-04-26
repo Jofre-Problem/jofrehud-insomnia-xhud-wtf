@@ -66,7 +66,7 @@
 			"wide"										"100"
 			"tall"										"30"
 			labelText				"Loadout"
-			font					"CustomTercero"
+			font					"Size 16"
 			textAlignment			center
 			command				"engine open_charinfo; hideconsole"
 			"actionsignallevel"	"2"

@@ -170,7 +170,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"Size 16 Shadow"
+			"font"			"HealthAndAmmo2"
 			"xpos"			"480"
 			"ypos"			"50"
 			"zpos"			"7"
@@ -180,7 +180,7 @@
 			"enabled"		"1"
 			"labelText"		"#ControlPointIconCappers"
 			"textAlignment"	"east"
-			"fgcolor"	"White"
+			"fgcolor"	"Black"
 		}
 
 		"Blocked"

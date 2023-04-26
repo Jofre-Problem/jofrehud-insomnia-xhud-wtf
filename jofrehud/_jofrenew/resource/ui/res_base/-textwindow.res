@@ -57,7 +57,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		"brighttext"	"0"
-		"font"			"CustomTercero"
+		"font"			"Size 16"
 		"fgcolor_override"		"WhiteSolid"
 		"textinsetx"	"5"
 		"border"		"MaterialOscuro"
@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -123,7 +123,7 @@
 		"textAlignment"	"east"
 		//"dulltext"	"0"
 		"brighttext"	"0"
-		"font"			"CustomTercero"
+		"font"			"Size 16"
 		"fgcolor_override"		"White"
 	}		
 	"Logo"

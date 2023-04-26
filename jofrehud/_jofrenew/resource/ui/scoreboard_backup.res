@@ -203,7 +203,7 @@
 
 	"BlueTeamPlayerCount"
 	{
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0" 
@@ -277,7 +277,7 @@
 	{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ServerLabel"
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"labelText"		"#scoreboard_top_list"
 			"textAlignment"	"west"
 			"xpos"			"cs-0.5"
@@ -390,7 +390,7 @@
 	}			
 	"RedTeamPlayerCount"
 	{
-		"font"			"CustomSegundo"
+		"font"			"Size 14"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"0" 
@@ -1162,7 +1162,7 @@
 		}
 		"Assists"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-24"
 			"ypos"			"0"
@@ -1188,7 +1188,7 @@
 					
 		"Destruction"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-24"
 			"ypos"			"0"
@@ -1249,7 +1249,7 @@
 		}					
 		"Captures"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1261,7 +1261,7 @@
 		}						
 		"Defenses"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1274,7 +1274,7 @@
 		}						
 		"Domination"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1286,7 +1286,7 @@
 		}						
 		"Revenge"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1346,7 +1346,7 @@
 		}						
 		"Healing"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1358,7 +1358,7 @@
 		}						
 		"Invuln"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1370,7 +1370,7 @@
 		}						
 		"Teleports"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1382,7 +1382,7 @@
 		}					
 		"Headshots"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1406,7 +1406,7 @@
 		}
 		"Backstabs"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1430,7 +1430,7 @@
 		}
 		"Bonus"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"west"
 			"xpos"			"-20"
 			"ypos"			"0"
@@ -1454,7 +1454,7 @@
 		}
 		"Support"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"east"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -1478,7 +1478,7 @@
 		}
 		"Damage"
 		{
-			"font"			"CustomTercero"
+			"font"			"Size 16"
 			"textAlignment"		"east"
 			"xpos"			"0"
 			"ypos"			"0"

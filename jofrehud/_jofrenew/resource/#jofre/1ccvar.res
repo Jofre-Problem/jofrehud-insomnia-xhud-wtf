@@ -45,7 +45,7 @@
 			"pin_corner_to_sibling"					"PIN_TOPLEFT"
 			"pin_to_sibling_corner"					"PIN_TOPLEFT"		
 			"fgcolor_override"		"W_ColorIcons1"
-			"font"					"CustomPrimero"			
+			"font"					"Size 12"			
 		}
 		"DMGexplain"
 		{
@@ -66,7 +66,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"fgcolor_override"		"W_ColorIcons1"
-		"font"					"CustomPrimero"	
+		"font"					"Size 12"	
 "zpos"		"5"
 			"pin_to_sibling"		"RedDMGSlide"
 			"pin_corner_to_sibling"	"PIN_TOPLEFT"
@@ -168,7 +168,7 @@
 		"pin_to_sibling_corner"					"PIN_TOPLEFT"		
 		"zpos"		"5"
 		"fgcolor_override"		"W_ColorIcons1"
-		"font"					"CustomPrimero"			
+		"font"					"Size 12"			
 	}			
 
 	

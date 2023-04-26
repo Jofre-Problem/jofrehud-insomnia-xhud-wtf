@@ -10,8 +10,8 @@
 		//		"0"
 		"xpos"			"0"
 		"ypos"			"0"
-		"UnpinnedCornerOffsetX" "0"
-		"UnpinnedCornerOffsetY" "0"
+		//"PinnedCornerOffsetY" "0"
+		//"UnpinnedCornerOffsetY" "0"
 	}
 		
 	"FunctionList"
@@ -24,8 +24,8 @@
 		"tall"			"212"
 		//	"3"
 		//		"0"
-		"UnpinnedCornerOffsetX" "-6"
-		"UnpinnedCornerOffsetY" "-6"
+		//"PinnedCornerOffsetY" "-6"
+		//"UnpinnedCornerOffsetY" "-6"
 		"visible"		"1"
 		"enabled"		"1"
 		//	"0"

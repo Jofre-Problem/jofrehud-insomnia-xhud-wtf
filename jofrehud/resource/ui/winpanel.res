@@ -169,7 +169,7 @@
 			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"RedScoreBG"
@@ -177,7 +177,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedScoreBG"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"BlueTeamScoreDropshadow"
@@ -185,7 +185,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"BlueLeaderAvatar"
@@ -193,7 +193,7 @@
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"BlueLeaderAvatar"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"BlueLeaderAvatarBG"
@@ -201,7 +201,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"BlueLeaderAvatarBG"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"RedTeamScoreDropshadow"
@@ -209,7 +209,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"RedLeaderAvatar"
@@ -217,7 +217,7 @@
 			"ControlName"		"CAvatarImagePanel"
 			"fieldName"		"RedLeaderAvatar"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 		"RedLeaderAvatarBG"
@@ -225,7 +225,7 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"RedLeaderAvatarBG"
 			"xpos"		"9999"
-			"visible"		"0"
+			"wide"		"0"
 			"enabled"		"0"
 		}
 	}
@@ -561,7 +561,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"AdvancingTeamLabelDropshadow"
@@ -569,7 +569,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AdvancingTeamLabelDropshadow"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player1Avatar"
@@ -577,7 +577,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player1Avatar"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player2Avatar"
@@ -585,7 +585,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player2Avatar"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player3Avatar"
@@ -593,7 +593,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"Player3Avatar"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"KillStreakPlayer1Avatar"
@@ -601,7 +601,7 @@
 		"ControlName"		"CAvatarImagePanel"
 		"fieldName"		"KillStreakPlayer1Avatar"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player1Badge"
@@ -609,7 +609,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player1Badge"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player2Badge"
@@ -617,7 +617,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player2Badge"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"Player3Badge"
@@ -625,7 +625,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"Player3Badge"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 	"KillStreakPlayer1Badge"
@@ -633,7 +633,7 @@
 		"ControlName"	"CTFBadgePanel"
 		"fieldName"		"KillStreakPlayer1Badge"
 		"xpos"		"9999"
-		"visible"		"0"
+		"wide"		"0"
 		"enabled"		"0"
 	}
 }

@@ -3,7 +3,7 @@
 	{	}	"MOTD_Panel"	{	
 		"last"		{			"ControlName"		"CExLabel"		"fieldName"	
 			"last"
-			"font"			"Segoe8"
+			"font"			"Default"
 			"labelText"		"TF2 update:"
 			"textAlignment"		"center"
 			"xpos" 			"rs1-5"

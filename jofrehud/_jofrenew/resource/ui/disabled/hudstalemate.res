@@ -25,7 +25,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"StalemateLabel"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"0"
 		"zpos"			"1"

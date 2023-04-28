@@ -197,7 +197,7 @@
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 0"
 		"paintbackgroundtype" "0"
-		"font"		"Regular20"
+		"font"		"Size 20"
 	}
 	
 	"TextLine"

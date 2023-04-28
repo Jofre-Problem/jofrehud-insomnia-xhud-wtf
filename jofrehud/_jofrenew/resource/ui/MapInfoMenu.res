@@ -79,7 +79,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -136,7 +136,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -156,7 +156,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"

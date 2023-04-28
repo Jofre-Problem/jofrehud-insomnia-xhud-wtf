@@ -107,7 +107,7 @@
 		"tall"			"16"
 		"labelText"		"%gamemode%"
 		"textAlignment"	"west"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"allcaps"	"1"
 		"fgcolor"		"White"
 		"bgcolor_override"	"0 0 0 0"	
@@ -117,7 +117,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"MapInfoText"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"xpos"			"cs-0.5"
 		"ypos"			"50" 
 		"zpos"			"3"

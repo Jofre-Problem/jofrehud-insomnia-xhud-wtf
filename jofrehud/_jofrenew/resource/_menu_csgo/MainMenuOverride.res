@@ -954,7 +954,7 @@
 		alpha					125
 		mouseInputEnabled			0
 		
-		font					"regular36"
+		font					"Size 36"
 		fgcolor_override			"White"
 		labelText				"Lost connection to the steam server"
 		textAlignment			west

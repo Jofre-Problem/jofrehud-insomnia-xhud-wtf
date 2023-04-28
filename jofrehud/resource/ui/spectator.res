@@ -5,9 +5,8 @@
 	{
 		"ControlName"		"Frame"
 		"fieldName"		"Spectator"
+		
 		"tall"			"480"
-		"autoResize"		"0"
-		//		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		//		"0"
@@ -77,7 +76,7 @@
 			"useparentbg"		"1"
 		}
 		
-		"ItemLabel"
+		"ItemLabel" 
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
@@ -164,29 +163,24 @@
 		"fieldName"					"TipLabel"
 		"xpos"						"9999"
 	}
+
+	// dumb stuff that moves targetid spec
 	"topbar"
 	{
 		"ControlName"				"Panel"
 		"fieldName"					"TopBar"
-		"xpos"						"9999"
-		"tall"						"0"
-		"wide"						"0"
-		"enabled"					"0"
+"ypos""r0"
 	}
 	"BottomBar"
 	{
 		"ControlName"				"Frame"
 		"fieldName"					"BottomBar"
-		"xpos"						"9999"
-		"wide"						"0"
-		"enabled"					"0"
+		"ypos"			"r0"
 	}
 	"bottombarblank"
 	{
 		"ControlName"				"Panel"
 		"fieldName"					"bottombarblank"
-		"xpos"						"9999"
-		"wide"						"0"
-		"enabled"					"0"
+		"ypos"			"r0"
 	}
 }

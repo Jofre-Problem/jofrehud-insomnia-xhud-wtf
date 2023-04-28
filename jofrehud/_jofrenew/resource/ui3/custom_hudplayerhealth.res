@@ -1,14 +1,9 @@
 
-#base "../../overrides/teamcolor_always_red/health.res"
-#base "../../overrides/teamcolor_always_blu/health.res"
-#base "../../overrides/teamcolor_always_white/health.res"
 #base "teamcolor/health.res"
 
 //fallback
 #base "hp_fallback.res"
-#base "../../overrides/circlesforstuff/file.res"
-#base "../../overrides/outlinedhealthnumber/file.res"
-#base "../ui3/healthshadow.res"
+#base "healthshadow.res"
 #base "../ui/base/modulate_team.res"
 #base "../ui/base/editable1.res"
 #base "../ui/base/image1.res"

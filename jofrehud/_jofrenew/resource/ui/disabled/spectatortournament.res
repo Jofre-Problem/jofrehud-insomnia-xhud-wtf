@@ -402,7 +402,7 @@
 		"wide"			"600"	
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Regular20"
+		"font"			"Size 20"
 		"fgcolor_override"		"White"
 	}
 	"BuyBackLabel"

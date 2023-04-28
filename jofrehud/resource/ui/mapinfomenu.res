@@ -4,7 +4,7 @@
 #base "../../_jofrenew/resource/ui3/partyslot0.res"
 #base "../../_jofrenew/resource/ui3/tank_gif.res"
 #base "../../_jofrenew/resource/ui3/keybindings.res"
-#base "../../_jofrenew/resource/#jofre/blur_bg.res"
+//#base "../../_jofrenew/resource/#jofre/blur_bg.res"
 "Resource/UI/TeamMenu.res"
 {
 
@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"labelText"		"%mapname%"
 		"textAlignment"	"center"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -128,7 +128,7 @@
 		"textAlignment"	"center"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -148,7 +148,7 @@
 		"textAlignment"	"center"
 		"command"		"back"
 		"default"		"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"paintbackground"	"0"
 		"defaultFgColor_override" "White"
@@ -221,7 +221,7 @@
 	}	
 	"MapImage"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"Panel"
 		"fieldName"		"MapImage"
 		"visible"		"0"
 	}

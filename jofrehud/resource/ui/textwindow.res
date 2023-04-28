@@ -64,7 +64,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		//"dulltext"	"0"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}
 
@@ -130,7 +130,7 @@
 		"textAlignment"		"center"
 		"command"		"okay"
 		"default"		"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 		"armedFgColor_override" "Primary"
 		"defaultFgColor_override" "255 255 255 255"

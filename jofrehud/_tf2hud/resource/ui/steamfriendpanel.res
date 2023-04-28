@@ -25,7 +25,7 @@
 		"labeltext"	""
 		"textalignment"	"center"
 		"stay_armed_on_click"	"1"
-		"roundedcorners"	"0"
+		//"RoundedCorners"	"0"
 		"paintbackground"	"1"
 
 		"defaultBgColor_override"	"0 0 0 0"

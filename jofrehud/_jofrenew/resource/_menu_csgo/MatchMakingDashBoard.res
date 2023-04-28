@@ -339,7 +339,7 @@
 				enabled						1
 
 				labelText					"%queue_state%"
-				font							"Regular11"
+				font							"Size 10"
 				textAlignment				center
 				AllCaps						1
 				textinsety					2
@@ -355,11 +355,11 @@
 					}
 					"1"
 					{
-						font				"Regular11" // TF2 Build 10
+						font				"Size 10" // TF2 Build 10
 					}
 					"2"
 					{
-						font				"Regular10" // TF2 Build 9
+						font				"Size 10" // TF2 Build 9
 					}
 				}
 			}
@@ -475,7 +475,7 @@
 				enabled						1
 
 				labelText					"#TF_MM_JoinPartyLobby_Prompt"
-				font							"Regular11"
+				font							"Size 10"
 				textAlignment				center
 				textinsety					2
 
@@ -503,7 +503,7 @@
 				"visible"					"1"
 				"enabled"					"1"
 				"tabPosition"				"0"
-				"font"						"Regular10"
+				"font"						"Size 10"
 				"textAlignment"				"center"
 				"AllCaps"					"1"
 				"dulltext"					"0"

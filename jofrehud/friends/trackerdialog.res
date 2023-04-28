@@ -1,2 +1,4 @@
-"x.res"
-{}
+"Friends/TrackerDialog.res"
+{
+
+}

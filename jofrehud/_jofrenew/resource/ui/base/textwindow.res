@@ -57,7 +57,7 @@
 	{
 		"ControlName"	"CExRichText"
 		"fieldName"		"TFTextMessage"
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"xpos"			"10"
 		"ypos"			"60"
 		"zpos"			"1"

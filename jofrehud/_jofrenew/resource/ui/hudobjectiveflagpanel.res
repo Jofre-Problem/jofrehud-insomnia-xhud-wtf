@@ -225,7 +225,7 @@
 		//"enabled"		"1"
 		"labelText"		"#TF_PlayingTo"
 		"textAlignment"	"center"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"White"
 		"bgcolor_override"	"black"
 		

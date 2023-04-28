@@ -89,7 +89,7 @@
 		"tall"		"94"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"BlackLight"
+		"bgcolor_override"		"blank"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Tools_Title"
@@ -556,7 +556,7 @@
 		"tall"		"130"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"BlackLight"
+		"bgcolor_override"		"blank"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel1"
@@ -1841,7 +1841,7 @@
 		"tall"		"57"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"BlackLight"
+		"bgcolor_override"		"blank"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel2"
@@ -1975,7 +1975,7 @@
 		"tall"		"112"
 		"visible"		"1"
 		"enabled"		"1"
-		"bgcolor_override"		"BlackLight"
+		"bgcolor_override"		"blank"
 		"proportionaltoparent"		"1"
 
 		"pin_to_sibling"		"Panel3"

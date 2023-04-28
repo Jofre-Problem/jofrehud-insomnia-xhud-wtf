@@ -65,7 +65,7 @@
 				//"enabled"		"1"
 				//"tabPosition"	"0"
 				"labelText"		""
-				"font"			"Regular14"
+				"font"			"Size 14"
 				"textAlignment"	"west"
 				"textinsetx"	"23"
 				"use_proportional_insets" "1"
@@ -97,7 +97,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Regular20"
+		"font"			"Size 20"
 		"labelText"		"#TF_TradeStartDialog_Title"
 		"textAlignment"								"center"
 		"xpos"										"0"
@@ -230,7 +230,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Select"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -452,7 +452,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Friends"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -474,7 +474,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ErrorLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"Error"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -567,7 +567,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Server"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -589,7 +589,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ErrorLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"Error"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -680,7 +680,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QueryLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"#TF_TradeStartDialog_Profile"
 			"textAlignment"	"west"
 			"xpos"			"0"
@@ -785,7 +785,7 @@
 			"fgcolor_override"	"White"
 			"bgcolor_override"	"32 32 32 0"
 			"paintbackgroundtype" "0"
-			"font"		"Regular14"
+			"font"		"Size 14"
 		}
 		
 		"BottomBarWhite"

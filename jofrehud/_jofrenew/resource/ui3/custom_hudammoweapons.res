@@ -9,13 +9,6 @@
 #base "../../../customization/_dev/crosshairs/hitmarker_res_files/size_current.res"
 #base "../../../customization/_dev/crosshairs/hitmarker_res_files/base.res"
 
-#base "../../overrides/circlesforstuff/file2.res"
-#base "../../overrides/outlinedammoclip/file.res"
-
-#base "../../overrides/teamcolor_always_red/ammo.res"
-#base "../../overrides/teamcolor_always_blu/ammo.res"
-#base "../../overrides/teamcolor_always_white/ammo.res"
-
 #base "teamcolor/ammo.res"
 
 

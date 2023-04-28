@@ -133,7 +133,7 @@
 		"fgcolor_override"	"255 255 255 255"
 		"bgcolor_override"	"255 255 255 0"
 		"paintbackgroundtype" "0"
-		"font"		"Regular20"
+		"font"		"Size 20"
 	}
 	
 	"TextLine"
@@ -263,7 +263,7 @@
 	
 	"CurPageLabel"
 	{
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"textAlignment"	"east"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -283,7 +283,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PageLabel"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"labelText"		"Page:"
 		"textAlignment"	"east"
 		"xpos"			"5"

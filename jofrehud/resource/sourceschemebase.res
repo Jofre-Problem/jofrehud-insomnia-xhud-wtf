@@ -239,10 +239,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI New"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				//"1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -250,10 +250,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI New"
+				"name"		"Segoe UI"
 				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				//"1"
 			}
 		}
 		"DefaultFixedOutline"
@@ -262,8 +262,8 @@ Scheme
 			{
 				"name"		 "Segoe UI"
 				"tall"		 "10"
-				"weight"	 "0"
-				"outline"	 "1"
+				//	 "0"
+				// "1"
 			}
 		}
 		"Default"
@@ -272,7 +272,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"DefaultBold"
@@ -281,7 +281,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"1000"
+				//	"1000"
 			}
 		}
 		"DefaultUnderline"
@@ -290,7 +290,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 				"underline" "1"
 			}
 		}
@@ -300,7 +300,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12" 
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"DefaultSmallDropShadow"
@@ -309,8 +309,8 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
+				//	"0"
+				// "1"
 			}
 		}
 		"DefaultVerySmall"
@@ -319,7 +319,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 
@@ -329,23 +329,16 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"UiBold"
 		{
-			"1"	[$WIN32]
+			"1"
 			{
 				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"1000"
-			}
-			"1"	[$X360]
-			{
-				"name"		"Segoe UI"
-				"tall"		"24"
-				"weight"	"2000"
-				"outline"	"1"
+				//	"1000"
 			}
 		}
 		"ChapterTitle"	[$X360]
@@ -354,9 +347,8 @@ Scheme
 			{
 				"name"			"Segoe UI"
 				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"outline"		"1"
+				//		"2000"
+				//	"1"
 			}
 		}
 		"ChapterTitleBlur"	[$X360]
@@ -365,10 +357,6 @@ Scheme
 			{
 				"name"			"Segoe UI"
 				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"blur"			"3"
-				"blur_hidef"	"5"
 			}
 		}
 		"MenuLarge"
@@ -377,22 +365,22 @@ Scheme
 			{
 				"name"		"Helvetica Bold"
 				"tall"		"20"
-				"antialias" "1"
+				//"1"
 			}
 			"1"	[$WIN32]
 			{
 				"name"		"Segoe UI" 
 				"tall"		"16" 
-				"weight"	"600"
-				"antialias" "1"
+				//	"600"
+				//"1"
 			}
 			"1"	[$X360]
 			{
 				"name"		"Segoe UI"
 				"tall"			"14"
-				"tall_hidef"	"20"
-				"weight"	"1200"
-				"antialias" "1"
+				//	"20"
+				//	"1200"
+				//"1"
 				"outline" "1"
 			}
 		}
@@ -402,9 +390,9 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				//	"1200"
+				//"1"
+		
 			}
 		}
 		
@@ -414,8 +402,8 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"1200"
-				"antialias" "1"
+				//	"1200"
+				//"1"
 				//"outline" "1"
 			}
 		}
@@ -427,19 +415,11 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"15"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"		"0 480"
 			}
 			"2"
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
-				"yres"	 "481 10000"
 			}
 		}
 		
@@ -451,10 +431,6 @@ Scheme
 				"name"		"Buttons"
 				"scalex"	"0.63"
 				"scaley"	"0.63"
-				"scalex_hidef"	"1.0"
-				"scaley_hidef"	"1.0"
-				"scalex_lodef"	"0.75"
-				"scaley_lodef"	"0.75"
 			}
 		}
 		"ConsoleText"
@@ -463,7 +439,7 @@ Scheme
 			{
 				"name"		 "Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 
@@ -474,7 +450,7 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
+				//	"0"
 				"symbol"	"1"
 			}
 		}
@@ -485,7 +461,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -495,7 +471,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -505,7 +481,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -517,7 +493,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"40"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber1"
@@ -526,7 +502,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"41"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber2"
@@ -535,7 +511,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"42"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber3"
@@ -544,7 +520,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"43"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber4"
@@ -553,7 +529,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"44"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber5"
@@ -562,25 +538,22 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"45"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		 "Segoe UI" [$WINDOWS]
-				"name"		 "Segoe UI" [$X360]
-				"name"		 "Segoe UI" [$POSIX]
-				"tall"		"11" [$POSIX]
+				"name"		 "Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
+				//	"0"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -590,14 +563,14 @@ Scheme
 			{
 				"name"		 "Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
-				"dropshadow" "1"
+				//	"0"
+				// "1"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -607,7 +580,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"CloseCaption_Italic"
@@ -616,7 +589,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"CloseCaption_Bold"
@@ -625,7 +598,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"CloseCaption_BoldItalic"
@@ -634,8 +607,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
+
 			}
 		}
 
@@ -645,8 +617,8 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"72"
-				"weight"	"400"
-				"antialias"	"1"
+				//	"400"
+				//"1"
 				"custom"	"1"
 			}
 		}
@@ -657,8 +629,8 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"120"
-				"weight"	"400"
-				"antialias"	"1"
+				//	"400"
+				//"1"
 				"custom"	"1"
 			}
 		}
@@ -669,9 +641,9 @@ Scheme
 			{
 				"name"			"Segoe UI"
 				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"antialias"		"1"
+				//	"24"
+				//		"900"
+				//	"1"
 			}
 		}
 
@@ -681,11 +653,11 @@ Scheme
 			{
 				"name"			"Segoe UI"
 				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"blur"			"3"
-				"blur_hidef"	"5"
-				"antialias"		"1"
+				//	"24"
+				//		"900"
+				//			"3"
+				//	"5"
+				//	"1"
 			}
 		}
 		
@@ -693,11 +665,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"2000"
+				"name"		"Segoe UI"
+				//		"2000"
 				"tall"			"20"
-				"antialias"		"1"
+				//	"1"
 			}
 		}
 		
@@ -705,11 +676,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"2000"
+				"name"		"Segoe UI" 
+				//		"2000"
 				"tall"			"18"
-				"antialias"		"1"
+				//	"1"
 			}
 		}
 		
@@ -717,12 +687,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				"tall"			"16" [!$POSIX]
-				"tall"			"18" [$POSIX]
-				"antialias"		"1"
+				"name"		"Segoe UI"
+				//		"1500"
+				"tall"			"16"
+				//	"1"
 			}
 		}
 
@@ -730,11 +698,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
+				"name"		"Segoe UI"
+				//		"1500"
 				"tall"			"16"
-				"antialias"		"1"
+				//	"1"
 			}
 		}
 
@@ -743,12 +710,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				"tall"			"14" [!$POSIX]
-				"tall"			"16" [$POSIX]
-				"antialias"		"1"
+				"name"		"Segoe UI"
+				//		"1500"
+				"tall"			"14" 
 			}
 		}
 		
@@ -756,12 +720,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1500"
-				"tall"			"18" [!$POSIX]
-				"tall"			"19" [$POSIX]
-				"antialias"		"1"
+				"name"		"Segoe UI"
+				//		"1500"
+				"tall"			"18" 
+				//	"1"
 			}
 		}
 		
@@ -769,12 +731,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Segoe UI" [!$POSIX]
-				"name"		"Segoe UI" [$POSIX]
-				"weight"		"1000"
-				"tall"			"14" [!$POSIX]
-				"tall"			"15" [$POSIX]
-				"antialias"		"1"
+				"name"		"Segoe UI"
+				//		"1000"
+				"tall"			"14"
+				//	"1"
 			}
 		}
 
@@ -785,10 +745,10 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias" "1"
+
+				//	"500"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -798,7 +758,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
+				//	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
 			}
@@ -806,7 +766,7 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
+				//	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
 			}
@@ -814,28 +774,28 @@ Scheme
 			{
 				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"0"
+				//	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
-				"antialias"	"1"
+				//"1"
 			}
 			"4"
 			{
 				"name"		"Segoe UI"
 				"tall"		"19"
-				"weight"	"0"
+				//	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1024 1199"
-				"antialias"	"1"
+				//"1"
 			}
 			"5"
 			{
 				"name"		"Segoe UI"
 				"tall"		"19"
-				"weight"	"0"
+				//	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"1200 6000"
-				"antialias"	"1"
+				//"1"
 			}
 		}
 	
@@ -956,8 +916,7 @@ Scheme
 
 		ScrollBarButtonBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0" 
 			Left
 			{
 				"1"
@@ -997,8 +956,7 @@ Scheme
 		
 		ScrollBarButtonDepressedBorder
 		{
-			"inset" "2 2 0 0" [!$OSX]
-			"inset" "-3 2 0 0" [$OSX]
+			"inset" "2 2 0 0"
 			Left
 			{
 				"1"

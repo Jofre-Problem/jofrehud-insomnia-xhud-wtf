@@ -13,7 +13,7 @@
 		"proportionaltoparent"						"1"
 		"labelText"									"60 seconds until gates open"
 		"textAlignment"								"center"
-		"font"										"regular14"
+		"font"										"Size 14"
 	}
 
 

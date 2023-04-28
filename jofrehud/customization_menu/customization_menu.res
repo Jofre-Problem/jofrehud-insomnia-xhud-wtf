@@ -92,7 +92,7 @@
 					"wide"						"f0"
 					"tall"						"f0"
 					"proportionaltoparent"		"1"
-					"font"						"regular14"
+					"font"						"Size 14"
 					"labelText"					"CUSTOMIZE!"
 					"textAlignment"				"west"
 					"textinsetx"				"5"
@@ -166,7 +166,7 @@
 					"Slider"
 					{
 						"fgcolor_override"	"Primary"
-						"bgcolor_override"	" 0 0 0 100"
+						"bgcolor_override"	" 0 0 0 0"
 					}
 				
 					"UpButton"

@@ -27,7 +27,7 @@
 //			"mouseinputenabled"			"1"
 //			"keyboardinputenabled"		"0"
 //			"actionsignallevel"			"2"
-//			"RoundedCorners"			"0"
+//			//"RoundedCorners"			"0"
 
 //			defaultBgColor_override		"0 0 0 0"
 //			armedBgColor_override		"W_ColorTheme3"
@@ -87,7 +87,7 @@
 "mouseinputenabled""1"
 "keyboardinputenabled""0"
 "actionsignallevel""2"
-"RoundedCorners""0"
+//"RoundedCorners""0"
 
 "sound_depressed""ui/buttonclick.wav"
 "sound_released""ui/buttonclickrelease.wav"

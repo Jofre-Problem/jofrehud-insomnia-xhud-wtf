@@ -340,19 +340,4 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 	}
-	"Divider1"
-	{
-		"ControlName"		"Divider"
-		"fieldName"		"Divider1"
-		"xpos"		"19"
-		"ypos"		"63"
-		"wide"		"500"
-		"tall"		"2"
-		//		"1"
-		//"PinnedCornerOffsetY" "-20"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
 }

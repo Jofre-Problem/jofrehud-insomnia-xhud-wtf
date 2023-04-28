@@ -175,7 +175,7 @@
 						"auto_wide_tocontents"	"0"
 						"paintbackground"	"0"
 						"paintborder"		"1"
-						"RoundedCorners"	"0"
+						//"RoundedCorners"	"0"
 						"border_default"			"ReplayDefaultBorder"
 						"defaultFgColor_override"	"TanLight"
 						"armedFgColor_override"		"Orange"

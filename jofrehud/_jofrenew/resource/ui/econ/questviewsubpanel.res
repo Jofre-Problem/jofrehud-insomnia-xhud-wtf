@@ -38,7 +38,7 @@
 "textinsety""0"
 "eatmouseinput""0"
 "font""CenterPrintText"
-"roundedcorners""0"
+//"RoundedCorners""0"
 
 "paintbackground""1"
 
@@ -302,7 +302,7 @@
 "textinsety""0"
 "eatmouseinput""0"
 "font""CenterPrintText"
-"roundedcorners""0"
+//"RoundedCorners""0"
 
 "paintbackground""1"
 "paintborder""0"

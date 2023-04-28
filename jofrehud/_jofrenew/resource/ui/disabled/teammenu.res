@@ -516,7 +516,7 @@
 		"textAlignment"	"center"
 		//"dulltext"	"0"
 		"brighttext"	"0"
-		"font"			"Regular30"
+		"font"			"Size 30"
 		"fgcolor"		"White"
 	}
 	
@@ -685,7 +685,7 @@
 		"textAlignment"	"east"
 		//"dulltext"	"0"
 		"brighttext"	"1"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 175"
 	}	
 	

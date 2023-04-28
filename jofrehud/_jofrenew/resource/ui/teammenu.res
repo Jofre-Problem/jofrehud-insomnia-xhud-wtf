@@ -70,7 +70,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%bluecount%"
-		font			  		"regular36"
+		font			  		"Size 36"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -194,7 +194,7 @@
 		mouseinputenabled			0
 
 		labelText		  		"%redcount%"
-		font			  		"regular36"
+		font			  		"Size 36"
 		textAlignment	  		center
 
 		fgcolor		  		"W_ColorIcons1"
@@ -219,7 +219,7 @@
 
 		labelText				"#TF_Random"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"
@@ -259,7 +259,7 @@
 
 		labelText				"#TF_Spectate"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 		fgcolor				"W_ColorIcons1"
 		
 		sound_depressed			"UI/buttonclick.wav"

@@ -1297,7 +1297,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KILLSASSISTSDEATHS"
-			"font"			"Regular30"
+			"font"			"Size 30"
 			"labelText"		"#scoreboard_K_A_D_list"//"%kills%"
 			"textAlignment"		"center"
 			"xpos" 			"c-200"					//"c-60"//			"180"

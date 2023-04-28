@@ -51,7 +51,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Regular10"
+		"font"					"Size 10"
 		"fgcolor_override"		"White"
 	}
 

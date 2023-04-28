@@ -104,7 +104,7 @@
 
 			"labelText"								"FRIENDS LIST?"
 			"actionsignallevel"						"2"
-			"font"									"Regular14"
+			"font"									"Size 14"
 			"textalignment"							"center"
 			"textinset_x"			"-40"
 			"use_proportional_insets"				"1"

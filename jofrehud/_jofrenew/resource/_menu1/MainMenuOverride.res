@@ -118,62 +118,7 @@
 			}
 		}
 	}
-	"IngameBG"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"IngameBG"
-		"xpos"			"0"
-		"ypos" "0" //			"0"
-		"zpos"			"-298"
-		"wide"			"f0"
-		"tall"			"23"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"0"
-			"ypos" "0" //			"0"
-			"zpos"			"1"
-			"wide"			"f0"
-			"tall"			"480"
-			//"autoResize"		"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			//"tabPosition"	"0"
-			"labelText"		""
-			"font"			""
-			"textAlignment"	"center"
-			//"dulltext"	"0"
-			"brighttext"	"0"
-			"default"		"1"
 
-			"Command"		""
-			"navActivate"	"<QuickplayButton"		// after selecting this, nav to this sibling
-
-			"sound_depressed"	""
-			"sound_released"	""
-			"paintbackground" "0"
-			"image_drawcolor"	"255 255 255 255"
-			"image_armedcolor"	"255 255 255 255"
-
-			"SubImage"
-			{
-				"xpos"			"0"
-				"ypos" "0" //			"0"
-				"zpos"			"-200"
-				"wide"			"f0"
-				"tall"			"480"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/mm/ingameBG"
-				"scaleImage"	"1"
-			}
-		}
-	}
 	"MenuColorizer"
 	{
 		"ControlName"								"EditablePanel"
@@ -715,7 +660,7 @@
 			proportionalToParent		1
 			mouseInputEnabled			0
 
-			font					"Regular14"
+			font					"Size 14"
 			labelText				"%noticount%"
 			textAlignment			center
 			textInsetY				-2

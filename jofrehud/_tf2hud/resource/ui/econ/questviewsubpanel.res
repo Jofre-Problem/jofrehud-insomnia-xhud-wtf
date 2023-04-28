@@ -41,7 +41,7 @@
 		"textinsety"	"0"
 		"eatmouseinput"	"0"	
 		"font"			"QuestMap_Large"
-		"roundedcorners"	"0"
+		//"RoundedCorners"	"0"
 
 		"paintbackground"	"1"
 			
@@ -326,7 +326,7 @@
 				"textinsety"	"0"
 				"eatmouseinput"	"0"	
 				"font"			"QuestMap_Large"
-				"roundedcorners"	"0"
+				//"RoundedCorners"	"0"
 
 				"paintbackground"	"1"
 				"paintborder"		"0"

@@ -71,74 +71,17 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
+				"name"										"Product Sans"
 				"tall"										"9"
 				"antialias" 								"1"
-			}
-		}
-		"regular10"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"10"
-				"antialias" 								"1"
-			}
-		}
-		"regular10Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"10"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"regular11"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"11"
-				"antialias" 								"1"
-			}
-		}
-		"regular11Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"11"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		"regular12"
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
-				"tall"										"12"
-				"antialias" 								"1"
-			}
-		}
-		"regular12Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"12"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"regular14"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"14"
+				"name"										"Product Sans"
+				"tall"										"11"
 				"antialias" 								"1"
 			}
 		}
@@ -146,249 +89,40 @@ Scheme
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
+				"name"										"Product Sans"
 				"tall"										"16"
 				"antialias" 								"1"
-			}
-		}
-		"regular16Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"16"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
 			}
 		}
 		"regular18"
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
+				"name"										"Product Sans"
 				"tall"										"18"
 				"antialias" 								"1"
 			}
 		}
-		"regular18Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"18"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"regular18Outline"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"18"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular18Numbers"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"18"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular20"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"20"
-				"antialias" 								"1"
-			}
-		}
+
 		"regular24"
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
+				"name"										"Product Sans"
 				"tall"										"24"
 				"antialias" 								"1"
 			}
 		}
-		"regular24Shadow"
+		"Size 36"
 		{
 			"1"
 			{
-				"name"										"GreycliffMedium"
-				"tall"										"24"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"regular24Outline"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"24"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular24Numbers"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"24"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular26"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"26"
-				"antialias" 								"1"
-			}
-		}
-		"regular30"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"30"
-				"antialias" 								"1"
-			}
-		}
-		"regular30Outline"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"30"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular30Numbers"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"30"
-				"antialias" 								"1"
-				"outline" 									"1"
-			}
-		}
-		"regular32"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"32"
-				"antialias" 								"1"
-			}
-		}
-		"regular32Shadow"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"32"
-				"antialias" 								"1"
-				"dropshadow" 								"1"
-			}
-		}
-		"regular36"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
+				"name"										"Product Sans"
 				"tall"										"36"
 				"antialias" 								"1"
 			}
 		}
-		"regular48"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"48"
-				"antialias" 								"1"
-			}
-		}
-		"regular72"
-		{
-			"1"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"72"
-				"yres"										"400 500"
-				"antialias"									"1"
-			}
-			"2"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"88"
-				"yres"										"501 600"
-				"antialias"									"1"
-			}
-			"3"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"95"
-				"yres"										"601 679"
-				"antialias"									"1"
-			}
-			"4"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"103"
-				"yres"										"680 720"
-				"antialias"									"1"
-			}
-			"5"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"110"
-				"yres"										"721 799"
-				"antialias"									"1"
-			}
-			"6"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"117"
-				"yres"										"800 899"
-				"antialias"									"1"
-			}
-			"7"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"123"
-				"yres"										"900 1030"
-				"antialias"									"1"
-			}
-			"8"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"130"
-				"yres"										"1031 1199"
-				"antialias"									"1"
-			}
-			"9"
-			{
-				"name"										"GreycliffMedium"
-				"tall"										"999"
-				"yres"										"1200 6000"
-				"antialias"									"1"
-			}
-		}
+	
 
 
 
@@ -528,16 +262,6 @@ Scheme
 				"tall"	"8"
 				"additive"	"0"
 				"antialias"	"1"
-			}
-		}
-		"Size 9 Lines"
-		{
-			"1"
-			{
-				"name"	"Renogare Uber"
-				"tall"	"9"
-				"additive"	"0"
-				"antialias"	"0"
 			}
 		}
 		"Size 10"
@@ -826,11 +550,6 @@ Scheme
 			"font" "_jofrenew/font/CallingCode-Regular.otf"
 			"name" "Calling Code Regular"
 		} 			
-		"218"
-		{
-			"font" 		"_jofrenew/leadhud/scheme/fonts/GreycliffMedium.ttf" 
-			"name" 		"GreycliffMedium"
-		}
 		"105"
 		{
 			"font" "_jofrenew/font/Blocks-Blocks.ttf"

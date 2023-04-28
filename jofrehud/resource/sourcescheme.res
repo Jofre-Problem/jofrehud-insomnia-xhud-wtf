@@ -1,7 +1,9 @@
-//#base "../_jofrenew/resource/sourcescheme.res"
+#base "../customization/colors/user_colors.res"
+#base "../customization/colors/custom_colors.res"
+
 #base "../../../cfg/jp_sourcescheme_border.txt"		// font default tf2 stuff uses
 #base "../../../cfg/jp_sourcescheme_scrollbarwide.txt"		// font default tf2 stuff uses
-#base "../_jofrenew/resource/cs_windows.res"
+//#base "../_jofrenew/resource/cs_windows.res"
 
 #base "../fallbackhud/sourcescheme.res"	// in case user didnt set nothing
 #base "sourceschemebase.res"	// in case user didnt set nothing
@@ -11,6 +13,36 @@ Scheme
 {
 	Colors
 	{
+		"W_BorderArmed"	"204 135 41 255"
+		"W_CerrarArmed"	"255 64 64 255"
+
+	//	"W_ColorTheme1"	"238 238 238 255"	//barra
+	//	"W_ColorTheme2"	"228 228 228 248"	//tipo asi "fondo"
+	//	"W_ColorTheme3"	"244 244 244 255"	// fondo del motd panel
+		"W_ColorTheme4"	"193 175 75 255"//"62 80 180 255"		// ROBOTO HUD azul		
+	//	"W_ColorLinea1"	"172 172 172 155"	//linea separatoria
+	//	"W_BorderArmedText"	"64 64 64 255"
+	//	"W_ColorTexto1" "133 122 84 255"
+	//	"W_ColorIcons1"	"0 6 0 255"
+	//	"W_ColorIcons1Blur"	"0 6 0 178"
+	//	"White" "217 171 108 255"
+
+		"W_ColorTheme1"	"37 39 37 255"
+		"W_ColorTheme2"				"27 27 27 248"//248
+		"W_ColorTheme3"	"16 11 16 255"
+		"W_ColorLinea1"		"27 27 27 170"//170
+		"W_ColorIcons1"	"245 245 245 255"
+		"W_ColorIcons2"	"220 220 220 255"
+		"W_ColorIcons1Blur"	"245 245 245 170"
+		"W_ColorTexto1" "119 100 192 255"	//purple
+		"W_BorderArmedText"	"190 190 190 255"
+		"W_BotonArmed"	"219 191 153 255"	//cuando esta seleccionado 
+
+		"W_ColorTheme2Blur"	"228 228 228 50"//"228 228 228 50"
+		//--------------------------------Phones? ok! (Android)
+		"A_ColorTheme1"	"218 220 224 255"
+		"A_ColorTheme2"	"241 243 244 255"
+		"A_ColorTheme3"	"26 115 232 255"		
 		// rayshud	
 		"White"				"240 240 240 255"
 		"OffWhite"			"200 200 200 255"
@@ -32,7 +64,14 @@ Scheme
 
 	}	
 	BaseSettings	{
-       
+		MainMenu.Backdrop   "Blank"
+// basically the shadow when you open console
+ Tooltip.TextColor	"White"
+ Tooltip.BgColor	"Primary"
+PropertySheet.SelectedTextColor "Primary"      
+
+SectionedListPanel.DividerColor "Primary"
+Button.DepressedTextColor "Primary"
 		Border.Bright					"Blank"
 		Border.Dark						"Blank"
 		Border.Selection				"Blank"
@@ -61,7 +100,7 @@ Scheme
 //		Button.FocusBorderColor			"W_BorderArmed"
 
 		//C
-		ComboBoxButton.ArrowColor		"W_ColorIconsArmed1"
+		ComboBoxButton.ArrowColor		"White"
 		ComboBoxButton.ArmedArrowColor	"W_ColorIcons1"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
@@ -176,7 +215,7 @@ Scheme
 		RichText.BgColor				"0 36 86 0"
 	
 		RadioButton.SelectedTextColor	"W_ColorIcons1"
-		RadioButton.TextColor			"W_ColorIconsArmed1"
+		RadioButton.TextColor			"White"
 
 		//T
 //		TextEntry.OutOfFocusSelectedBgColor	"255 155 0 128"
@@ -189,7 +228,7 @@ Scheme
 //		TextEntry.SelectedBgColor		"W_BorderArmed"
 //		TextEntry.BgColor				"W_ColorIcons1"
 //TF		TextEntry.CursorColor		"W_BorderArmed"
-		ToggleButton.SelectedTextColor	"W_ColorIconsArmed1"
+		ToggleButton.SelectedTextColor	"White"
         		TextEntry.TextColor			"W_ColorIcons1"
 		TextEntry.BgColor			"W_ColorTheme2"
 		TextEntry.DisabledTextColor	"W_ColorIcons1"
@@ -376,7 +415,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "Primary"
 					"offset" "0 1"
 				}
 			}
@@ -385,7 +424,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "Primary"
 					"offset" "1 0"
 				}
 			}
@@ -394,7 +433,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "Primary"
 					"offset" "0 0"
 				}
 			}
@@ -403,7 +442,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "PolyIconsFg1"
+					"color" "Primary"
 					"offset" "0 0"
 				}
 			}

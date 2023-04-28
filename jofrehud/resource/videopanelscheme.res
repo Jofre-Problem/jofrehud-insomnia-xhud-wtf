@@ -220,10 +220,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"	 "Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				// "1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -231,78 +231,75 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		 "Segoe UI"
 				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				// "1"
 			}
 		}
 		"DefaultFixedOutline"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Monaco" [$POSIX]
+				"name"		 "Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
-				"outline"	"1"
+				//	"0"
+				//	"1"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"DefaultBold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"1000"
+				//	"1000"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
-				"underline" "1"
+				//	"500"
 			}
 		}
 		"DefaultSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
-				"dropshadow" "1"
+				//	"0"
+				// "1"
 			}
 		}
 		"DefaultVerySmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 
@@ -310,48 +307,45 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"UiBold"
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"1000"
+				//	"1000"
 			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"2000"
-				"outline" "1"
+				//	"2000"
+				// "1"
 			}
 		}
 		"ChapterTitle"	[$X360]
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"Segoe UI"
 				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"outline"		"1"
+				//	"28"
+				//		"2000"
+				//		"1"
 			}
 		}
 		"ChapterTitleBlur"	[$X360]
 		{
 			"1"
 			{
-				"name"			"Tahoma"
+				"name"			"Segoe UI"
 				"tall"			"20"
-				"tall_hidef"	"28"
-				"weight"		"2000"
-				"blur"			"3"
-				"blur_hidef"	"5"
+
 			}
 		}
 		"MenuLarge"
@@ -360,16 +354,16 @@ Scheme
 			{
 				"name"		"Verdana"
 				"tall"		"16"
-				"weight"	"600"
-				"antialias" "1"
+				//	"600"
+				// "1"
 			}
 			"1"	[$X360]
 			{
 				"name"		"Verdana"
 				"tall"		"20"
-				"weight"	"1200"
-				"antialias" "1"
-				"outline" "1"
+				//	"1200"
+				// "1"
+				// "1"
 			}
 		}
 		GameUIButtons
@@ -380,19 +374,15 @@ Scheme
 				"name"			"Buttons"
 				"scalex"		"0.8"
 				"scaley"		"0.8"
-				"scalex_hidef"	"1.0"
-				"scaley_hidef"	"1.0"
 			}
 		}
 		"ConsoleText"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Monaco" [$POSIX]
+				"name"		 "Segoe UI" 
 				"tall"		"10"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 
@@ -403,7 +393,7 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
+				//	"0"
 				"symbol"	"1"
 			}
 		}
@@ -412,9 +402,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -422,9 +412,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -432,9 +422,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -444,71 +434,69 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"40"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber1"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"41"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber2"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"42"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber3"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"43"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber4"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"44"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber5"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"45"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Monaco" [$POSIX]
+				"name"		 "Segoe UI" 
 				"tall"		"10"
-				"weight"	"0"
+				//	"0"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -516,18 +504,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		 "Lucida Console" [$WINDOWS]
-				"name"		 "Lucida Console" [$X360]
-				"name"		 "Monaco" [$POSIX]
+				"name"		 "Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
-				"dropshadow" "1"
+				//	"0"
+				// "1"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -535,38 +521,38 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
+				//	"500"
+	
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
+				//	"900"
+
 			}
 		}
 
@@ -576,8 +562,8 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"72"
-				"weight"	"400"
-				"antialias"	"1"
+				//	"400"
+				//	"1"
 				"custom"	"1"
 			}
 		}
@@ -588,8 +574,8 @@ Scheme
 			{
 				"name"		"HalfLife2"
 				"tall"		"120"
-				"weight"	"400"
-				"antialias"	"1"
+				//	"400"
+				//	"1"
 				"custom"	"1"
 			}
 		}
@@ -598,11 +584,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Segoe UI"
 				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"antialias"		"1"
+
 			}
 		}
 
@@ -610,13 +594,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Trebuchet MS"
+				"name"			"Segoe UI"
 				"tall"			"16"
-				"tall_hidef"	"24"
-				"weight"		"900"
-				"blur"			"3"
-				"blur_hidef"	"5"
-				"antialias"		"1"
+
+				//		"1"
 			}
 		}
 	}
@@ -627,395 +608,7 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-		BaseBorder		DepressedBorder
-		ButtonBorder	RaisedBorder
-		ComboBoxBorder	DepressedBorder
-		MenuBorder		RaisedBorder
-		BrowserBorder	DepressedBorder
-		PropertySheetBorder	RaisedBorder
 
-		FrameBorder
-		{
-			// rounded corners for frames
-			"backgroundtype" "2"
-		}
-
-		DepressedBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-		}
-		RaisedBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		TitleButtonBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		TitleButtonDisabledBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		TitleButtonDepressedBorder
-		{
-			"backgroundtype" "0"
-		}
-
-		ScrollBarButtonBorder
-		{
-			"inset" "2 2 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-		
-		ScrollBarButtonDepressedBorder
-		{
-			"inset" "2 2 0 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		TabBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-		}
-
-		TabActiveBorder
-		{
-			"inset" "0 0 1 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-
-		}
-
-
-		ToolTipBorder
-		{
-			"inset" "0 0 1 0"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		// this is the border used for default buttons (the button that gets pressed when you hit enter)
-		ButtonKeyFocusBorder
-		{
-			"inset" "0 0 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Bright"
-					"offset" "0 1"
-				}
-			}
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "1 0"
-				}
-			}
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Selection"
-					"offset" "0 0"
-				}
-				"2"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-		}
-
-		ButtonDepressedBorder
-		{
-			"inset" "2 1 1 1"
-			Left
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 1"
-				}
-			}
-
-			Right
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "1 0"
-				}
-			}
-
-			Top
-			{
-				"1"
-				{
-					"color" "Border.Dark"
-					"offset" "0 0"
-				}
-			}
-
-			Bottom
-			{
-				"1"
-				{
-					"color" "Border.Bright"
-					"offset" "0 0"
-				}
-			}
-		}
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////

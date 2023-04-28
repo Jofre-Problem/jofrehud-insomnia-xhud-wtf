@@ -1,3 +1,4 @@
+#base "../../../../../cfg/jp_custom_resolution.txt"
 "Resource/UI/TargetID.res"
 {
 	"TargetIDBG"
@@ -315,7 +316,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetDataLabelUberFullBG"
 		"font"			"SpecTargetIDuberfull"
-		"xpos"			"35"
+		"xpos"			"0"
 		"ypos"			"420" //420
 		"zpos"			"3"
 		"wide"			"1500"
@@ -339,7 +340,7 @@
 		"tall"			"1500"
 		"visible"		"0"
 		"enabled"		"0"	
-		"HealthBonusPosAdj"	"31"//"10"
+	//	"HealthBonusPosAdj"	"31"//"10"
 		"HealthDeathWarning"	"1.0" // nice
 		"TFFont"		"HudFontSmall"
 		"HealthDeathWarningColor"	"HUDDeathWarning"

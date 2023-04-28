@@ -131,7 +131,7 @@
 		{
 	//		textinsety				-13   //cant be changed
 			"textinsetx"		"3"
-			"font"				"Blank"//"Regular14"
+			"font"				"Blank"//"Size 14"
 	//		"defaultBgColor_override"	"Blank"
 			"selectedcolor"		"Blank"
 			"unselectedcolor"	"Blank"	

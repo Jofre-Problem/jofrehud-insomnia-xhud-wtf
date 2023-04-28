@@ -1209,7 +1209,7 @@
 		
 		labelText				"%numScout%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1228,7 +1228,7 @@
 		
 		labelText				"%numSoldier%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1247,7 +1247,7 @@
 		
 		labelText				"%numPyro%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1266,7 +1266,7 @@
 		
 		labelText				"%numDemoman%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1285,7 +1285,7 @@
 		
 		labelText				"%numHeavy%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1304,7 +1304,7 @@
 		
 		labelText				"%numEngineer%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1323,7 +1323,7 @@
 		
 		labelText				"%numMedic%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1342,7 +1342,7 @@
 		
 		labelText				"%numSniper%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0
@@ -1361,7 +1361,7 @@
 		
 		labelText				"%numSpy%"
 		textAlignment			center
-		font					"Regular20"
+		font					"Size 20"
 
 		fgcolor				"tf22"
 		paintbackground			0

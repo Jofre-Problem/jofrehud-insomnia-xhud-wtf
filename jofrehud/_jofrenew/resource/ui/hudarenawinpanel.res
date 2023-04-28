@@ -22,7 +22,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"south-west"
 			"xpos"			"c-145"
@@ -35,7 +35,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"Regular30"
+			"font"			"Size 30"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"east"
 			"xpos"			"c-105"
@@ -69,7 +69,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"south-east"
 			"xpos"			"c45"
@@ -83,7 +83,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"Regular30"
+			"font"			"Size 30"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"west"
 			"xpos"			"c5"
@@ -125,7 +125,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"ArenaStreakLabel"
-			"font"			"Regular20"
+			"font"			"Size 20"
 			"fgcolor"		"White"
 			"xpos"			"c-100"
 			"ypos"			"c-30"
@@ -151,7 +151,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"Regular30"
+		"font"			"Size 30"
 		"xpos"			"c-250"
 		"ypos"			"c32"
 		"zpos"			"1"
@@ -192,7 +192,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"Regular30"
+		"font"			"Size 30"
 		"xpos"			"c-250"
 		"ypos"			"c32"
 		"zpos"			"1"
@@ -288,7 +288,7 @@
 		"textAlignment"		"west"
 		//"dulltext"	"0"
 		"brighttext"		"0"
-		"font"			"Regular14"
+		"font"			"Size 14"
 	}
 	"DamageThisRoundLabel"
 	{	

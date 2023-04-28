@@ -50,7 +50,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular10"
+		"Size 10"
 		{
 			"1"
 			{
@@ -70,7 +70,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular14"
+		"Size 14"
 		{
 			"1"
 			{
@@ -110,7 +110,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular20"
+		"Size 20"
 		{
 			"1"
 			{
@@ -171,7 +171,7 @@ Scheme
 				//"dropshadow"	"1"
 			}
 		}		
-		"Regular30"
+		"Size 30"
 		{
 			"1"
 			{
@@ -201,7 +201,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular36"
+		"Size 36"
 		{
 			"1"
 			{
@@ -221,7 +221,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"regular36"
+		"Size 36"
 		{
 			"1"
 			{
@@ -231,7 +231,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular30"
+		"Size 30"
 		{
 			"1"
 			{
@@ -442,7 +442,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular10"
+		"Size 10"
 		{
 			"1"
 			{
@@ -462,7 +462,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular14"
+		"Size 14"
 		{
 			"1"
 			{
@@ -502,7 +502,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular20"
+		"Size 20"
 		{
 			"1"
 			{
@@ -563,7 +563,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular30"
+		"Size 30"
 		{
 			"1"
 			{
@@ -593,7 +593,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular36"
+		"Size 36"
 		{
 			"1"
 			{
@@ -614,7 +614,7 @@ Scheme
 			}
 		}
 
-		"regular36"
+		"Size 36"
 		{
 			"1"
 			{
@@ -624,7 +624,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular30"
+		"Size 30"
 		{
 			"1"
 			{
@@ -664,7 +664,7 @@ Scheme
 				//"antialias"	"1"
 			}
 		}
-		"Regular30"
+		"Size 30"
 		{
 			"1"
 			{

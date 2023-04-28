@@ -1,19 +1,6 @@
+#base "mvmcredits.res"
 "Resource/UI/MvMCreditSubPanel.res"
 {	
-	"HeaderLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"HeaderLabel"
-		"font"			"HudFontSmallBold"
-		"labelText"		"%header%"
-		"textAlignment" "north-west"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"300"
-		"tall"			"15"
-		"fgcolor"		"tanlight"
-	}
-		
 	"TableBackground"
 	{
 		"ControlName"	"EditablePanel"

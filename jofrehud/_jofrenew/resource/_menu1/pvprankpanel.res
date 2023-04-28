@@ -218,7 +218,7 @@
 "ypos""375"
 "visible"		"0"
 "tall""0"
-"font""Regular14"
+"font""Size 14"
 "fgcolor_override"	"W_ColorIcons1"
 			"textAlignment"	"west"
 			"textinsetx"	"0"

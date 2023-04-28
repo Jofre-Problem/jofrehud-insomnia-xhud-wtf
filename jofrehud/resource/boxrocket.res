@@ -291,10 +291,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				//"1"
 			}
 		}
 		// fonts are used in order that they are listed
@@ -302,30 +302,30 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Segoe UI"
 				"tall"		"7"
-				"weight"	"500"
-				"antialias" "1"
+				//	"500"
+				//"1"
 			}
 		}
 		"DefaultFixedOutline"
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
-				"outline"	"1"
+				//	"0"
+				//	"1"
 			}
 		}
 		"Default"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"800"
-				"antialias" "1"
+				//	"800"
+				//"1"
 				// "dropshadow" "1"
 			}
 		}
@@ -333,19 +333,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"1000"
-				"antialias" "1"
+				//	"1000"
+				//"1"
 			}
 		}
 		"DefaultUnderline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 				"underline" "1"
 			}
 		}
@@ -353,18 +353,18 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"DefaultSmallDropShadow"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
+				//	"0"
 				"dropshadow" "1"
 			}
 		}
@@ -372,11 +372,11 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
-				//"name"		"Verdana"
+				"name"		"Segoe UI"
+				//"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -384,20 +384,20 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"0"
+				//	"0"
 			}
 		}
 		"DefaultLargeOutline"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"32"
-				"weight"	"1000"
-				"outline"	"1"
-				"antialias" "1"
+				//	"1000"
+				//	"1"
+				//"1"
 			}
 		}
 		
@@ -405,19 +405,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"1000"
+				//	"1000"
 			}
 		}
 		"UiBoldSmall"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"1000"
-				"antialias" "1"
+				//	"1000"
+				//"1"
 			}
 		}
 
@@ -425,10 +425,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"12"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -436,10 +436,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"13"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -447,10 +447,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"14"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -458,10 +458,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -469,10 +469,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"22"
-				"weight"	"0"
-				"antialias" "1"
+				//	"0"
+				//"1"
 			}
 		}
 
@@ -480,10 +480,10 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"600"
-				"antialias" "1"
+				//	"600"
+				//"1"
 			}
 		}
 
@@ -491,9 +491,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 
@@ -504,7 +504,7 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"14"
-				"weight"	"0"
+				//	"0"
 				"symbol"	"1"
 			}
 		}
@@ -514,7 +514,7 @@ Scheme
 			{
 				"name"		"Marlett"
 				"tall"		"10"
-				"weight"	"0"
+				//	"0"
 				"symbol"	"1"
 			}
 		}
@@ -522,9 +522,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"24"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -533,9 +533,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"20"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -543,9 +543,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"18"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 
@@ -555,69 +555,69 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"40"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber1"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"41"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber2"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"42"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber3"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"43"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber4"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"44"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"HUDNumber5"
 		{
 			"1"
 			{
-				"name"		"Trebuchet MS"
+				"name"		"Segoe UI"
 				"tall"		"45"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"DefaultFixed"
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
+				//	"0"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -625,16 +625,16 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Lucida Console"
+				"name"		"Segoe UI"
 				"tall"		"10"
-				"weight"	"0"
+				//	"0"
 				"dropshadow" "1"
 			}
 //			"1"
 //			{
 //				"name"		"FixedSys"
 //				"tall"		"20"
-//				"weight"	"0"
+//				//	"0"
 //			}
 		}
 
@@ -642,38 +642,38 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
+				//	"500"
 			}
 		}
 		"CloseCaption_Italic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"500"
-				"italic"	"1"
+				//	"500"
+				//	"1"
 			}
 		}
 		"CloseCaption_Bold"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
+				//	"900"
 			}
 		}
 		"CloseCaption_BoldItalic"
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Segoe UI"
 				"tall"		"16"
-				"weight"	"900"
-				"italic"	"1"
+				//	"900"
+				//	"1"
 			}
 		}
 
@@ -683,7 +683,7 @@ Scheme
 			{
 				"name"		"HALFLIFE"
 				"tall"		"72"
-				"weight"	"400"
+				//	"400"
 				"antialias"	"1"
 				"custom"	"1"
 			}
@@ -695,7 +695,7 @@ Scheme
 			{
 				"name"		"HALFLIFE2"
 				"tall"		"120"
-				"weight"	"400"
+				//	"400"
 				"antialias"	"1"
 				"custom"	"1"
 			}
@@ -707,7 +707,7 @@ Scheme
 			{
 				"name"		"HALFLIFE2"
 				"tall"		"32"
-				"weight"	"400"
+				//	"400"
 				"antialias"	"1"
 				"custom"	"1"
 			}

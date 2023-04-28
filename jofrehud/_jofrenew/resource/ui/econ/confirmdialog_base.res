@@ -40,7 +40,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel2"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"labelText"		"%text%"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -62,7 +62,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ExplanationLabel"
-		"font"			"Regular14"//"EconFontSmall"
+		"font"			"Size 14"//"EconFontSmall"
 		"labelText"		"Seguro que quieres salir?"
 		"textAlignment"	"north"
 		"xpos"			"40"

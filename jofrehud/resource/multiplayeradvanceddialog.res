@@ -66,18 +66,5 @@
 		"enabled"		"1"
 		//		"0"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildDialog"
-		"xpos"		"532"
-		"ypos"		"108"
-		"wide"		"285"
-		"tall"		"640"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
+
 }

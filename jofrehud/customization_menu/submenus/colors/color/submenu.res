@@ -54,7 +54,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Primary Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}
@@ -118,7 +118,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Positive Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}
@@ -182,7 +182,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Warning Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}
@@ -246,7 +246,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Negative Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}
@@ -310,7 +310,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Crosshair Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}
@@ -374,7 +374,7 @@
 							"tall"					"25"
 							"proportionaltoparent"	"1"
 							"labelText"				"Neutral Color"
-							"font"					"regular14"
+							"font"					"Size 14"
 							"textinsetx"			"20"
 							"useproportionalinsets"	"1"
 						}

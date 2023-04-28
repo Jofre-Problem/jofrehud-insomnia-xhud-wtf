@@ -465,7 +465,7 @@
 	}							
 	"BlueTeamPlayerCount"
 	{
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"textAlignment"		"center"
 		"xpos"			"0"
 		"ypos"			"8"
@@ -517,7 +517,7 @@
 	}							
 	"RedTeamPlayerCount"
 	{
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"textAlignment"		"center"
 		"xpos"			"rs1-20"
 		"ypos"			"79"

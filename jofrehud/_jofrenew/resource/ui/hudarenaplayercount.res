@@ -54,7 +54,7 @@
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"19"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"fgcolor"		"White"
 		}	
@@ -134,7 +134,7 @@
 			"zpos"			"2"
 			"wide"			"35"
 			"tall"			"19"
-			"font"			"Regular14"
+			"font"			"Size 14"
 			"textAlignment"	"center"
 			"fgcolor"		"White"
 		}		

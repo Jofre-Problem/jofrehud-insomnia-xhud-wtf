@@ -24,7 +24,7 @@
 		"proportionaltoparent"						"1"
 		"labeltext"									""
 		"textAlignment"								"west"
-		"font"										"Regular14"
+		"font"										"Size 14"
 		"smallcheckimage"							"1"
 
 		"sound_depressed"							"ui/buttonclick.wav"

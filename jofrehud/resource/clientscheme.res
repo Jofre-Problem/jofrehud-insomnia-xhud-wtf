@@ -418,6 +418,12 @@ Scheme
 	}
 	Borders
 	{	
+ 	//	BaseBorder		FrameBorder
+	//	ButtonBorder	FrameBorder
+	//	ComboBoxBorder	FrameBorder
+	//	MenuBorder		FrameBorder
+	//	BrowserBorder	FrameBorder
+	//	PropertySheetBorder	FrameBorder		
 	    	FrameBorder {
 			"bordertype"				"scalable_image"
 			"background_type"			"0"

@@ -178,7 +178,7 @@
 				yPos					5
 				wide					400
 				tall					20	
-				font					"Regular14"
+				font					"Size 14"
 				fgcolor_override		"PolyIconsFg1"
 				labelText				"Welcome to JofreHUD Dev!"
 				textAlignment			center
@@ -295,7 +295,7 @@
 				yPos					55
 				wide					62
 				tall					20	
-				font					"Regular14"
+				font					"Size 14"
 				fgcolor_override		"255 255 255  255"
 				labelText				"Rework"
 

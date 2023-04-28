@@ -47,18 +47,4 @@
 		"textAlignment"		"center"
 		"default"		"0"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildDialog"
-		"xpos"		"430"
-		"ypos"		"83"
-		"wide"		"285"
-		"tall"		"445"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
 }

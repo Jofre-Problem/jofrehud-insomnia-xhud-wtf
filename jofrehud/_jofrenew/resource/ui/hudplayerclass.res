@@ -212,7 +212,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"			"CarryingLabel"
-			"font"				"Regular14"
+			"font"				"Size 14"
 			"xpos"				"5"
 			"ypos"				"15"
 			"zpos"				"1"

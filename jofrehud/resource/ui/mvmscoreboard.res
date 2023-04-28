@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"labelText"		"%popfile%"
 		"textAlignment"	"east"
 		"xpos"			"c-264"
@@ -59,7 +59,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"Regular10"
+			"font"			"Size 10"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"

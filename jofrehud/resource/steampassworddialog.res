@@ -86,18 +86,4 @@
 		"command"		"QuitGame"
 		"default"		"0"
 	}
-	"BuildDialog"
-	{
-		"ControlName"		"BuildModeDialog"
-		"fieldName"		"BuildDialog"
-		"xpos"		"87"
-		"ypos"		"218"
-		"wide"		"285"
-		"tall"		"665"
-		//		"0"
-		//		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		//		"0"
-	}
 }

@@ -701,21 +701,6 @@
 		"brighttext"		"0"
 		"wrap"		"0"
 	}
-	"Divider1"
-	{
-		"ControlName"		"Divider"
-		"fieldName"		"Divider1"
-		"xpos"		"22"
-		"ypos"		"352"
-		"wide"		"438"
-		"tall"		"2"
-		//		"0"
-		//		"0"
-		"visible"		"1" [!$POSIX]
-		"visible"		"0" [$POSIX]
-		"enabled"		"1"
-		//		"0"
-	}
 	"Label7"
 	{
 		"ControlName"		"Label"

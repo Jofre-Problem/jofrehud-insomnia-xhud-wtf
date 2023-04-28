@@ -264,7 +264,7 @@
 					}
 				
 					"paintbackground"	"2"
-					"RoundedCorners"	"1"
+					//"RoundedCorners"	"1"
 
 					"proportionaltoparent"	"1"
 				}

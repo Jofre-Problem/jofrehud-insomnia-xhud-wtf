@@ -1,2 +1,1 @@
-"x.res"
-{}
+#base "dialogchat_new.res"

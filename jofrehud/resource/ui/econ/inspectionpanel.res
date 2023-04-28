@@ -591,7 +591,7 @@
 			"paintbackground"						"1"
 			"command"								"market"
 			"actionsignallevel"						"2"
-			"RoundedCorners"						"0"
+			//"RoundedCorners"						"0"
 
 			"defaultFgColor_override"				"White"
 			"armedFgColor_override"					"White"

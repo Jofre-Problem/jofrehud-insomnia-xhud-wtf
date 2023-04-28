@@ -66,7 +66,7 @@
 		"textAlignment"	"west"
 		//"dulltext"	"0"
 		//"dulltext"	"0"
-		"font"			"Regular14"
+		"font"			"Size 14"
 		"fgcolor"		"255 255 255 255"
 	}	
 

@@ -45,7 +45,7 @@
 		"tall"							"f20"
 		"visible"						"1"
 		"proportionaltoparent"			"1"
-		"RoundedCorners"				"0"
+		//"RoundedCorners"				"0"
 		"font"							"Size 11"
 		
 		"bgcolor_override"				"Blank"
@@ -83,7 +83,7 @@
 		"visible"						"1"
 		"proportionaltoparent"			"1"
 		"bgcolor_override"				"0 0 0 100"
-		"RoundedCorners"				"0"
+		//"RoundedCorners"				"0"
 		"font"							"Size 8"
 		"alpha"							"0"
 		"mouseinputenabled"				"0"

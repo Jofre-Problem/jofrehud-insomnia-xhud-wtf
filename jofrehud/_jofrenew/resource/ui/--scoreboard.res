@@ -165,7 +165,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"regular36"
+		"font"			"Size 36"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -188,7 +188,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"regular36"
+		"font"			"Size 36"
 		"fgcolor"		"Black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -570,7 +570,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"textAlignment"	"west"
  		"xpos"			"10"
 		"ypos"			"0"
@@ -585,7 +585,7 @@
 	}
 	"ServerTimeLeft"
 	{
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -599,7 +599,7 @@
 	}			
 	"BlueTeamPlayerCount"
 	{
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -613,7 +613,7 @@
 	}	
 	"RedTeamPlayerCount"
 	{
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"
@@ -628,7 +628,7 @@
 
 	"ServerLabelNew"
 	{
-		"font"			"Regular10"
+		"font"			"Size 10"
 		"textAlignment"		"west"
 		"xpos"			"10"
 		"ypos"			"0"

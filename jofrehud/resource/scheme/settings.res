@@ -98,7 +98,7 @@ Scheme
 		"RichText.SelectedTextColor"						"Gray"
 		"RichText.SelectedBgColor"							"Red"
 
-		"ScrollBarButton.FgColor"							"Gray"
+		"ScrollBarButton.FgColor"							"Primary"
 		"ScrollBarButton.BgColor"							"Blank"
 		"ScrollBarButton.ArmedFgColor"						"Gray"
 		"ScrollBarButton.ArmedBgColor"						"Blank"
